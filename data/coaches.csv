@@ -1,0 +1,209 @@
+wyId,shortName,firstName,middleName,lastName,birthDate,birthArea,passportArea,currentTeamId
+275580,Cesar Domingo,César Domingo,,Mendiondo López,,"{'id': 76, 'alpha2code': 'BR', 'alpha3code': 'BRA', 'name': 'Brazil'}","{'id': 76, 'alpha2code': 'BR', 'alpha3code': 'BRA', 'name': 'Brazil'}",0
+14710,J. Heynckes,Josef,,Heynckes,1945-05-09,"{'id': 276, 'alpha2code': 'DE', 'alpha3code': 'DEU', 'name': 'Germany'}","{'id': 276, 'alpha2code': 'DE', 'alpha3code': 'DEU', 'name': 'Germany'}",0
+135480,G. De Biasi,Giovanni,,De Biasi,1956-06-16,"{'id': 380, 'alpha2code': 'IT', 'alpha3code': 'ITA', 'name': 'Italy'}","{'id': 380, 'alpha2code': 'IT', 'alpha3code': 'ITA', 'name': 'Italy'}",0
+210074,Marcelino,Marcelino,,García Toral,1965-08-14,"{'id': 724, 'alpha2code': 'ES', 'alpha3code': 'ESP', 'name': 'Spain'}","{'id': 724, 'alpha2code': 'ES', 'alpha3code': 'ESP', 'name': 'Spain'}",674
+293398,T. Korkut,Tayfun,,Korkut,1974-04-02,"{'id': 276, 'alpha2code': 'DE', 'alpha3code': 'DEU', 'name': 'Germany'}","{'id': 792, 'alpha2code': 'TR', 'alpha3code': 'TUR', 'name': 'Turkey'}",0
+92894,Ernesto Valverde,Ernesto,,Valverde Tejedor,1964-02-09,"{'id': 724, 'alpha2code': 'ES', 'alpha3code': 'ESP', 'name': 'Spain'}","{'id': 724, 'alpha2code': 'ES', 'alpha3code': 'ESP', 'name': 'Spain'}",676
+3880,Unzué,Juan Carlos,,Unzué Labiano,1967-04-22,"{'id': 724, 'alpha2code': 'ES', 'alpha3code': 'ESP', 'name': 'Spain'}","{'id': 724, 'alpha2code': 'ES', 'alpha3code': 'ESP', 'name': 'Spain'}",0
+17121,D. Schuster,Dirk,,Schuster,1967-12-29,"{'id': 276, 'alpha2code': 'DE', 'alpha3code': 'DEU', 'name': 'Germany'}","{'id': 276, 'alpha2code': 'DE', 'alpha3code': 'DEU', 'name': 'Germany'}",0
+20454,A. Conte,Antonio,,Conte,1969-07-31,"{'id': 380, 'alpha2code': 'IT', 'alpha3code': 'ITA', 'name': 'Italy'}","{'id': 380, 'alpha2code': 'IT', 'alpha3code': 'ITA', 'name': 'Italy'}",0
+86604,R. Gareca,Ricardo Alberto,,Gareca Nardi,1958-02-10,"{'id': 32, 'alpha2code': 'AR', 'alpha3code': 'ARG', 'name': 'Argentina'}","{'id': 32, 'alpha2code': 'AR', 'alpha3code': 'ARG', 'name': 'Argentina'}",0
+259751,M. Gisdol,Markus ,,Gisdol,1969-08-17,"{'id': 276, 'alpha2code': 'DE', 'alpha3code': 'DEU', 'name': 'Germany'}","{'id': 276, 'alpha2code': 'DE', 'alpha3code': 'DEU', 'name': 'Germany'}",0
+142913,G. Rohr,Gernot,,Rohr,1953-06-28,"{'id': 276, 'alpha2code': 'DE', 'alpha3code': 'DEU', 'name': 'Germany'}","{'id': 276, 'alpha2code': 'DE', 'alpha3code': 'DEU', 'name': 'Germany'}",0
+15114,D. Hecking,Dieter,,Hecking,1964-09-12,"{'id': 276, 'alpha2code': 'DE', 'alpha3code': 'DEU', 'name': 'Germany'}","{'id': 276, 'alpha2code': 'DE', 'alpha3code': 'DEU', 'name': 'Germany'}",2454
+21061,V. Montella,Vincenzo,,Montella,1974-06-18,"{'id': 380, 'alpha2code': 'IT', 'alpha3code': 'ITA', 'name': 'Italy'}","{'id': 380, 'alpha2code': 'IT', 'alpha3code': 'ITA', 'name': 'Italy'}",3176
+20603,G. Iachini,Giuseppe,,Iachini,1964-05-07,"{'id': 380, 'alpha2code': 'IT', 'alpha3code': 'ITA', 'name': 'Italy'}","{'id': 380, 'alpha2code': 'IT', 'alpha3code': 'ITA', 'name': 'Italy'}",0
+14735,B. Labbadia,Bruno,,Labbadia,1966-02-08,"{'id': 276, 'alpha2code': 'DE', 'alpha3code': 'DEU', 'name': 'Germany'}","{'id': 276, 'alpha2code': 'DE', 'alpha3code': 'DEU', 'name': 'Germany'}",2451
+210205,L. Lagerbäck,Lars,,Lagerbäck,1948-07-16,"{'id': 752, 'alpha2code': 'SE', 'alpha3code': 'SWE', 'name': 'Sweden'}","{'id': 752, 'alpha2code': 'SE', 'alpha3code': 'SWE', 'name': 'Sweden'}",0
+225952,Fran Escribá,Francisco ,,Escriba Segura,1965-05-03,"{'id': 724, 'alpha2code': 'ES', 'alpha3code': 'ESP', 'name': 'Spain'}","{'id': 724, 'alpha2code': 'ES', 'alpha3code': 'ESP', 'name': 'Spain'}",692
+26812,C. Pélissier,Christophe,,Pélissier,1965-10-05,"{'id': 250, 'alpha2code': 'FR', 'alpha3code': 'FRA', 'name': 'France'}","{'id': 250, 'alpha2code': 'FR', 'alpha3code': 'FRA', 'name': 'France'}",3789
+251025,S. Inzaghi,Simone,,Inzaghi,1976-04-05,"{'id': 380, 'alpha2code': 'IT', 'alpha3code': 'ITA', 'name': 'Italy'}","{'id': 380, 'alpha2code': 'IT', 'alpha3code': 'ITA', 'name': 'Italy'}",3162
+25691,R. Garcia,Rudi,,Garcia,1964-02-20,"{'id': 250, 'alpha2code': 'FR', 'alpha3code': 'FRA', 'name': 'France'}","{'id': 250, 'alpha2code': 'FR', 'alpha3code': 'FRA', 'name': 'France'}",3771
+210152,L. Delneri,Luigi,,Delneri,1950-08-23,"{'id': 380, 'alpha2code': 'IT', 'alpha3code': 'ITA', 'name': 'Italy'}","{'id': 380, 'alpha2code': 'IT', 'alpha3code': 'ITA', 'name': 'Italy'}",0
+20386,M. Allegri,Massimiliano,,Allegri,1967-08-11,"{'id': 380, 'alpha2code': 'IT', 'alpha3code': 'ITA', 'name': 'Italy'}","{'id': 380, 'alpha2code': 'IT', 'alpha3code': 'ITA', 'name': 'Italy'}",3159
+18702,M. Schmidt,Martin,,Schmidt,1967-04-12,"{'id': 756, 'alpha2code': 'CH', 'alpha3code': 'CHE', 'name': 'Switzerland'}","{'id': 756, 'alpha2code': 'CH', 'alpha3code': 'CHE', 'name': 'Switzerland'}",2481
+295160,Pako Ayestarán,Francisco Martín,,Ayestarán Barandiarán,1963-02-05,"{'id': 724, 'alpha2code': 'ES', 'alpha3code': 'ESP', 'name': 'Spain'}","{'id': 724, 'alpha2code': 'ES', 'alpha3code': 'ESP', 'name': 'Spain'}",0
+230918,Abelardo,Abelardo,,Fernández Antuña,1970-04-19,"{'id': 724, 'alpha2code': 'ES', 'alpha3code': 'ESP', 'name': 'Spain'}","{'id': 724, 'alpha2code': 'ES', 'alpha3code': 'ESP', 'name': 'Spain'}",696
+116503,D. Alonso,Diego Martín,,Alonso López,1975-04-16,"{'id': 858, 'alpha2code': 'UY', 'alpha3code': 'URY', 'name': 'Uruguay'}","{'id': 858, 'alpha2code': 'UY', 'alpha3code': 'URY', 'name': 'Uruguay'}",15444
+18987,P. Dárdai,Pál,,Dárdai,1976-03-16,"{'id': 348, 'alpha2code': 'HU', 'alpha3code': 'HUN', 'name': 'Hungary'}","{'id': 348, 'alpha2code': 'HU', 'alpha3code': 'HUN', 'name': 'Hungary'}",2457
+210700,Rafael Benítez,Rafael,,Benítez Maudes,1960-04-16,"{'id': 724, 'alpha2code': 'ES', 'alpha3code': 'ESP', 'name': 'Spain'}","{'id': 724, 'alpha2code': 'ES', 'alpha3code': 'ESP', 'name': 'Spain'}",1613
+18572,D. Wagner,David,,Wagner,1971-10-19,"{'id': 276, 'alpha2code': 'DE', 'alpha3code': 'DEU', 'name': 'Germany'}","{'id': 840, 'alpha2code': 'US', 'alpha3code': 'USA', 'name': 'United States'}",0
+69952,A. Čačić,Ante,,Čačić,1953-09-29,"{'id': 191, 'alpha2code': 'HR', 'alpha3code': 'HRV', 'name': 'Croatia'}","{'id': 191, 'alpha2code': 'HR', 'alpha3code': 'HRV', 'name': 'Croatia'}",0
+86569,Pizzi,Juan Antonio,,Pizzi Torroja,1968-06-07,"{'id': 32, 'alpha2code': 'AR', 'alpha3code': 'ARG', 'name': 'Argentina'}","{'id': 724, 'alpha2code': 'ES', 'alpha3code': 'ESP', 'name': 'Spain'}",0
+355598,Imanol Alguacil,Imanol,,Alguacil Barrenetxea,1971-07-04,"{'id': 724, 'alpha2code': 'ES', 'alpha3code': 'ESP', 'name': 'Spain'}","{'id': 724, 'alpha2code': 'ES', 'alpha3code': 'ESP', 'name': 'Spain'}",723
+210513,P. Garande,Patrice,,Garande,1960-11-27,"{'id': 250, 'alpha2code': 'FR', 'alpha3code': 'FRA', 'name': 'France'}","{'id': 250, 'alpha2code': 'FR', 'alpha3code': 'FRA', 'name': 'France'}",0
+23551,M. Rastelli,Massimo,,Rastelli,1968-12-27,"{'id': 380, 'alpha2code': 'IT', 'alpha3code': 'ITA', 'name': 'Italy'}","{'id': 380, 'alpha2code': 'IT', 'alpha3code': 'ITA', 'name': 'Italy'}",3235
+32573,Carlos Carvalhal,Carlos Augusto,,Soares da Costa Faria Carvalhal,1965-12-04,"{'id': 620, 'alpha2code': 'PT', 'alpha3code': 'PRT', 'name': 'Portugal'}","{'id': 620, 'alpha2code': 'PT', 'alpha3code': 'PRT', 'name': 'Portugal'}",0
+210902,B. Storck,Bernd,,Storck,1963-01-25,"{'id': 276, 'alpha2code': 'DE', 'alpha3code': 'DEU', 'name': 'Germany'}","{'id': 276, 'alpha2code': 'DE', 'alpha3code': 'DEU', 'name': 'Germany'}",5187
+15824,R. Hasenhüttl,Ralph,,Hasenhüttl,1967-08-09,"{'id': 40, 'alpha2code': 'AT', 'alpha3code': 'AUT', 'name': 'Austria'}","{'id': 40, 'alpha2code': 'AT', 'alpha3code': 'AUT', 'name': 'Austria'}",1619
+4258,Paco Jémez,Francisco,,Jémez Martín,1970-04-18,"{'id': 724, 'alpha2code': 'ES', 'alpha3code': 'ESP', 'name': 'Spain'}","{'id': 724, 'alpha2code': 'ES', 'alpha3code': 'ESP', 'name': 'Spain'}",0
+9454,G. Megson,Gary,,Megson,1959-05-02,"{'id': 826, 'alpha2code': 'EN', 'alpha3code': 'XEN', 'name': 'England'}","{'id': 826, 'alpha2code': 'EN', 'alpha3code': 'XEN', 'name': 'England'}",0
+167037,Pepe Mel,José ,,Mel Pérez,1963-02-28,"{'id': 724, 'alpha2code': 'ES', 'alpha3code': 'ESP', 'name': 'Spain'}","{'id': 724, 'alpha2code': 'ES', 'alpha3code': 'ESP', 'name': 'Spain'}",714
+210121,M. Giampaolo,Marco,,Giampaolo,1967-08-02,"{'id': 756, 'alpha2code': 'CH', 'alpha3code': 'CHE', 'name': 'Switzerland'}","{'id': 380, 'alpha2code': 'IT', 'alpha3code': 'ITA', 'name': 'Italy'}",3164
+228386,C. Titz,Christian,,Titz,1971-04-01,"{'id': 276, 'alpha2code': 'DE', 'alpha3code': 'DEU', 'name': 'Germany'}","{'id': 276, 'alpha2code': 'DE', 'alpha3code': 'DEU', 'name': 'Germany'}",0
+112633,J. Osorio,Juan Carlos,,Osorio Arbeláez,1961-06-08,"{'id': 170, 'alpha2code': 'CO', 'alpha3code': 'COL', 'name': 'Colombia'}","{'id': 170, 'alpha2code': 'CO', 'alpha3code': 'COL', 'name': 'Colombia'}",0
+246913,M. Baroni,Marco,,Baroni,1963-09-11,"{'id': 380, 'alpha2code': 'IT', 'alpha3code': 'ITA', 'name': 'Italy'}","{'id': 380, 'alpha2code': 'IT', 'alpha3code': 'ITA', 'name': 'Italy'}",3254
+169425,Quique Sánchez Flores,Enrique ,,Sánchez Flores,1965-02-02,"{'id': 724, 'alpha2code': 'ES', 'alpha3code': 'ESP', 'name': 'Spain'}","{'id': 724, 'alpha2code': 'ES', 'alpha3code': 'ESP', 'name': 'Spain'}",9134
+135542,M. Koller,Marcel,,Koller,1960-11-11,"{'id': 756, 'alpha2code': 'CH', 'alpha3code': 'CHE', 'name': 'Switzerland'}","{'id': 756, 'alpha2code': 'CH', 'alpha3code': 'CHE', 'name': 'Switzerland'}",6407
+14791,J. Klopp,Jürgen,,Klopp,1967-06-16,"{'id': 276, 'alpha2code': 'DE', 'alpha3code': 'DEU', 'name': 'Germany'}","{'id': 276, 'alpha2code': 'DE', 'alpha3code': 'DEU', 'name': 'Germany'}",1612
+254174,M. Pellegrino,Mauricio,,Pellegrino,1971-10-05,"{'id': 32, 'alpha2code': 'AR', 'alpha3code': 'ARG', 'name': 'Argentina'}","{'id': 32, 'alpha2code': 'AR', 'alpha3code': 'ARG', 'name': 'Argentina'}",712
+136439,C. Coleman,Chris,,Coleman,1970-06-10,"{'id': 1013, 'alpha2code': 'WA', 'alpha3code': 'XWA', 'name': 'Wales'}","{'id': 1013, 'alpha2code': 'WA', 'alpha3code': 'XWA', 'name': 'Wales'}",22275
+3265,Unai Emery,Unai,,Emery Etxegoien,1971-11-03,"{'id': 724, 'alpha2code': 'ES', 'alpha3code': 'ESP', 'name': 'Spain'}","{'id': 724, 'alpha2code': 'ES', 'alpha3code': 'ESP', 'name': 'Spain'}",1609
+20860,D. Ballardini,Davide,,Ballardini,1964-01-06,"{'id': 380, 'alpha2code': 'IT', 'alpha3code': 'ITA', 'name': 'Italy'}","{'id': 380, 'alpha2code': 'IT', 'alpha3code': 'ITA', 'name': 'Italy'}",0
+276858,G. Southgate,Gareth,,Southgate,1970-09-03,"{'id': 826, 'alpha2code': 'EN', 'alpha3code': 'XEN', 'name': 'England'}","{'id': 826, 'alpha2code': 'EN', 'alpha3code': 'XEN', 'name': 'England'}",0
+26012,C. Gourcuff,Christian,,Gourcuff,1955-04-05,"{'id': 250, 'alpha2code': 'FR', 'alpha3code': 'FRA', 'name': 'France'}","{'id': 250, 'alpha2code': 'FR', 'alpha3code': 'FRA', 'name': 'France'}",16444
+145007,A. Jonker,Andries,,Jonker,1962-09-22,"{'id': 528, 'alpha2code': 'NL', 'alpha3code': 'NLD', 'name': 'Netherlands'}","{'id': 528, 'alpha2code': 'NL', 'alpha3code': 'NLD', 'name': 'Netherlands'}",0
+4054,José González,José Manuel,,González López,1966-10-14,"{'id': 724, 'alpha2code': 'ES', 'alpha3code': 'ESP', 'name': 'Spain'}","{'id': 724, 'alpha2code': 'ES', 'alpha3code': 'ESP', 'name': 'Spain'}",0
+8934,E. Howe,Eddie,,Howe,1977-11-29,"{'id': 826, 'alpha2code': 'EN', 'alpha3code': 'XEN', 'name': 'England'}","{'id': 826, 'alpha2code': 'EN', 'alpha3code': 'XEN', 'name': 'England'}",1659
+210701,V. Petković,Vladimir,,Petković,1963-08-15,"{'id': 70, 'alpha2code': 'BA', 'alpha3code': 'BIH', 'name': 'Bosnia-Herzegovina'}","{'id': 756, 'alpha2code': 'CH', 'alpha3code': 'CHE', 'name': 'Switzerland'}",0
+210254,F. Pecchia,Fabio,,Pecchia,1973-08-24,"{'id': 380, 'alpha2code': 'IT', 'alpha3code': 'ITA', 'name': 'Italy'}","{'id': 380, 'alpha2code': 'IT', 'alpha3code': 'ITA', 'name': 'Italy'}",12814
+28158,J. Pinot,José,,Pinot,1965-04-30,"{'id': 250, 'alpha2code': 'FR', 'alpha3code': 'FRA', 'name': 'France'}","{'id': 250, 'alpha2code': 'FR', 'alpha3code': 'FRA', 'name': 'France'}",0
+484354,Ó. Ramírez,Óscar Antonio,,Ramírez Hernández,1964-12-08,"{'id': 188, 'alpha2code': 'CR', 'alpha3code': 'CRI', 'name': 'Costa Rica'}","{'id': 188, 'alpha2code': 'CR', 'alpha3code': 'CRI', 'name': 'Costa Rica'}",0
+367510,F. Kohfeldt,Florian,,Kohfeldt,1982-10-05,"{'id': 276, 'alpha2code': 'DE', 'alpha3code': 'DEU', 'name': 'Germany'}","{'id': 276, 'alpha2code': 'DE', 'alpha3code': 'DEU', 'name': 'Germany'}",2443
+261672,A. Nouri,Alexander,,Nouri,1979-08-20,"{'id': 276, 'alpha2code': 'DE', 'alpha3code': 'DEU', 'name': 'Germany'}","{'id': 276, 'alpha2code': 'DE', 'alpha3code': 'DEU', 'name': 'Germany'}",0
+525079,Cristóbal,Cristóbal,,Parralo Aguilera,1967-08-21,"{'id': 724, 'alpha2code': 'ES', 'alpha3code': 'ESP', 'name': 'Spain'}","{'id': 724, 'alpha2code': 'ES', 'alpha3code': 'ESP', 'name': 'Spain'}",741
+3396,M. Bielsa,Marcelo Alberto,,Bielsa Caldera,1955-07-21,"{'id': 32, 'alpha2code': 'AR', 'alpha3code': 'ARG', 'name': 'Argentina'}","{'id': 32, 'alpha2code': 'AR', 'alpha3code': 'ARG', 'name': 'Argentina'}",1630
+209364,N. Maâloul,Nabil,,Maâloul,1962-07-25,"{'id': 788, 'alpha2code': 'TN', 'alpha3code': 'TUN', 'name': 'Tunisia'}","{'id': 788, 'alpha2code': 'TN', 'alpha3code': 'TUN', 'name': 'Tunisia'}",0
+32637,F. Terim,Fatih,,Terim,1953-09-04,"{'id': 792, 'alpha2code': 'TR', 'alpha3code': 'TUR', 'name': 'Turkey'}","{'id': 792, 'alpha2code': 'TR', 'alpha3code': 'TUR', 'name': 'Turkey'}",4492
+16837,A. Schwartz,Alois,,Schwartz,1967-03-28,"{'id': 276, 'alpha2code': 'DE', 'alpha3code': 'DEU', 'name': 'Germany'}","{'id': 276, 'alpha2code': 'DE', 'alpha3code': 'DEU', 'name': 'Germany'}",2472
+122788,Z. Dalic,Zlatko,,Dalic,1966-10-26,"{'id': 70, 'alpha2code': 'BA', 'alpha3code': 'BIH', 'name': 'Bosnia-Herzegovina'}","{'id': 191, 'alpha2code': 'HR', 'alpha3code': 'HRV', 'name': 'Croatia'}",0
+33204,H. Cúper,Héctor Raúl,,Cúper,1955-11-16,"{'id': 32, 'alpha2code': 'AR', 'alpha3code': 'ARG', 'name': 'Argentina'}","{'id': 32, 'alpha2code': 'AR', 'alpha3code': 'ARG', 'name': 'Argentina'}",0
+248800,M. Fomenko,Mikhail Ivanovich,,Fomenko,1948-09-19,"{'id': 804, 'alpha2code': 'UA', 'alpha3code': 'UKR', 'name': 'Ukraine'}","{'id': 804, 'alpha2code': 'UA', 'alpha3code': 'UKR', 'name': 'Ukraine'}",0
+94654,A. Nishino,Akira,,Nishino,1955-04-07,"{'id': 392, 'alpha2code': 'JP', 'alpha3code': 'JPN', 'name': 'Japan'}","{'id': 392, 'alpha2code': 'JP', 'alpha3code': 'JPN', 'name': 'Japan'}",0
+269869,S. Bilić,Slaven,,Bilić,1968-09-11,"{'id': 191, 'alpha2code': 'HR', 'alpha3code': 'HRV', 'name': 'Croatia'}","{'id': 191, 'alpha2code': 'HR', 'alpha3code': 'HRV', 'name': 'Croatia'}",0
+531745,Paco,Francisco,,de Míguel Moreno,1973-02-19,"{'id': 724, 'alpha2code': 'ES', 'alpha3code': 'ESP', 'name': 'Spain'}","{'id': 724, 'alpha2code': 'ES', 'alpha3code': 'ESP', 'name': 'Spain'}",1613
+3295,José Mourinho,José Mario Felix,,dos Santos Mourinho,1963-01-26,"{'id': 620, 'alpha2code': 'PT', 'alpha3code': 'PRT', 'name': 'Portugal'}","{'id': 620, 'alpha2code': 'PT', 'alpha3code': 'PRT', 'name': 'Portugal'}",0
+360949,F. Da Cruz,Fernando,,Da Cruz,,"{'id': 250, 'alpha2code': 'FR', 'alpha3code': 'FRA', 'name': 'France'}","{'id': 250, 'alpha2code': 'FR', 'alpha3code': 'FRA', 'name': 'France'}",0
+57369,H. Hallgrímsson,Heimir,,Hallgrímsson,1967-06-10,"{'id': 352, 'alpha2code': 'IS', 'alpha3code': 'ISL', 'name': 'Iceland'}","{'id': 352, 'alpha2code': 'IS', 'alpha3code': 'ISL', 'name': 'Iceland'}",0
+216136,S. Lamouchi,Sabri,,Lamouchi,1971-11-09,"{'id': 250, 'alpha2code': 'FR', 'alpha3code': 'FRA', 'name': 'France'}","{'id': 250, 'alpha2code': 'FR', 'alpha3code': 'FRA', 'name': 'France'}",0
+270032,F. Pecchia,Fabio,,Pecchia,1973-08-24,"{'id': 380, 'alpha2code': 'IT', 'alpha3code': 'ITA', 'name': 'Italy'}","{'id': 380, 'alpha2code': 'IT', 'alpha3code': 'ITA', 'name': 'Italy'}",0
+143326,A. Cissé,Aliou,,Cissé,1976-03-24,"{'id': 686, 'alpha2code': 'SN', 'alpha3code': 'SEN', 'name': 'Senegal'}","{'id': 686, 'alpha2code': 'SN', 'alpha3code': 'SEN', 'name': 'Senegal'}",0
+25751,F. Hantz,Frédéric,,Hantz,1966-05-30,"{'id': 250, 'alpha2code': 'FR', 'alpha3code': 'FRA', 'name': 'France'}","{'id': 250, 'alpha2code': 'FR', 'alpha3code': 'FRA', 'name': 'France'}",0
+266521,P. Stöger,Peter,,Stöger,1966-04-11,"{'id': 40, 'alpha2code': 'AT', 'alpha3code': 'AUT', 'name': 'Austria'}","{'id': 40, 'alpha2code': 'AT', 'alpha3code': 'AUT', 'name': 'Austria'}",0
+228372,S. Schwarz,Sandro,,Schwarz,1978-10-17,"{'id': 276, 'alpha2code': 'DE', 'alpha3code': 'DEU', 'name': 'Germany'}","{'id': 276, 'alpha2code': 'DE', 'alpha3code': 'DEU', 'name': 'Germany'}",2460
+215903,M. Debeve,Mickaël,,Debeve,1970-12-01,"{'id': 250, 'alpha2code': 'FR', 'alpha3code': 'FRA', 'name': 'France'}","{'id': 250, 'alpha2code': 'FR', 'alpha3code': 'FRA', 'name': 'France'}",0
+5298,Quique Setién,Enrique,,Setién Solar,1958-09-27,"{'id': 724, 'alpha2code': 'ES', 'alpha3code': 'ESP', 'name': 'Spain'}","{'id': 724, 'alpha2code': 'ES', 'alpha3code': 'ESP', 'name': 'Spain'}",684
+251201,N. Kovač,Niko,,Kovač,1971-10-15,"{'id': 276, 'alpha2code': 'DE', 'alpha3code': 'DEU', 'name': 'Germany'}","{'id': 191, 'alpha2code': 'HR', 'alpha3code': 'HRV', 'name': 'Croatia'}",2444
+240612,Paco López,Francisco José,,López Fernández,1967-09-19,"{'id': 724, 'alpha2code': 'ES', 'alpha3code': 'ESP', 'name': 'Spain'}","{'id': 724, 'alpha2code': 'ES', 'alpha3code': 'ESP', 'name': 'Spain'}",695
+8880,S. Dyche,Sean,,Dyche,1971-06-28,"{'id': 826, 'alpha2code': 'EN', 'alpha3code': 'XEN', 'name': 'England'}","{'id': 826, 'alpha2code': 'EN', 'alpha3code': 'XEN', 'name': 'England'}",1646
+25549,D. Deschamps,Didier,,Deschamps,1968-10-15,"{'id': 250, 'alpha2code': 'FR', 'alpha3code': 'FRA', 'name': 'France'}","{'id': 250, 'alpha2code': 'FR', 'alpha3code': 'FRA', 'name': 'France'}",4418
+3500,Javi Calleja,Javier,,Calleja Revilla,1978-05-12,"{'id': 724, 'alpha2code': 'ES', 'alpha3code': 'ESP', 'name': 'Spain'}","{'id': 724, 'alpha2code': 'ES', 'alpha3code': 'ESP', 'name': 'Spain'}",682
+292863,M. Pochettino,Mauricio Roberto,,Pochettino Trossero,1972-03-02,"{'id': 32, 'alpha2code': 'AR', 'alpha3code': 'ARG', 'name': 'Argentina'}","{'id': 32, 'alpha2code': 'AR', 'alpha3code': 'ARG', 'name': 'Argentina'}",1624
+209010,C. Puel,Claude,,Puel,1961-09-02,"{'id': 250, 'alpha2code': 'FR', 'alpha3code': 'FRA', 'name': 'France'}","{'id': 250, 'alpha2code': 'FR', 'alpha3code': 'FRA', 'name': 'France'}",0
+8357,R. Hodgson,Roy,,Hodgson,1947-08-09,"{'id': 826, 'alpha2code': 'EN', 'alpha3code': 'XEN', 'name': 'England'}","{'id': 826, 'alpha2code': 'EN', 'alpha3code': 'XEN', 'name': 'England'}",1628
+266522,S. Ruthenbeck,Stefan ,,Ruthenbeck,1972-04-19,"{'id': 276, 'alpha2code': 'DE', 'alpha3code': 'DEU', 'name': 'Germany'}","{'id': 276, 'alpha2code': 'DE', 'alpha3code': 'DEU', 'name': 'Germany'}",3111
+220743,O. Dall’Oglio,Olivier,,Dall’Oglio,1964-05-16,"{'id': 250, 'alpha2code': 'FR', 'alpha3code': 'FRA', 'name': 'France'}","{'id': 250, 'alpha2code': 'FR', 'alpha3code': 'FRA', 'name': 'France'}",0
+20508,C. Ranieri,Claudio,,Ranieri,1951-10-20,"{'id': 380, 'alpha2code': 'IT', 'alpha3code': 'ITA', 'name': 'Italy'}","{'id': 380, 'alpha2code': 'IT', 'alpha3code': 'ITA', 'name': 'Italy'}",3158
+25606,J. Garcia,Jean Louis,,Garcia,1962-09-20,"{'id': 250, 'alpha2code': 'FR', 'alpha3code': 'FRA', 'name': 'France'}","{'id': 250, 'alpha2code': 'FR', 'alpha3code': 'FRA', 'name': 'France'}",0
+210146,A. Kombouare,Antoine,,Kombouare,1963-11-16,"{'id': 540, 'alpha2code': 'NC', 'alpha3code': 'NCL', 'name': 'New Caledonia'}","{'id': 250, 'alpha2code': 'FR', 'alpha3code': 'FRA', 'name': 'France'}",3804
+301696,Juan Muñiz,Juan Ramón,,López Muñiz,1968-11-02,"{'id': 724, 'alpha2code': 'ES', 'alpha3code': 'ESP', 'name': 'Spain'}","{'id': 724, 'alpha2code': 'ES', 'alpha3code': 'ESP', 'name': 'Spain'}",0
+25683,J. Sablé,Julien,,Sablé,1980-09-11,"{'id': 250, 'alpha2code': 'FR', 'alpha3code': 'FRA', 'name': 'France'}","{'id': 250, 'alpha2code': 'FR', 'alpha3code': 'FRA', 'name': 'France'}",3782
+8541,S. Allardyce,Sam,,Allardyce,1954-10-19,"{'id': 826, 'alpha2code': 'EN', 'alpha3code': 'XEN', 'name': 'England'}","{'id': 826, 'alpha2code': 'EN', 'alpha3code': 'XEN', 'name': 'England'}",0
+4107,José Bordalás,José,,Bordalás Jiménez,1964-03-05,"{'id': 724, 'alpha2code': 'ES', 'alpha3code': 'ESP', 'name': 'Spain'}","{'id': 724, 'alpha2code': 'ES', 'alpha3code': 'ESP', 'name': 'Spain'}",698
+15005,L. Favre,Lucien,,Favre,1957-11-02,"{'id': 756, 'alpha2code': 'CH', 'alpha3code': 'CHE', 'name': 'Switzerland'}","{'id': 756, 'alpha2code': 'CH', 'alpha3code': 'CHE', 'name': 'Switzerland'}",2447
+9092,G. Poyet,Gustavo Augusto,,Poyet Domínguez,1967-11-15,"{'id': 858, 'alpha2code': 'UY', 'alpha3code': 'URY', 'name': 'Uruguay'}","{'id': 858, 'alpha2code': 'UY', 'alpha3code': 'URY', 'name': 'Uruguay'}",0
+82503,P. Vrba,Pavel,,Vrba,1963-12-06,"{'id': 203, 'alpha2code': 'CZ', 'alpha3code': 'CZE', 'name': 'Czech Republic'}","{'id': 203, 'alpha2code': 'CZ', 'alpha3code': 'CZE', 'name': 'Czech Republic'}",11255
+287082,W. Zenga,Walter,,Zenga,1960-04-28,"{'id': 380, 'alpha2code': 'IT', 'alpha3code': 'ITA', 'name': 'Italy'}","{'id': 380, 'alpha2code': 'IT', 'alpha3code': 'ITA', 'name': 'Italy'}",0
+134151,Del Bosque,Vicente,,Del Bosque,1950-12-23,"{'id': 724, 'alpha2code': 'ES', 'alpha3code': 'ESP', 'name': 'Spain'}","{'id': 724, 'alpha2code': 'ES', 'alpha3code': 'ESP', 'name': 'Spain'}",0
+136612,Carlos Queiroz,Carlos Manuel,,Brito Leal Queiróz,1953-03-01,"{'id': 508, 'alpha2code': 'MZ', 'alpha3code': 'MOZ', 'name': 'Mozambique'}","{'id': 620, 'alpha2code': 'PT', 'alpha3code': 'PRT', 'name': 'Portugal'}",0
+333560,B. Hollerbach,Bernd,,Hollerbach,1969-12-08,"{'id': 276, 'alpha2code': 'DE', 'alpha3code': 'DEU', 'name': 'Germany'}","{'id': 276, 'alpha2code': 'DE', 'alpha3code': 'DEU', 'name': 'Germany'}",0
+333641,Hierro,Fernando ,,Ruiz Hierro,1968-03-23,"{'id': 724, 'alpha2code': 'ES', 'alpha3code': 'ESP', 'name': 'Spain'}","{'id': 724, 'alpha2code': 'ES', 'alpha3code': 'ESP', 'name': 'Spain'}",0
+21155,W. Mazzarri,Walter,,Mazzarri,1961-10-01,"{'id': 380, 'alpha2code': 'IT', 'alpha3code': 'ITA', 'name': 'Italy'}","{'id': 380, 'alpha2code': 'IT', 'alpha3code': 'ITA', 'name': 'Italy'}",3185
+296896,M. Baum,Manuel,,Baum,1979-08-30,"{'id': 276, 'alpha2code': 'DE', 'alpha3code': 'DEU', 'name': 'Germany'}","{'id': 276, 'alpha2code': 'DE', 'alpha3code': 'DEU', 'name': 'Germany'}",0
+89543,J. Sampaoli,Jorge Luis,,Sampaoli Moya,1960-03-13,"{'id': 32, 'alpha2code': 'AR', 'alpha3code': 'ARG', 'name': 'Argentina'}","{'id': 32, 'alpha2code': 'AR', 'alpha3code': 'ARG', 'name': 'Argentina'}",5655
+99428,A. Nawałka,Adam,,Nawałka,1957-10-23,"{'id': 616, 'alpha2code': 'PL', 'alpha3code': 'POL', 'name': 'Poland'}","{'id': 616, 'alpha2code': 'PL', 'alpha3code': 'POL', 'name': 'Poland'}",13510
+25926,J. Gourvennec,Jocelyn,,Gourvennec,1972-03-22,"{'id': 250, 'alpha2code': 'FR', 'alpha3code': 'FRA', 'name': 'France'}","{'id': 250, 'alpha2code': 'FR', 'alpha3code': 'FRA', 'name': 'France'}",3785
+107408,Tae-Yong Shin,Tae-Yong,,Shin,1970-10-11,"{'id': 410, 'alpha2code': 'KR', 'alpha3code': 'KOR', 'name': 'Korea Republic'}","{'id': 410, 'alpha2code': 'KR', 'alpha3code': 'KOR', 'name': 'Korea Republic'}",0
+149026,T. Pulis,Tony,,Pulis,1958-01-16,"{'id': 1013, 'alpha2code': 'WA', 'alpha3code': 'XWA', 'name': 'Wales'}","{'id': 1013, 'alpha2code': 'WA', 'alpha3code': 'XWA', 'name': 'Wales'}",1620
+272299,J. Nagelsmann,Julian,,Nagelsmann,1987-07-23,"{'id': 276, 'alpha2code': 'DE', 'alpha3code': 'DEU', 'name': 'Germany'}","{'id': 276, 'alpha2code': 'DE', 'alpha3code': 'DEU', 'name': 'Germany'}",2482
+268775,F. de Boer,Frank,,de Boer,1970-05-15,"{'id': 528, 'alpha2code': 'NL', 'alpha3code': 'NLD', 'name': 'Netherlands'}","{'id': 528, 'alpha2code': 'NL', 'alpha3code': 'NLD', 'name': 'Netherlands'}",58165
+140684,H. Renard,Hervé,,Renard,1968-09-30,"{'id': 250, 'alpha2code': 'FR', 'alpha3code': 'FRA', 'name': 'France'}","{'id': 250, 'alpha2code': 'FR', 'alpha3code': 'FRA', 'name': 'France'}",0
+537833,Paquito Ortiz,Francisco,,Ortiz Rivas,1969-08-12,"{'id': 724, 'alpha2code': 'ES', 'alpha3code': 'ESP', 'name': 'Spain'}","{'id': 724, 'alpha2code': 'ES', 'alpha3code': 'ESP', 'name': 'Spain'}",714
+20481,R. Donadoni,Roberto,,Donadoni,1963-09-09,"{'id': 380, 'alpha2code': 'IT', 'alpha3code': 'ITA', 'name': 'Italy'}","{'id': 380, 'alpha2code': 'IT', 'alpha3code': 'ITA', 'name': 'Italy'}",0
+20747,M. Oddo,Massimo,,Oddo,1976-06-14,"{'id': 380, 'alpha2code': 'IT', 'alpha3code': 'ITA', 'name': 'Italy'}","{'id': 380, 'alpha2code': 'IT', 'alpha3code': 'ITA', 'name': 'Italy'}",0
+275283,Z. Zidane,Zinédine,,Zidane,1972-06-23,"{'id': 250, 'alpha2code': 'FR', 'alpha3code': 'FRA', 'name': 'France'}","{'id': 250, 'alpha2code': 'FR', 'alpha3code': 'FRA', 'name': 'France'}",675
+19925,A. Breitenreiter,André,,Breitenreiter,1973-10-02,"{'id': 276, 'alpha2code': 'DE', 'alpha3code': 'DEU', 'name': 'Germany'}","{'id': 276, 'alpha2code': 'DE', 'alpha3code': 'DEU', 'name': 'Germany'}",0
+360105,A. Iordănescu,Anghel,,Iordănescu,1950-05-04,"{'id': 642, 'alpha2code': 'RO', 'alpha3code': 'ROU', 'name': 'Romania'}","{'id': 642, 'alpha2code': 'RO', 'alpha3code': 'ROU', 'name': 'Romania'}",0
+268779,R. Koeman,Ronald,,Koeman,1963-03-21,"{'id': 528, 'alpha2code': 'NL', 'alpha3code': 'NLD', 'name': 'Netherlands'}","{'id': 528, 'alpha2code': 'NL', 'alpha3code': 'NLD', 'name': 'Netherlands'}",0
+101547,L. Spalletti,Luciano,,Spalletti,1959-03-07,"{'id': 380, 'alpha2code': 'IT', 'alpha3code': 'ITA', 'name': 'Italy'}","{'id': 380, 'alpha2code': 'IT', 'alpha3code': 'ITA', 'name': 'Italy'}",3161
+8235,D. Moyes,David ,,Moyes,1963-04-25,"{'id': 1002, 'alpha2code': 'SC', 'alpha3code': 'XSC', 'name': 'Scotland'}","{'id': 1002, 'alpha2code': 'SC', 'alpha3code': 'XSC', 'name': 'Scotland'}",0
+9054,M. Hughes,Mark,,Hughes,1963-11-01,"{'id': 1013, 'alpha2code': 'WA', 'alpha3code': 'XWA', 'name': 'Wales'}","{'id': 1013, 'alpha2code': 'WA', 'alpha3code': 'XWA', 'name': 'Wales'}",0
+4784,Eusebio Sacristán,Eusebio,,Sacristán Mena,1964-04-13,"{'id': 724, 'alpha2code': 'ES', 'alpha3code': 'ESP', 'name': 'Spain'}","{'id': 724, 'alpha2code': 'ES', 'alpha3code': 'ESP', 'name': 'Spain'}",756
+8214,M. Appleton,Michael ,,Appleton,1975-12-04,"{'id': 826, 'alpha2code': 'EN', 'alpha3code': 'XEN', 'name': 'England'}","{'id': 826, 'alpha2code': 'EN', 'alpha3code': 'XEN', 'name': 'England'}",8514
+90948,H. Gómez,Hernán Darío,,Gómez Jaramillo,1956-02-03,"{'id': 170, 'alpha2code': 'CO', 'alpha3code': 'COL', 'name': 'Colombia'}","{'id': 170, 'alpha2code': 'CO', 'alpha3code': 'COL', 'name': 'Colombia'}",0
+434992,D. Unsworth,David,,Unsworth,1973-10-16,"{'id': 826, 'alpha2code': 'EN', 'alpha3code': 'XEN', 'name': 'England'}","{'id': 826, 'alpha2code': 'EN', 'alpha3code': 'XEN', 'name': 'England'}",39800
+211238,B. Génésio,Bruno,,Génésio,1966-09-01,"{'id': 250, 'alpha2code': 'FR', 'alpha3code': 'FRA', 'name': 'France'}","{'id': 250, 'alpha2code': 'FR', 'alpha3code': 'FRA', 'name': 'France'}",3766
+26272,P. Hinschberger,Philippe,,Hinschberger,1959-11-19,"{'id': 250, 'alpha2code': 'FR', 'alpha3code': 'FRA', 'name': 'France'}","{'id': 250, 'alpha2code': 'FR', 'alpha3code': 'FRA', 'name': 'France'}",3798
+3630,Joaquín Caparrós,Joaquín ,,de Jesús Caparrós Camino,1955-10-13,"{'id': 724, 'alpha2code': 'ES', 'alpha3code': 'ESP', 'name': 'Spain'}","{'id': 724, 'alpha2code': 'ES', 'alpha3code': 'ESP', 'name': 'Spain'}",0
+54577,Å. Hareide,Åge Fridtjof,,Hareide,1953-09-23,"{'id': 578, 'alpha2code': 'NO', 'alpha3code': 'NOR', 'name': 'Norway'}","{'id': 578, 'alpha2code': 'NO', 'alpha3code': 'NOR', 'name': 'Norway'}",0
+546966,M. Krstajić,Mladen,,Krstajić,1974-03-04,"{'id': 70, 'alpha2code': 'BA', 'alpha3code': 'BIH', 'name': 'Bosnia-Herzegovina'}","{'id': 688, 'alpha2code': 'RS', 'alpha3code': 'SRB', 'name': 'Serbia'}",17322
+134976,E. Hamrén,Erik,,Hamrén,1957-06-27,"{'id': 752, 'alpha2code': 'SE', 'alpha3code': 'SWE', 'name': 'Sweden'}","{'id': 752, 'alpha2code': 'SE', 'alpha3code': 'SWE', 'name': 'Sweden'}",0
+134365,J. Löw,Joachim,,Löw,1960-02-03,"{'id': 276, 'alpha2code': 'DE', 'alpha3code': 'DEU', 'name': 'Germany'}","{'id': 276, 'alpha2code': 'DE', 'alpha3code': 'DEU', 'name': 'Germany'}",3148
+210116,G. Gasperini,Gian Piero,,Gasperini,1958-01-26,"{'id': 380, 'alpha2code': 'IT', 'alpha3code': 'ITA', 'name': 'Italy'}","{'id': 380, 'alpha2code': 'IT', 'alpha3code': 'ITA', 'name': 'Italy'}",3172
+25842,C. Galtier,Christophe,,Galtier,1966-08-28,"{'id': 250, 'alpha2code': 'FR', 'alpha3code': 'FRA', 'name': 'France'}","{'id': 250, 'alpha2code': 'FR', 'alpha3code': 'FRA', 'name': 'France'}",3776
+3427,D. Simeone,Diego Pablo,,Simeone,1970-04-28,"{'id': 32, 'alpha2code': 'AR', 'alpha3code': 'ARG', 'name': 'Argentina'}","{'id': 32, 'alpha2code': 'AR', 'alpha3code': 'ARG', 'name': 'Argentina'}",679
+190909,W. Sagnol,Willy,,Sagnol,1977-03-18,"{'id': 250, 'alpha2code': 'FR', 'alpha3code': 'FRA', 'name': 'France'}","{'id': 250, 'alpha2code': 'FR', 'alpha3code': 'FRA', 'name': 'France'}",0
+139142,Ó. Tabárez,Óscar Washington,,Tabárez Silva,1947-03-03,"{'id': 858, 'alpha2code': 'UY', 'alpha3code': 'URY', 'name': 'Uruguay'}","{'id': 858, 'alpha2code': 'UY', 'alpha3code': 'URY', 'name': 'Uruguay'}",0
+447924,D. Tedesco,Domenico,,Tedesco,1985-09-12,"{'id': 276, 'alpha2code': 'DE', 'alpha3code': 'DEU', 'name': 'Germany'}","{'id': 380, 'alpha2code': 'IT', 'alpha3code': 'ITA', 'name': 'Italy'}",0
+275291,Rubén Uría,Juan Rubén,,Uría Corral,1968-01-30,"{'id': 724, 'alpha2code': 'ES', 'alpha3code': 'ESP', 'name': 'Spain'}","{'id': 724, 'alpha2code': 'ES', 'alpha3code': 'ESP', 'name': 'Spain'}",0
+381291,P. Clement,Paul,,Clement,1972-01-08,"{'id': 826, 'alpha2code': 'EN', 'alpha3code': 'XEN', 'name': 'England'}","{'id': 826, 'alpha2code': 'EN', 'alpha3code': 'XEN', 'name': 'England'}",0
+136636,M. O'Neill,Michael,,O'Neill,1969-07-05,"{'id': 1014, 'alpha2code': 'NI', 'alpha3code': 'XNI', 'name': 'Northern Ireland'}","{'id': 1014, 'alpha2code': 'NI', 'alpha3code': 'XNI', 'name': 'Northern Ireland'}",0
+167044,Pablo Machín,Pablo Javier,,Machín Díez,1975-04-07,"{'id': 724, 'alpha2code': 'ES', 'alpha3code': 'ESP', 'name': 'Spain'}","{'id': 724, 'alpha2code': 'ES', 'alpha3code': 'ESP', 'name': 'Spain'}",0
+137379,J. Pekerman,José Néstor,,Pekerman,1949-09-03,"{'id': 32, 'alpha2code': 'AR', 'alpha3code': 'ARG', 'name': 'Argentina'}","{'id': 32, 'alpha2code': 'AR', 'alpha3code': 'ARG', 'name': 'Argentina'}",0
+83888,R. De Zerbi,Roberto,,De Zerbi,1979-06-06,"{'id': 380, 'alpha2code': 'IT', 'alpha3code': 'ITA', 'name': 'Italy'}","{'id': 380, 'alpha2code': 'IT', 'alpha3code': 'ITA', 'name': 'Italy'}",3315
+210120,S. Mihajlović,Siniša,,Mihajlović,1969-02-20,"{'id': 191, 'alpha2code': 'HR', 'alpha3code': 'HRV', 'name': 'Croatia'}","{'id': 688, 'alpha2code': 'RS', 'alpha3code': 'SRB', 'name': 'Serbia'}",3166
+21603,R. Maran,Rolando,,Maran,1963-07-14,"{'id': 380, 'alpha2code': 'IT', 'alpha3code': 'ITA', 'name': 'Italy'}","{'id': 380, 'alpha2code': 'IT', 'alpha3code': 'ITA', 'name': 'Italy'}",3173
+93112,Javi Gracia,Javier,,Gracia Carlos,1970-05-01,"{'id': 724, 'alpha2code': 'ES', 'alpha3code': 'ESP', 'name': 'Spain'}","{'id': 724, 'alpha2code': 'ES', 'alpha3code': 'ESP', 'name': 'Spain'}",1644
+149135,T. Laurey,Thierry,,Laurey,1964-02-14,"{'id': 250, 'alpha2code': 'FR', 'alpha3code': 'FRA', 'name': 'France'}","{'id': 250, 'alpha2code': 'FR', 'alpha3code': 'FRA', 'name': 'France'}",3779
+391523,H. Wolf,Hannes,,Wolf,1981-04-15,"{'id': 276, 'alpha2code': 'DE', 'alpha3code': 'DEU', 'name': 'Germany'}","{'id': 276, 'alpha2code': 'DE', 'alpha3code': 'DEU', 'name': 'Germany'}",2450
+5149,Manolo Márquez,Manuel,,Márquez Roca,1968-09-07,"{'id': 724, 'alpha2code': 'ES', 'alpha3code': 'ESP', 'name': 'Spain'}","{'id': 724, 'alpha2code': 'ES', 'alpha3code': 'ESP', 'name': 'Spain'}",0
+261661,C. Bucchi,Christian,,Bucchi,1977-02-13,"{'id': 380, 'alpha2code': 'IT', 'alpha3code': 'ITA', 'name': 'Italy'}","{'id': 380, 'alpha2code': 'IT', 'alpha3code': 'ITA', 'name': 'Italy'}",3219
+269087,C. Ancelotti,Carlo,,Ancelotti,1959-06-10,"{'id': 380, 'alpha2code': 'IT', 'alpha3code': 'ITA', 'name': 'Italy'}","{'id': 380, 'alpha2code': 'IT', 'alpha3code': 'ITA', 'name': 'Italy'}",3187
+444778,David Gallego,David,,Gallego Rodríguez,1972-01-26,"{'id': 724, 'alpha2code': 'ES', 'alpha3code': 'ESP', 'name': 'Spain'}","{'id': 724, 'alpha2code': 'ES', 'alpha3code': 'ESP', 'name': 'Spain'}",763
+228969,P. Dupraz,Pascal,,Dupraz,1962-09-19,"{'id': 250, 'alpha2code': 'FR', 'alpha3code': 'FRA', 'name': 'France'}","{'id': 250, 'alpha2code': 'FR', 'alpha3code': 'FRA', 'name': 'France'}",0
+292972,José Ángel Ziganda,José Ángel,,Ziganda Lacunza,1966-10-01,"{'id': 724, 'alpha2code': 'ES', 'alpha3code': 'ESP', 'name': 'Spain'}","{'id': 724, 'alpha2code': 'ES', 'alpha3code': 'ESP', 'name': 'Spain'}",0
+267136,Guardiola,Josep ,,Guardiola i Sala,1971-01-18,"{'id': 724, 'alpha2code': 'ES', 'alpha3code': 'ESP', 'name': 'Spain'}","{'id': 724, 'alpha2code': 'ES', 'alpha3code': 'ESP', 'name': 'Spain'}",1625
+272970,L. D'Anna,Lorenzo,,D'Anna,1972-01-29,"{'id': 380, 'alpha2code': 'IT', 'alpha3code': 'ITA', 'name': 'Italy'}","{'id': 380, 'alpha2code': 'IT', 'alpha3code': 'ITA', 'name': 'Italy'}",0
+8512,M. O'Neill,Martin,,O'Neill,1952-03-01,"{'id': 1014, 'alpha2code': 'NI', 'alpha3code': 'XNI', 'name': 'Northern Ireland'}","{'id': 1014, 'alpha2code': 'NI', 'alpha3code': 'XNI', 'name': 'Northern Ireland'}",1642
+264893,S. Cherchesov,Stanislav Salamovich,,Cherchesov,1963-09-02,"{'id': 643, 'alpha2code': 'RU', 'alpha3code': 'RUS', 'name': 'Russia'}","{'id': 643, 'alpha2code': 'RU', 'alpha3code': 'RUS', 'name': 'Russia'}",0
+134090,B. van Marwijk,Bert,,van Marwijk,1952-05-19,"{'id': 528, 'alpha2code': 'NL', 'alpha3code': 'NLD', 'name': 'Netherlands'}","{'id': 528, 'alpha2code': 'NL', 'alpha3code': 'NLD', 'name': 'Netherlands'}",0
+14977,C. Streich,Christian,,Streich,1965-06-11,"{'id': 276, 'alpha2code': 'DE', 'alpha3code': 'DEU', 'name': 'Germany'}","{'id': 276, 'alpha2code': 'DE', 'alpha3code': 'DEU', 'name': 'Germany'}",2453
+71037,Marco Silva,Marco Alexandre,,Saraiva da Silva,1977-07-12,"{'id': 620, 'alpha2code': 'PT', 'alpha3code': 'PRT', 'name': 'Portugal'}","{'id': 620, 'alpha2code': 'PT', 'alpha3code': 'PRT', 'name': 'Portugal'}",1623
+8605,Roberto Martínez,Roberto,,Martínez Montoliú,1973-07-13,"{'id': 724, 'alpha2code': 'ES', 'alpha3code': 'ESP', 'name': 'Spain'}","{'id': 724, 'alpha2code': 'ES', 'alpha3code': 'ESP', 'name': 'Spain'}",0
+8329,P. Lambert,Paul ,,Lambert,1969-08-07,"{'id': 1002, 'alpha2code': 'SC', 'alpha3code': 'XSC', 'name': 'Scotland'}","{'id': 1002, 'alpha2code': 'SC', 'alpha3code': 'XSC', 'name': 'Scotland'}",1634
+70160,Leonardo Jardim,José Leonardo,,Nunes Alves Sousa Jardim,1974-08-01,"{'id': 862, 'alpha2code': 'VE', 'alpha3code': 'VEN', 'name': 'Venezuela'}","{'id': 620, 'alpha2code': 'PT', 'alpha3code': 'PRT', 'name': 'Portugal'}",19830
+333782,C. Shakespeare,Craig,,Shakespeare,1963-10-26,"{'id': 826, 'alpha2code': 'EN', 'alpha3code': 'XEN', 'name': 'England'}","{'id': 826, 'alpha2code': 'EN', 'alpha3code': 'XEN', 'name': 'England'}",0
+210119,E. Di Francesco,Eusebio,,Di Francesco,1969-09-08,"{'id': 380, 'alpha2code': 'IT', 'alpha3code': 'ITA', 'name': 'Italy'}","{'id': 380, 'alpha2code': 'IT', 'alpha3code': 'ITA', 'name': 'Italy'}",0
+101575,L. Slutsky,Leonid,,Slutsky,1971-05-04,"{'id': 643, 'alpha2code': 'RU', 'alpha3code': 'RUS', 'name': 'Russia'}","{'id': 643, 'alpha2code': 'RU', 'alpha3code': 'RUS', 'name': 'Russia'}",24
+26243,S. Moulin,Stéphane,,Moulin,1967-08-04,"{'id': 250, 'alpha2code': 'FR', 'alpha3code': 'FRA', 'name': 'France'}","{'id': 250, 'alpha2code': 'FR', 'alpha3code': 'FRA', 'name': 'France'}",3799
+251044,D. López,Luis Diego,,López Breijo,1974-08-22,"{'id': 858, 'alpha2code': 'UY', 'alpha3code': 'URY', 'name': 'Uruguay'}","{'id': 858, 'alpha2code': 'UY', 'alpha3code': 'URY', 'name': 'Uruguay'}",15633
+20665,S. Pioli,Stefano,,Pioli,1965-10-20,"{'id': 380, 'alpha2code': 'IT', 'alpha3code': 'ITA', 'name': 'Italy'}","{'id': 380, 'alpha2code': 'IT', 'alpha3code': 'ITA', 'name': 'Italy'}",0
+51239,J. Andersson,Janne,,Andersson,1962-09-29,"{'id': 752, 'alpha2code': 'SE', 'alpha3code': 'SWE', 'name': 'Sweden'}","{'id': 752, 'alpha2code': 'SE', 'alpha3code': 'SWE', 'name': 'Sweden'}",0
+40532,Tite,Adenor Leonardo,,Bacchi,1961-05-25,"{'id': 76, 'alpha2code': 'BR', 'alpha3code': 'BRA', 'name': 'Brazil'}","{'id': 76, 'alpha2code': 'BR', 'alpha3code': 'BRA', 'name': 'Brazil'}",6380
+638,P. Bosz,Peter,,Bosz,1963-11-21,"{'id': 528, 'alpha2code': 'NL', 'alpha3code': 'NLD', 'name': 'Netherlands'}","{'id': 528, 'alpha2code': 'NL', 'alpha3code': 'NLD', 'name': 'Netherlands'}",2446
+270285,J. Gasset,Jean-Louis,,Gasset,1953-12-09,"{'id': 250, 'alpha2code': 'FR', 'alpha3code': 'FRA', 'name': 'France'}","{'id': 250, 'alpha2code': 'FR', 'alpha3code': 'FRA', 'name': 'France'}",3782
+117648,L. Zubeldía,Luis Francisco,,Zubeldía,1981-01-13,"{'id': 32, 'alpha2code': 'AR', 'alpha3code': 'ARG', 'name': 'Argentina'}","{'id': 32, 'alpha2code': 'AR', 'alpha3code': 'ARG', 'name': 'Argentina'}",0
+21414,D. Nicola,Davide,,Nicola,1973-03-05,"{'id': 380, 'alpha2code': 'IT', 'alpha3code': 'ITA', 'name': 'Italy'}","{'id': 380, 'alpha2code': 'IT', 'alpha3code': 'ITA', 'name': 'Italy'}",0
+5326,Asier Garitano,Asier,,Garitano Aguirrezábal,1969-12-06,"{'id': 724, 'alpha2code': 'ES', 'alpha3code': 'ESP', 'name': 'Spain'}","{'id': 724, 'alpha2code': 'ES', 'alpha3code': 'ESP', 'name': 'Spain'}",0
+357389,L. Semplici,Leonardo,,Semplici,1967-07-18,"{'id': 380, 'alpha2code': 'IT', 'alpha3code': 'ITA', 'name': 'Italy'}","{'id': 380, 'alpha2code': 'IT', 'alpha3code': 'ITA', 'name': 'Italy'}",3204
+218066,Óscar García,Óscar,,García Junyent,1973-04-26,"{'id': 724, 'alpha2code': 'ES', 'alpha3code': 'ESP', 'name': 'Spain'}","{'id': 724, 'alpha2code': 'ES', 'alpha3code': 'ESP', 'name': 'Spain'}",0
+198390,I. Juric,Ivan,,Juric,1975-08-25,"{'id': 191, 'alpha2code': 'HR', 'alpha3code': 'HRV', 'name': 'Croatia'}","{'id': 191, 'alpha2code': 'HR', 'alpha3code': 'HRV', 'name': 'Croatia'}",0
+8093,C. Hughton,Chris,,Hughton,1958-12-11,"{'id': 826, 'alpha2code': 'EN', 'alpha3code': 'XEN', 'name': 'England'}","{'id': 372, 'alpha2code': 'IE', 'alpha3code': 'IRL', 'name': 'Ireland Republic'}",1651
+137521,Fernando Santos,Fernando Manuel,,Fernandes da Costa Santos,1954-10-19,"{'id': 620, 'alpha2code': 'PT', 'alpha3code': 'PRT', 'name': 'Portugal'}","{'id': 620, 'alpha2code': 'PT', 'alpha3code': 'PRT', 'name': 'Portugal'}",0
+90162,E. Berizzo,Manuel Eduardo,,Berizzo,1969-11-13,"{'id': 32, 'alpha2code': 'AR', 'alpha3code': 'ARG', 'name': 'Argentina'}","{'id': 32, 'alpha2code': 'AR', 'alpha3code': 'ARG', 'name': 'Argentina'}",0
+268998,J. Kozák,Jan,,Kozák,1954-04-17,"{'id': 705, 'alpha2code': 'SI', 'alpha3code': 'SVN', 'name': 'Slovenia'}","{'id': 703, 'alpha2code': 'SK', 'alpha3code': 'SVK', 'name': 'Slovakia'}",0
+337062,Javier Cabello,Javier Antonio,,Cabello Rubio,1974-07-20,"{'id': 724, 'alpha2code': 'ES', 'alpha3code': 'ESP', 'name': 'Spain'}","{'id': 724, 'alpha2code': 'ES', 'alpha3code': 'ESP', 'name': 'Spain'}",0
+420376,A. Hofschneider,André,,Hofschneider,1970-06-10,"{'id': 276, 'alpha2code': 'DE', 'alpha3code': 'DEU', 'name': 'Germany'}","{'id': 276, 'alpha2code': 'DE', 'alpha3code': 'DEU', 'name': 'Germany'}",0
+267555,I. Tudor,Igor,,Tudor,1978-04-16,"{'id': 191, 'alpha2code': 'HR', 'alpha3code': 'HRV', 'name': 'Croatia'}","{'id': 191, 'alpha2code': 'HR', 'alpha3code': 'HRV', 'name': 'Croatia'}",3163
+210252,M. Sarri,Maurizio,,Sarri,1959-01-10,"{'id': 380, 'alpha2code': 'IT', 'alpha3code': 'ITA', 'name': 'Italy'}","{'id': 380, 'alpha2code': 'IT', 'alpha3code': 'ITA', 'name': 'Italy'}",1610
+272869,A. Conte,Antonio,,Conte,1969-07-31,"{'id': 380, 'alpha2code': 'IT', 'alpha3code': 'ITA', 'name': 'Italy'}","{'id': 380, 'alpha2code': 'IT', 'alpha3code': 'ITA', 'name': 'Italy'}",0
+7973,A. Pardew,Alan ,,Pardew,1961-07-18,"{'id': 826, 'alpha2code': 'EN', 'alpha3code': 'XEN', 'name': 'England'}","{'id': 826, 'alpha2code': 'EN', 'alpha3code': 'XEN', 'name': 'England'}",0
+206965,M. Wilmots,Marc,,Wilmots,1969-02-22,"{'id': 56, 'alpha2code': 'BE', 'alpha3code': 'BEL', 'name': 'Belgium'}","{'id': 56, 'alpha2code': 'BE', 'alpha3code': 'BEL', 'name': 'Belgium'}",0
+15470,H. Herrlich,Heiko,,Herrlich,1971-12-03,"{'id': 276, 'alpha2code': 'DE', 'alpha3code': 'DEU', 'name': 'Germany'}","{'id': 276, 'alpha2code': 'DE', 'alpha3code': 'DEU', 'name': 'Germany'}",0
+20407,G. Gattuso,Ivan Gennaro,,Gattuso,1978-01-09,"{'id': 380, 'alpha2code': 'IT', 'alpha3code': 'ITA', 'name': 'Italy'}","{'id': 380, 'alpha2code': 'IT', 'alpha3code': 'ITA', 'name': 'Italy'}",3157
+264939,José Miguel Campos,José Miguel,,Campos Rodríguez,1966-08-12,"{'id': 724, 'alpha2code': 'ES', 'alpha3code': 'ESP', 'name': 'Spain'}","{'id': 724, 'alpha2code': 'ES', 'alpha3code': 'ESP', 'name': 'Spain'}",0
+26213,M. Der Zakarian,Michel ,,Der Zakarian,1963-02-18,"{'id': 51, 'alpha2code': 'AM', 'alpha3code': 'ARM', 'name': 'Armenia'}","{'id': 51, 'alpha2code': 'AM', 'alpha3code': 'ARM', 'name': 'Armenia'}",3787
+7845,A. Wenger,Arsène,,Wenger,1949-10-22,"{'id': 250, 'alpha2code': 'FR', 'alpha3code': 'FRA', 'name': 'France'}","{'id': 250, 'alpha2code': 'FR', 'alpha3code': 'FRA', 'name': 'France'}",0
+3485,Mendilibar,José Luis,,Mendilibar Etxebarria,1961-03-14,"{'id': 724, 'alpha2code': 'ES', 'alpha3code': 'ESP', 'name': 'Spain'}","{'id': 724, 'alpha2code': 'ES', 'alpha3code': 'ESP', 'name': 'Spain'}",701
+3454,Míchel,José Miguel ,,González Martín del Campo,1963-03-23,"{'id': 724, 'alpha2code': 'ES', 'alpha3code': 'ESP', 'name': 'Spain'}","{'id': 724, 'alpha2code': 'ES', 'alpha3code': 'ESP', 'name': 'Spain'}",0

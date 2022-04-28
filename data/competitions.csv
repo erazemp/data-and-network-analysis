@@ -1,0 +1,8 @@
+name,wyId,format,area,type
+Italian first division,524,Domestic league,"{'name': 'Italy', 'id': '380', 'alpha3code': 'ITA', 'alpha2code': 'IT'}",club
+English first division,364,Domestic league,"{'name': 'England', 'id': '0', 'alpha3code': 'XEN', 'alpha2code': ''}",club
+Spanish first division,795,Domestic league,"{'name': 'Spain', 'id': '724', 'alpha3code': 'ESP', 'alpha2code': 'ES'}",club
+French first division,412,Domestic league,"{'name': 'France', 'id': '250', 'alpha3code': 'FRA', 'alpha2code': 'FR'}",club
+German first division,426,Domestic league,"{'name': 'Germany', 'id': '276', 'alpha3code': 'DEU', 'alpha2code': 'DE'}",club
+European Championship,102,International cup,"{'name': '', 'id': 0, 'alpha3code': 'XEU', 'alpha2code': ''}",international
+World Cup,28,International cup,"{'name': '', 'id': 0, 'alpha3code': 'XWO', 'alpha2code': ''}",international
