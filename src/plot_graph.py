@@ -15,6 +15,9 @@ def plot_passing_networks(G1, G2, save=False):
             node_size=[deg * 50 for deg in nome2degree.values()],
             node_color='red', edge_color='black',
             with_labels=True, font_weight='bold', alpha=0.75)
+    if save:
+        nx.write_gexf(G1, "G1.gexf")
+        plt.savefig('../results/plot_passing_networks_G1.png')
     plt.show()
 
     nome2degree = dict(G2.degree)
@@ -24,11 +27,10 @@ def plot_passing_networks(G1, G2, save=False):
             node_size=[deg * 50 for deg in nome2degree.values()],
             node_color='blue', edge_color='black',
             with_labels=True, font_weight='bold', alpha=0.75)
-    plt.show()
-
     if save:
-        nx.write_gexf(G1, "G1.gexf")
+        plt.savefig('../results/plot_passing_networks_G2.png')
         nx.write_gexf(G2, "G2.gexf")
+    plt.show()
 
 
 # function plot centrality
