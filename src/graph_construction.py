@@ -4,7 +4,7 @@ import json
 
 from src.plot_graph import plot_passing_networks
 from src.social_network_analysis import social_network_analysis_digraph, social_network_analysis_graph
-from src.statistical_analysis import statistical_analysis_season_max
+from src.statistical_analysis import statistical_analysis_season_max, statistical_analysis_season_min
 
 
 def load_data(nations):
@@ -209,10 +209,10 @@ if __name__ == '__main__':
     #         measures = social_network_analysis_digraph(G2, match_result, match_id, False, measures)
     #         measures = social_network_analysis_graph(G2, match_id, measures)
 
-    G1, G2, match_result, measures = passing_networks(nation, matches, competitions, events, '2058017', measures)
-    social_network_analysis_digraph(G1, match_result, '2058017', False, measures)
-    social_network_analysis_graph(G1, '2058017', measures)
-    plot_passing_networks(G1, G2, True)
+   # G1, G2, match_result, measures = passing_networks(nation, matches, competitions, events, '2058017', measures)
+   # social_network_analysis_digraph(G1, match_result, '2058017', False, measures)
+   # social_network_analysis_graph(G1, '2058017', measures)
+   # plot_passing_networks(G1, G2, True)
 
     #
     print('\nmax_degree_centrality_avg')
@@ -221,3 +221,36 @@ if __name__ == '__main__':
     max_in_degree_centrality_avg = statistical_analysis_season_max(measures.listplayer_max_centrality_indegree)
     print('\n max_out_degree_cetrality_avg')
     max_out_degree_centrality_avg = statistical_analysis_season_max(measures.listplayer_max_centrality_outdegree)
+
+    print('\nmin_degree_centrality_avg')
+    min_degree_centrality_avg = statistical_analysis_season_min(measures.listplayer_min_centrality_degree)
+    print('\n min_indegree_centrality_avg')
+    min_indegree_centrality_avg = statistical_analysis_season_min(measures.listplayer_min_centrality_indegree)
+    print('\n min_outdegree_centrality_avg')
+    min_outdegree_centrality_avg = statistical_analysis_season_min(measures.listplayer_min_centrality_outdegree)
+
+    print('\nlistplayer_max_closeness_centrality')
+    max_closeness_centrality_avg = statistical_analysis_season_max(measures.listplayer_max_closeness_centrality)
+
+    print('\n listplayer_min_closeness_centrality')
+    min_closeness_centrality_avg = statistical_analysis_season_min(measures.listplayer_min_closeness_centrality)
+    for element in measures.listplayer_min_betweenness_centrality:
+        print(element[0])
+        if element[1] == 0.0:
+            measures.listplayer_min_betweenness_centrality.remove(element)
+            v = -1
+            measures.listplayer_min_betweenness_centrality.append([element[0], v])
+    print('\nlistplayer_max_betweenness_centrality')
+    max_betweenness_centrality_avg = statistical_analysis_season_max(measures.listplayer_max_betweenness_centrality)
+    print('\n listplayer_min_betweenness_centrality')
+    min_betweenness_centrality_avg = statistical_analysis_season_min(measures.listplayer_min_betweenness_centrality)
+
+    print('\nlistplayer_max_clustering_coefficient')
+    max_clustering_coefficient_avg = statistical_analysis_season_max(measures.listplayer_max_clustering_coefficient)
+    print('\n listplayer_min_betweenness_centrality')
+    min_clustering_coefficient_avg = statistical_analysis_season_min(measures.listplayer_min_clustering_coefficient)
+
+    print('\nlistplayer_max_pagerank')
+    max_pagerank_avg = statistical_analysis_season_max(measures.listplayer_max_pagerank)
+    print('\n listplayer_min_pagerank')
+    min_pagerank_avg = statistical_analysis_season_min(measures.listplayer_min_pagerank)
