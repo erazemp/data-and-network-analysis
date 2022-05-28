@@ -11,7 +11,8 @@ from tqdm import tqdm
 import pandas as pd
 
 
-def social_network_analysis_digraph(G, match_result, match_id):
+# function for calculate metrics for sna in digraph
+def social_network_analysis_digraph(G, match_result, match_id, measures):
     G.remove_edges_from(nx.selfloop_edges(G))
 
     G.remove_node('P. Pogba')
@@ -28,7 +29,7 @@ def social_network_analysis_digraph(G, match_result, match_id):
     print(G.edges.data())
     number_of_edge = G.number_of_edges()
     print(number_of_edge)
-    list_num_edge_G.append(number_of_edge)
+    measures.list_num_edge_G.append(number_of_edge)
 
     # degree
     print('degree')
@@ -42,13 +43,13 @@ def social_network_analysis_digraph(G, match_result, match_id):
     avarage_degree = statistics.mean(degree)
     print("Average degree")
     print("%.2f" % avarage_degree)
-    list_degree_avg.append(avarage_degree)
+    measures.list_degree_avg.append(avarage_degree)
 
     for player, value in degree_team.items():
         if value == highest:
-            listplayer_max_degree.append([player, value])
+            measures.listplayer_max_degree.append([player, value])
         if value == smallest:
-            listplayer_min_degree.append([player, value])
+            measures.listplayer_min_degree.append([player, value])
 
     # in_degree
     print('In_degree')
@@ -62,9 +63,9 @@ def social_network_analysis_digraph(G, match_result, match_id):
 
     for player, value in in_degree_team.items():
         if value == highest_in_degree:
-            listplayer_max_in_degree.append([player, value])
+            measures.listplayer_max_in_degree.append([player, value])
         if value == smallest_in_degree:
-            listplayer_min_in_degree.append([player, value])
+            measures.listplayer_min_in_degree.append([player, value])
 
     # out_degree
     print('Out_degree')
@@ -77,21 +78,21 @@ def social_network_analysis_digraph(G, match_result, match_id):
 
     for player, value in out_degree_team.items():
         if value == highest_out_degree:
-            listplayer_max_out_degree.append([player, value])
+            measures.listplayer_max_out_degree.append([player, value])
         if value == smallest_out_degree:
-            listplayer_min_out_degree.append([player, value])
+            measures.listplayer_min_out_degree.append([player, value])
 
     # density
     density = nx.density(G)
     print('density')
     print("%.2f" % density)
-    list_density.append(density)
+    measures.list_density.append(density)
 
     # edge_connetivity
     edge_connectivity = nx.edge_connectivity(G)
     print('edge_connectivity')
     print(nx.edge_connectivity(G))
-    list_edge_connectivity_avg.append(edge_connectivity)
+    measures.list_edge_connectivity_avg.append(edge_connectivity)
 
     # Centrality Degree
     degree_centrality = dict(nx.degree_centrality(G))
@@ -102,9 +103,9 @@ def social_network_analysis_digraph(G, match_result, match_id):
 
     for player, value in degree_centrality.items():
         if value == highest_degree_centrality:
-            listplayer_max_centrality_degree.append([player, value])
+            measures.listplayer_max_centrality_degree.append([player, value])
         if value == smallest_degree_centrality:
-            listplayer_min_centrality_degree.append([player, value])
+            measures.listplayer_min_centrality_degree.append([player, value])
 
     # avarage_degree_centrality
     avarage_degree_centrality = statistics.mean(degree_centrality.values())
@@ -122,9 +123,9 @@ def social_network_analysis_digraph(G, match_result, match_id):
 
     for player, value in in_degree_centrality.items():
         if value == highest_indegree_centrality:
-            listplayer_max_centrality_indegree.append([player, value])
+            measures.listplayer_max_centrality_indegree.append([player, value])
         if value == smallest_indegree_centrality:
-            listplayer_min_centrality_indegree.append([player, value])
+            measures.listplayer_min_centrality_indegree.append([player, value])
 
     # out_degree_centrality
     out_degree_centrality = dict(nx.out_degree_centrality(G))
@@ -136,9 +137,9 @@ def social_network_analysis_digraph(G, match_result, match_id):
     print(variance_outdegree)
     for player, value in out_degree_centrality.items():
         if value == highest_outdegree_centrality:
-            listplayer_max_centrality_outdegree.append([player, value])
+            measures.listplayer_max_centrality_outdegree.append([player, value])
         if value == smallest_outdegree_centrality:
-            listplayer_min_centrality_outdegree.append([player, value])
+            measures.listplayer_min_centrality_outdegree.append([player, value])
 
     print(nx.node_connectivity(G))
     # closeness
@@ -158,9 +159,9 @@ def social_network_analysis_digraph(G, match_result, match_id):
 
     for player, value in closeness_centrality.items():
         if value == highest_closeness_centrality:
-            listplayer_max_closeness_centrality.append([player, value])
+            measures.listplayer_max_closeness_centrality.append([player, value])
         if value == smallest_closeness_centrality:
-            listplayer_min_closeness_centrality.append([player, value])
+            measures.listplayer_min_closeness_centrality.append([player, value])
 
     # betweenness
     betweenness_centrality = dict(nx.betweenness_centrality(G))
@@ -173,9 +174,9 @@ def social_network_analysis_digraph(G, match_result, match_id):
 
     for player, value in betweenness_centrality.items():
         if value == highest_betweenness_centrality:
-            listplayer_max_betweenness_centrality.append([player, value])
+            measures.listplayer_max_betweenness_centrality.append([player, value])
         if value == smallest_betweenness_centrality:
-            listplayer_min_betweenness_centrality.append([player, value])
+            measures.listplayer_min_betweenness_centrality.append([player, value])
 
     # PageRank
     pagerank = dict(nx.pagerank(G))
@@ -186,9 +187,9 @@ def social_network_analysis_digraph(G, match_result, match_id):
 
     for player, value in pagerank.items():
         if value == highest_pagerank:
-            listplayer_max_pagerank.append([player, value])
+            measures.listplayer_max_pagerank.append([player, value])
         if value == smallest_pagerank:
-            listplayer_min_pagerank.append([player, value])
+            measures.listplayer_min_pagerank.append([player, value])
 
     # k-core
     print('max k-core')
@@ -207,17 +208,17 @@ def social_network_analysis_digraph(G, match_result, match_id):
 
     for player, value in clustering_coefficient.items():
         if value == highest_clustering_coefficient:
-            listplayer_max_clustering_coefficient.append([player, value])
+            measures.listplayer_max_clustering_coefficient.append([player, value])
         if value == smallest_clustering_coefficient:
-            listplayer_min_clustering_coefficient.append([player, value])
+            measures.listplayer_min_clustering_coefficient.append([player, value])
 
     # clustering coefficient avg
-    list_avg_clustering = []
+    measures.list_avg_clustering = []
     for item in clustering_coefficient.values():
-        list_avg_clustering.append(item)
+        measures.list_avg_clustering.append(item)
 
-    avarage_clustering_coefficient = statistics.mean(list_avg_clustering)
-    list_clustering_avg.append(avarage_clustering_coefficient)
+    avarage_clustering_coefficient = statistics.mean(measures.list_avg_clustering)
+    measures.list_clustering_avg.append(avarage_clustering_coefficient)
 
     print('avarage_clustering coefficient')
     print("%.2f" % avarage_clustering_coefficient)
@@ -251,4 +252,4 @@ def social_network_analysis_digraph(G, match_result, match_id):
     with open('sna_match_' + str(match_id) + '2.json', 'w') as f:
         json.dump(data_match, f, indent=4)
 
-    return list_num_edge_G
+    return measures

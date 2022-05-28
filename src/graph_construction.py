@@ -10,7 +10,7 @@ import seaborn as sns
 from tqdm import tqdm
 import pandas as pd
 
-from src import social_network_analysis_digraph
+from src.social_network_analysis import social_network_analysis_digraph
 
 
 def load_data(nations):
@@ -45,13 +45,13 @@ def load_data(nations):
 
 
 # get list id_match_for team id
-def match_list(nations, matches, team_Id):
+def match_list(nations, matches, team_Id, measures):
     for nation in nations:
         for match in matches[nation]:
             for match_team_Id in match['teamsData']:
                 if team_Id == match_team_Id:
-                    list_match_wyId.append(match['wyId'])
-    return list_match_wyId
+                    measures.list_match_wyId.append(match['wyId'])
+    return measures
 
 
 # get list of player_for team id
@@ -67,7 +67,10 @@ def player_list(players, team_Id):
 
 
 # function for generete passing network for a match
-def passing_networks(nations, matches, competitions, events, match_id):
+def passing_networks(nations, matches, competitions, events, match_id, measures):
+    match_result = ''
+    team1_name = ''
+    team2_name = ''
     # take the names of the two teams of the match
     competition_name = None
     for nation in nations:
@@ -99,10 +102,11 @@ def passing_networks(nations, matches, competitions, events, match_id):
             if ev_match['eventName'] == 'Pass':
                 match_events.append(ev_match)
 
+    sender = ''
     team2pass2weight = defaultdict(lambda: defaultdict(int))
     for event, next_event in zip(match_events, match_events[1:]):
         try:
-            if event['eventName'] == 'Pass' and ACCURATE_PASS in [tag['id'] for tag in event['tags']]:
+            if event['eventName'] == 'Pass' and accurate_pass in [tag['id'] for tag in event['tags']]:
                 for player in players:
                     if player['wyId'] == event['playerId']:
                         sender = player['shortName'].encode('ascii', 'strict').decode('unicode-escape')
@@ -124,58 +128,93 @@ def passing_networks(nations, matches, competitions, events, match_id):
     for (sender, receiver), weight in team2pass2weight[team2_name].items():
         list_weight.append(weight)
         G2.add_edge(sender, receiver, weight=weight)
-    list_pass.append(sum(list_weight))
+    measures.list_pass.append(sum(list_weight))
 
-    return G1, G2, match_result
+    return G1, G2, match_result, measures
+
+
+class Measures:
+    def __init__(self):
+        # passing network
+        self.list_match_wyId = []
+        self.list_num_edge = []
+        self.list_num_edge1 = []
+        self.list_num_edge_G = []
+        self.list_pass = []
+        self.list_density = []
+
+        # avg final in/out/degree
+        self.list_degree_avg = []
+
+        # avg final edge
+        self.list_edge_connectivity_avg = []
+
+        # avg clustering
+        self.list_clustering_avg = []
+        self.list_transitivity_avg = []
+        self.list_max_clique = []
+        self.list_betweenness_centrality = []
+
+        # PLAYER LIST
+        # MaxMin in/ou/degree
+        self.listplayer_max_in_degree = []
+        self.listplayer_max_out_degree = []
+        self.listplayer_max_degree = []
+        self.listplayer_min_in_degree = []
+        self.listplayer_min_out_degree = []
+        self.listplayer_min_degree = []
+
+        # MaxMin list centrality in/out/degree
+        self.listplayer_max_centrality_degree = []
+        self.listplayer_max_centrality_outdegree = []
+        self.listplayer_max_centrality_indegree = []
+        self.listplayer_min_centrality_degree = []
+        self.listplayer_min_centrality_outdegree = []
+        self.listplayer_min_centrality_indegree = []
+
+        # MaxMin self.list closeness centrality
+        self.listplayer_max_closeness_centrality = []
+        self.listplayer_min_closeness_centrality = []
+
+        # MaxMin list betweenness_centrality
+        self.listplayer_max_betweenness_centrality = []
+        self.listplayer_min_betweenness_centrality = []
+
+        # MaxMin clustering_coefficient
+        self.listplayer_max_clustering_coefficient = []
+        self.listplayer_min_clustering_coefficient = []
+
+        # MaxMin pagerank
+        self.listplayer_max_pagerank = []
+        self.listplayer_min_pagerank = list()
 
 
 if __name__ == '__main__':
+    measures = Measures()
+
     # label of passes
-    ACCURATE_PASS = 1801
+    accurate_pass = 1801
 
     # get data
     nation = ["World_Cup"]
     events, matches, players, competitions, teams = load_data(nation)
-
-    # Passing network
-    list_match_wyId = []
-    list_num_edge = []
-    list_num_edge1 = []
-    list_num_edge_G = []
-    list_pass = []
-    list_density = []
 
     # get list of player_for team id
     list_player = player_list(players, 4418)
 
     # gemerate passing network for a selected match: #wyid --> match id of world cup matches
     # to je bol test da deluje kreiranje enenga grafa na podlagi match_id
-    G1, G2, match_result = passing_networks(nation, matches, competitions, events, match_id='2058017')
-    a = 0
-    # avg clustering
-    list_clustering_avg = []
-    list_transitivity_avg = []
-    list_max_clique = []
-    list_betweenness_centrality = []
-
-    # PLAYER LIST
-    # MaxMin in/ou/degree
-    listplayer_max_in_degree = []
-    listplayer_max_out_degree = []
-    listplayer_max_degree = []
-    listplayer_min_in_degree = []
-    listplayer_min_out_degree = []
-    listplayer_min_degree = []
+    G1, G2, match_result, measures = passing_networks(nation, matches, competitions, events, '2058017', measures)
 
     # get matches from the FRANCE national team in the world cup: total of 7 matches
-    match_l = match_list(nation, matches, team_Id='4418')
-    for match_id in match_l:
+    measures = match_list(nation, matches, '4418', measures)
+    for match_id in measures.list_match_wyId:
         print(match_id)
-        G1, G2, match_result = passing_networks(nation, matches, competitions, events, match_id=match_id)
+        G1, G2, match_result, measures = passing_networks(nation, matches, competitions, events, match_id, measures)
         # plot_passing_networks(G1, G2)
         if (G1.name == "France"):
-            list_num_edge = social_network_analysis_digraph(G1, match_result, match_id)
-            social_network_analysis_graph(G1, match_id)
+            measures = social_network_analysis_digraph(G1, match_result, match_id, measures)
+            measures = social_network_analysis_graph(G1, match_id, measures)
         else:
-            list_num_edge1 = social_network_analysis_digraph(G2, match_result, match_id)
-            social_network_analysis_graph(G2, match_id)
+            measures = social_network_analysis_digraph(G2, match_result, match_id, measures)
+            measures = social_network_analysis_graph(G2, match_id, measures)
