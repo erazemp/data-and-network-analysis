@@ -1,14 +1,7 @@
 import networkx as nx
 import statistics
-from collections import defaultdict
-import numpy as np
-import warnings
 from numpy import var
 import json
-import matplotlib.pyplot as plt
-import seaborn as sns
-from tqdm import tqdm
-import pandas as pd
 
 
 # function for calculate metrics for sna in digraph
@@ -96,7 +89,6 @@ def social_network_analysis_digraph(G, match_result, match_id, measures):
 
     # Centrality Degree
     degree_centrality = dict(nx.degree_centrality(G))
-    ('degree_centrality')
     print(degree_centrality)
     highest_degree_centrality = max(degree_centrality.values())
     smallest_degree_centrality = min(degree_centrality.values())
@@ -251,5 +243,53 @@ def social_network_analysis_digraph(G, match_result, match_id, measures):
                   }
     with open('sna_match_' + str(match_id) + '2.json', 'w') as f:
         json.dump(data_match, f, indent=4)
+
+    return measures
+
+
+# function for calculate metrics for sna in graph
+def social_network_analysis_graph(G, match, measures):
+    # function for add JSON code
+    def write_json(data, filename='sna_match_' + str(match) + '2.json'):
+        with open(filename, 'w') as f:
+            json.dump(data, f, indent=4)
+
+    if G.number_of_nodes() > 0:
+        G = G.to_undirected()
+        if nx.is_connected(G):
+            clique = nx.find_cliques(G)
+            for x in clique:
+                print(x)
+            from networkx.algorithms.approximation import clique
+            max_clique = nx.graph_number_of_cliques(G)
+            print('')
+            print("Maximum clique number")
+            print(max_clique)
+            measures.list_max_clique.append(max_clique)
+            # triangles
+            triangles = nx.triangles(G)
+            print("Triangles in team")
+            print(triangles)
+            num_triangles = (sum(list(nx.triangles(G).values())))
+            print("Number of triangles")
+            print(num_triangles)
+            # transitivity
+            transitivity = nx.transitivity(G)
+            print("Transitivity")
+            print("%.2f" % transitivity)
+            measures.list_transitivity_avg.append(transitivity)
+
+            with open('sna_match_' + str(match) + '.json') as json_file:
+                data = json.load(json_file)
+
+                data_match = {
+                    'max clique number': max_clique,
+                    'triangles for node': triangles,
+                    'number_of_triangles': num_triangles,
+                    'transitivity': transitivity,
+                }
+                # appending data
+                data.update(data_match)
+            write_json(data)
 
     return measures
