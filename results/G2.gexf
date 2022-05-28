@@ -1,0 +1,123 @@
+<?xml version='1.0' encoding='utf-8'?>
+<gexf xmlns="http://www.gexf.net/1.2draft" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.gexf.net/1.2draft http://www.gexf.net/1.2draft/gexf.xsd" version="1.2">
+  <meta lastmodifieddate="2022-05-28">
+    <creator>NetworkX 2.8.2</creator>
+  </meta>
+  <graph defaultedgetype="directed" mode="static" name="Croatia">
+    <nodes>
+      <node id="M. Brozović" label="M. Brozović" />
+      <node id="L. Modrić" label="L. Modrić" />
+      <node id="Š. Vrsaljko" label="Š. Vrsaljko" />
+      <node id="D. Subašić" label="D. Subašić" />
+      <node id="I. Perišić" label="I. Perišić" />
+      <node id="I. Rakitić" label="I. Rakitić" />
+      <node id="I. Strinić" label="I. Strinić" />
+      <node id="D. Vida" label="D. Vida" />
+      <node id="D. Lovren" label="D. Lovren" />
+      <node id="M. Mandžukić" label="M. Mandžukić" />
+      <node id="A. Rebić" label="A. Rebić" />
+      <node id="A. Kramarić" label="A. Kramarić" />
+      <node id="M. Pjaca" label="M. Pjaca" />
+    </nodes>
+    <edges>
+      <edge source="M. Brozović" target="L. Modrić" id="0" weight="20" />
+      <edge source="M. Brozović" target="I. Perišić" id="1" weight="5" />
+      <edge source="M. Brozović" target="I. Strinić" id="2" weight="3" />
+      <edge source="M. Brozović" target="I. Rakitić" id="3" weight="14" />
+      <edge source="M. Brozović" target="D. Lovren" id="4" weight="6" />
+      <edge source="M. Brozović" target="D. Vida" id="5" weight="9" />
+      <edge source="M. Brozović" target="Š. Vrsaljko" id="6" weight="11" />
+      <edge source="M. Brozović" target="M. Brozović" id="7" weight="2" />
+      <edge source="M. Brozović" target="A. Rebić" id="8" weight="1" />
+      <edge source="M. Brozović" target="M. Mandžukić" id="9" weight="1" />
+      <edge source="M. Brozović" target="A. Kramarić" id="10" weight="4" />
+      <edge source="L. Modrić" target="Š. Vrsaljko" id="11" weight="17" />
+      <edge source="L. Modrić" target="D. Vida" id="12" weight="2" />
+      <edge source="L. Modrić" target="M. Mandžukić" id="13" weight="7" />
+      <edge source="L. Modrić" target="M. Brozović" id="14" weight="12" />
+      <edge source="L. Modrić" target="I. Strinić" id="15" weight="2" />
+      <edge source="L. Modrić" target="D. Lovren" id="16" weight="6" />
+      <edge source="L. Modrić" target="A. Rebić" id="17" weight="2" />
+      <edge source="L. Modrić" target="L. Modrić" id="18" weight="1" />
+      <edge source="L. Modrić" target="I. Rakitić" id="19" weight="1" />
+      <edge source="L. Modrić" target="A. Kramarić" id="20" weight="2" />
+      <edge source="L. Modrić" target="I. Perišić" id="21" weight="1" />
+      <edge source="L. Modrić" target="M. Pjaca" id="22" weight="1" />
+      <edge source="Š. Vrsaljko" target="D. Subašić" id="23" weight="1" />
+      <edge source="Š. Vrsaljko" target="D. Lovren" id="24" weight="14" />
+      <edge source="Š. Vrsaljko" target="I. Rakitić" id="25" weight="5" />
+      <edge source="Š. Vrsaljko" target="L. Modrić" id="26" weight="10" />
+      <edge source="Š. Vrsaljko" target="I. Perišić" id="27" weight="6" />
+      <edge source="Š. Vrsaljko" target="M. Brozović" id="28" weight="9" />
+      <edge source="Š. Vrsaljko" target="M. Mandžukić" id="29" weight="3" />
+      <edge source="Š. Vrsaljko" target="M. Pjaca" id="30" weight="1" />
+      <edge source="D. Subašić" target="I. Perišić" id="31" weight="1" />
+      <edge source="D. Subašić" target="D. Lovren" id="32" weight="6" />
+      <edge source="D. Subašić" target="D. Vida" id="33" weight="3" />
+      <edge source="D. Subašić" target="Š. Vrsaljko" id="34" weight="1" />
+      <edge source="D. Subašić" target="M. Mandžukić" id="35" weight="1" />
+      <edge source="D. Subašić" target="L. Modrić" id="36" weight="1" />
+      <edge source="I. Perišić" target="I. Rakitić" id="37" weight="4" />
+      <edge source="I. Perišić" target="D. Vida" id="38" weight="2" />
+      <edge source="I. Perišić" target="L. Modrić" id="39" weight="7" />
+      <edge source="I. Perišić" target="I. Strinić" id="40" weight="2" />
+      <edge source="I. Perišić" target="M. Mandžukić" id="41" weight="1" />
+      <edge source="I. Perišić" target="A. Rebić" id="42" weight="1" />
+      <edge source="I. Perišić" target="Š. Vrsaljko" id="43" weight="1" />
+      <edge source="I. Rakitić" target="I. Strinić" id="44" weight="6" />
+      <edge source="I. Rakitić" target="D. Vida" id="45" weight="4" />
+      <edge source="I. Rakitić" target="M. Brozović" id="46" weight="9" />
+      <edge source="I. Rakitić" target="A. Rebić" id="47" weight="4" />
+      <edge source="I. Rakitić" target="I. Rakitić" id="48" weight="3" />
+      <edge source="I. Rakitić" target="D. Subašić" id="49" weight="1" />
+      <edge source="I. Rakitić" target="L. Modrić" id="50" weight="6" />
+      <edge source="I. Rakitić" target="D. Lovren" id="51" weight="5" />
+      <edge source="I. Rakitić" target="I. Perišić" id="52" weight="3" />
+      <edge source="I. Rakitić" target="M. Mandžukić" id="53" weight="1" />
+      <edge source="I. Rakitić" target="Š. Vrsaljko" id="54" weight="2" />
+      <edge source="I. Rakitić" target="A. Kramarić" id="55" weight="1" />
+      <edge source="I. Strinić" target="M. Brozović" id="56" weight="5" />
+      <edge source="I. Strinić" target="M. Mandžukić" id="57" weight="1" />
+      <edge source="I. Strinić" target="I. Perišić" id="58" weight="6" />
+      <edge source="I. Strinić" target="I. Rakitić" id="59" weight="3" />
+      <edge source="I. Strinić" target="D. Vida" id="60" weight="1" />
+      <edge source="D. Vida" target="L. Modrić" id="61" weight="4" />
+      <edge source="D. Vida" target="I. Rakitić" id="62" weight="9" />
+      <edge source="D. Vida" target="D. Lovren" id="63" weight="8" />
+      <edge source="D. Vida" target="I. Strinić" id="64" weight="2" />
+      <edge source="D. Vida" target="M. Brozović" id="65" weight="8" />
+      <edge source="D. Vida" target="D. Subašić" id="66" weight="3" />
+      <edge source="D. Vida" target="M. Mandžukić" id="67" weight="2" />
+      <edge source="D. Vida" target="Š. Vrsaljko" id="68" weight="1" />
+      <edge source="D. Vida" target="A. Kramarić" id="69" weight="2" />
+      <edge source="D. Lovren" target="I. Rakitić" id="70" weight="6" />
+      <edge source="D. Lovren" target="D. Vida" id="71" weight="8" />
+      <edge source="D. Lovren" target="M. Brozović" id="72" weight="18" />
+      <edge source="D. Lovren" target="D. Subašić" id="73" weight="3" />
+      <edge source="D. Lovren" target="Š. Vrsaljko" id="74" weight="10" />
+      <edge source="D. Lovren" target="L. Modrić" id="75" weight="4" />
+      <edge source="D. Lovren" target="I. Perišić" id="76" weight="1" />
+      <edge source="D. Lovren" target="M. Mandžukić" id="77" weight="2" />
+      <edge source="M. Mandžukić" target="A. Rebić" id="78" weight="2" />
+      <edge source="M. Mandžukić" target="M. Brozović" id="79" weight="5" />
+      <edge source="M. Mandžukić" target="M. Mandžukić" id="80" weight="1" />
+      <edge source="M. Mandžukić" target="D. Vida" id="81" weight="1" />
+      <edge source="M. Mandžukić" target="I. Rakitić" id="82" weight="2" />
+      <edge source="M. Mandžukić" target="Š. Vrsaljko" id="83" weight="4" />
+      <edge source="M. Mandžukić" target="L. Modrić" id="84" weight="4" />
+      <edge source="M. Mandžukić" target="I. Perišić" id="85" weight="1" />
+      <edge source="A. Rebić" target="Š. Vrsaljko" id="86" weight="2" />
+      <edge source="A. Rebić" target="D. Vida" id="87" weight="1" />
+      <edge source="A. Rebić" target="M. Brozović" id="88" weight="1" />
+      <edge source="A. Rebić" target="I. Perišić" id="89" weight="2" />
+      <edge source="A. Rebić" target="I. Rakitić" id="90" weight="1" />
+      <edge source="A. Kramarić" target="I. Strinić" id="91" weight="1" />
+      <edge source="A. Kramarić" target="I. Rakitić" id="92" weight="2" />
+      <edge source="A. Kramarić" target="M. Brozović" id="93" weight="1" />
+      <edge source="A. Kramarić" target="I. Perišić" id="94" weight="1" />
+      <edge source="A. Kramarić" target="Š. Vrsaljko" id="95" weight="1" />
+      <edge source="A. Kramarić" target="D. Vida" id="96" weight="2" />
+      <edge source="M. Pjaca" target="Š. Vrsaljko" id="97" weight="1" />
+    </edges>
+  </graph>
+</gexf>

@@ -16,7 +16,7 @@ def plot_passing_networks(G1, G2, save=False):
             node_color='red', edge_color='black',
             with_labels=True, font_weight='bold', alpha=0.75)
     if save:
-        nx.write_gexf(G1, "G1.gexf")
+        nx.write_gexf(G1, "../results/G1.gexf")
         plt.savefig('../results/plot_passing_networks_G1.png')
     plt.show()
 
@@ -29,12 +29,12 @@ def plot_passing_networks(G1, G2, save=False):
             with_labels=True, font_weight='bold', alpha=0.75)
     if save:
         plt.savefig('../results/plot_passing_networks_G2.png')
-        nx.write_gexf(G2, "G2.gexf")
+        nx.write_gexf(G2, "../results/G2.gexf")
     plt.show()
 
 
 # function plot centrality
-def plot_centrality(players_centralities, names):
+def plot_centrality(players_centralities, names, save=False):
     sns.set_style('ticks')
 
     f, ax = plt.subplots(figsize=(10, 5))
@@ -48,4 +48,6 @@ def plot_centrality(players_centralities, names):
     plt.ylabel('frequency', fontsize=25)
     lab = ax.legend(loc=1, fontsize=18, frameon=True, shadow=True)
     f.tight_layout()
+    if save:
+        plt.savefig('../results/plot_centrality.png')
     plt.show()
