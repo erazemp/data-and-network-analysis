@@ -93,3 +93,10 @@ def get_results(measures):
     print(' transivity ')
     avg_transivity = statistics.mean(measures.list_transitivity_avg)
     print(avg_transivity)
+
+    list_num_edge_2 = measures.list_num_edge1 + measures.list_num_edge
+    avg_edge_G = statistics.mean(list_num_edge_2)
+    max_edge = max(list_num_edge_2)
+    min_edge = min(list_num_edge_2)
+    print("Statistics passing")
+    print("avg: %.2f" % avg_edge_G, 'min:', min_edge, 'max:', max_edge)
