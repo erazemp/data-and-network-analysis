@@ -134,9 +134,8 @@ class Measures:
     def __init__(self):
         # passing network
         self.list_match_wyId = []
-        self.list_num_edge = []
-        self.list_num_edge1 = []
-        self.list_num_edge_G = []
+        self.list_num_edge_1 = []
+        self.list_num_edge_2 = []
         self.list_pass = []
         self.list_density = []
 
@@ -201,16 +200,16 @@ if __name__ == '__main__':
 
     # get matches from the FRANCE national team in the world cup: total of 7 matches
     measures = match_list(nation, matches, '4418', measures)
-    # for match_id in measures.list_match_wyId:
-    #     print(match_id)
-    #     G1, G2, match_result, measures = passing_networks(nation, matches, competitions, events, match_id, measures)
-    #     # plot_passing_networks(G1, G2)
-    #     if G1.name == "France":
-    #         measures = social_network_analysis_digraph(G1, match_result, match_id, False, measures)
-    #         measures = social_network_analysis_graph(G1, match_id, measures)
-    #     else:
-    #         measures = social_network_analysis_digraph(G2, match_result, match_id, False, measures)
-    #         measures = social_network_analysis_graph(G2, match_id, measures)
+    for match_id in measures.list_match_wyId:
+        print(match_id)
+        G1, G2, match_result, measures = passing_networks(nation, matches, competitions, events, match_id, measures)
+        # plot_passing_networks(G1, G2)
+        if G1.name == "France":
+            measures, measures.list_num_edge_1 = social_network_analysis_digraph(G1, match_result, match_id, False, measures)
+            measures = social_network_analysis_graph(G1, match_id, measures)
+        else:
+            measures, measures.list_num_edge_2 = social_network_analysis_digraph(G2, match_result, match_id, False, measures)
+            measures = social_network_analysis_graph(G2, match_id, measures)
 
     G1, G2, match_result, measures = passing_networks(nation, matches, competitions, events, '2058017', measures)
     social_network_analysis_digraph(G1, match_result, '2058017', False, measures)

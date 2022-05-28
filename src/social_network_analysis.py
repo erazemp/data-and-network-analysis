@@ -6,6 +6,8 @@ import json
 
 # function for calculate metrics for sna in digraph
 def social_network_analysis_digraph(G, match_result, match_id, remove_nodes, measures):
+    list_num_edge = []
+
     G.remove_edges_from(nx.selfloop_edges(G))
 
     if remove_nodes:
@@ -28,7 +30,7 @@ def social_network_analysis_digraph(G, match_result, match_id, remove_nodes, mea
     print(G.edges.data())
     number_of_edge = G.number_of_edges()
     print(number_of_edge)
-    measures.list_num_edge_G.append(number_of_edge)
+    list_num_edge.append(number_of_edge)
 
     # degree
     print('degree')
@@ -250,7 +252,7 @@ def social_network_analysis_digraph(G, match_result, match_id, remove_nodes, mea
     with open('../results/sna_match_' + str(match_id) + '.json', 'w', encoding='utf-8') as f:
         json.dump(data_match, f, indent=4)
 
-    return measures
+    return measures, list_num_edge
 
 
 # function for calculate metrics for sna in graph
