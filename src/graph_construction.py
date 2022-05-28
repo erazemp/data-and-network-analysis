@@ -1,3 +1,5 @@
+import statistics
+
 import networkx as nx
 from collections import defaultdict
 import json
@@ -254,3 +256,52 @@ if __name__ == '__main__':
     max_pagerank_avg = statistical_analysis_season_max(measures.listplayer_max_pagerank)
     print('\n listplayer_min_pagerank')
     min_pagerank_avg = statistical_analysis_season_min(measures.listplayer_min_pagerank)
+
+    data_tournament = {
+        'max_degree_centrality_avg': max_degree_centrality_avg,
+        'max_indegree_centrality_avg': max_in_degree_centrality_avg,
+        'max_outdegree_centrality_avg': max_out_degree_centrality_avg,
+
+        'min_degree_centrality_avg': min_degree_centrality_avg,
+        'min_indegree_centrality_avg': min_indegree_centrality_avg,
+        'min_outdegree_centrality_avg': min_outdegree_centrality_avg,
+
+        'max_closeness_centrality_avg': max_closeness_centrality_avg,
+        'min_closeness_centrality_avg': min_closeness_centrality_avg,
+
+        'max_betweenness_centrality_avg': max_betweenness_centrality_avg,
+        'min_betweenness_centrality_avg': min_betweenness_centrality_avg,
+
+        'max_clustering_coefficient_avg': max_clustering_coefficient_avg,
+        'min_clustering_coefficient_avg': min_clustering_coefficient_avg,
+
+        'max_pagerank_avg': max_pagerank_avg,
+        'min_pagerank_avg': min_pagerank_avg
+    }
+
+    with open('sna_tournament_player_france.json', 'w') as f:
+        json.dump(data_tournament, f, indent=4)
+
+    print('avg density')
+    avg_density = statistics.mean(measures.list_density)
+    print(avg_density)
+
+    print('avg degree')
+    avg_degree = statistics.mean(measures.list_degree_avg)
+    print(avg_degree)
+
+    print('edge connectivity avg')
+    avg_edge_connectivity = statistics.mean(measures.list_edge_connectivity_avg)
+    print(avg_edge_connectivity)
+
+    print(' list_clustering_avg ')
+    avg_clustering_global = statistics.mean(measures.list_clustering_avg)
+    print(avg_clustering_global)
+
+    print(' max_clique ')
+    avg_max_clique = statistics.mean(measures.list_max_clique)
+    print(avg_max_clique)
+
+    print(' transivity ')
+    avg_transivity = statistics.mean(measures.list_transitivity_avg)
+    print(avg_transivity)
