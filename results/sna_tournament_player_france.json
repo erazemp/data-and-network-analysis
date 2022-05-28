@@ -1,0 +1,94 @@
+{
+    "max_degree_centrality_avg": [
+        [
+            "P. Pogba",
+            0.23076923076923078
+        ]
+    ],
+    "max_indegree_centrality_avg": [
+        [
+            "P. Pogba",
+            0.1208791208791209
+        ]
+    ],
+    "max_outdegree_centrality_avg": [
+        [
+            "A. Griezmann",
+            0.1098901098901099
+        ],
+        [
+            "P. Pogba",
+            0.1098901098901099
+        ]
+    ],
+    "min_degree_centrality_avg": [
+        [
+            "N. Fekir",
+            0.03296703296703297
+        ]
+    ],
+    "min_indegree_centrality_avg": [
+        [
+            "N. Fekir",
+            0.02197802197802198
+        ]
+    ],
+    "min_outdegree_centrality_avg": [
+        [
+            "N. Fekir",
+            0.01098901098901099
+        ]
+    ],
+    "max_closeness_centrality_avg": [
+        [
+            "P. Pogba",
+            0.12380952380952381
+        ]
+    ],
+    "min_closeness_centrality_avg": [
+        [
+            "H. Lloris",
+            0.07428571428571429
+        ],
+        [
+            "N. Fekir",
+            0.07428571428571429
+        ]
+    ],
+    "max_betweenness_centrality_avg": [
+        [
+            "P. Pogba",
+            0.02077991452991453
+        ]
+    ],
+    "min_betweenness_centrality_avg": [
+        [
+            "N. Fekir",
+            -0.14285714285714285
+        ]
+    ],
+    "max_clustering_coefficient_avg": [
+        [
+            "N. Fekir",
+            0.14285714285714285
+        ]
+    ],
+    "min_clustering_coefficient_avg": [
+        [
+            "P. Pogba",
+            0.07142857142857142
+        ]
+    ],
+    "max_pagerank_avg": [
+        [
+            "P. Pogba",
+            0.018731069558655944
+        ]
+    ],
+    "min_pagerank_avg": [
+        [
+            "N. Fekir",
+            0.0030963973935065454
+        ]
+    ]
+}

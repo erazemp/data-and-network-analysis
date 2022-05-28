@@ -1,4 +1,3 @@
-
 # function for calculate avg value order max
 def statistical_analysis_season_max(list):
     dict = {}

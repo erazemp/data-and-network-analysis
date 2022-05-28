@@ -211,12 +211,11 @@ if __name__ == '__main__':
     #         measures = social_network_analysis_digraph(G2, match_result, match_id, False, measures)
     #         measures = social_network_analysis_graph(G2, match_id, measures)
 
-   # G1, G2, match_result, measures = passing_networks(nation, matches, competitions, events, '2058017', measures)
-   # social_network_analysis_digraph(G1, match_result, '2058017', False, measures)
-   # social_network_analysis_graph(G1, '2058017', measures)
-   # plot_passing_networks(G1, G2, True)
+    G1, G2, match_result, measures = passing_networks(nation, matches, competitions, events, '2058017', measures)
+    social_network_analysis_digraph(G1, match_result, '2058017', False, measures)
+    social_network_analysis_graph(G1, '2058017', measures)
+    plot_passing_networks(G1, G2, True)
 
-    #
     print('\nmax_degree_centrality_avg')
     max_degree_centrality_avg = statistical_analysis_season_max(measures.listplayer_max_centrality_degree)
     print('\n max_in_degree_centrality_avg')
@@ -279,7 +278,7 @@ if __name__ == '__main__':
         'min_pagerank_avg': min_pagerank_avg
     }
 
-    with open('sna_tournament_player_france.json', 'w') as f:
+    with open('../results/sna_tournament_player_france.json', 'w') as f:
         json.dump(data_tournament, f, indent=4)
 
     print('avg density')
