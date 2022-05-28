@@ -1,5 +1,7 @@
 import networkx as nx
 from matplotlib import pyplot as plt
+import seaborn as sns
+import pandas as pd
 
 
 # function plot graph
@@ -27,3 +29,21 @@ def plot_passing_networks(G1, G2, save=False):
     if save:
         nx.write_gexf(G1, "G1.gexf")
         nx.write_gexf(G2, "G2.gexf")
+
+
+# function plot centrality
+def plot_centrality(players_centralities, names):
+    sns.set_style('ticks')
+
+    f, ax = plt.subplots(figsize=(10, 5))
+    for player_centralities, player_name in zip(players_centralities, names):
+        sns.distplot(pd.DataFrame(player_centralities, columns=['centrality'])['centrality'],
+                     label=player_name)
+    plt.grid(alpha=0.5)
+    plt.xticks(fontsize=20)
+    plt.yticks(fontsize=20)
+    plt.xlabel('centrality', fontsize=25)
+    plt.ylabel('frequency', fontsize=25)
+    lab = ax.legend(loc=1, fontsize=18, frameon=True, shadow=True)
+    f.tight_layout()
+    plt.show()

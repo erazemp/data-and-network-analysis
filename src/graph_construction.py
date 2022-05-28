@@ -1,14 +1,6 @@
 import networkx as nx
-import statistics
 from collections import defaultdict
-import numpy as np
-import warnings
-from numpy import var
 import json
-import matplotlib.pyplot as plt
-import seaborn as sns
-from tqdm import tqdm
-import pandas as pd
 
 from src.plot_graph import plot_passing_networks
 from src.social_network_analysis import social_network_analysis_digraph, social_network_analysis_graph
