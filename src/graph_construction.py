@@ -55,7 +55,8 @@ def match_list(nations, matches, team_Id):
 
 
 # get list of player_for team id
-def player_list(list_player, players, team_Id):
+def player_list(players, team_Id):
+    list_player = []
     for player in players:
         if player['currentTeamId'] == team_Id:
             player_id = player['wyId']
@@ -145,8 +146,7 @@ if __name__ == '__main__':
     list_density = []
 
     # get list of player_for team id
-    list_player = []
-    player = player_list(list_player, players, team_Id=4418)
+    list_player = player_list(players, 4418)
 
     # gemerate passing network for a selected match: #wyid --> match id of world cup matches
     # to je bol test da deluje kreiranje enenga grafa na podlagi match_id
