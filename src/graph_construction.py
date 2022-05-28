@@ -10,6 +10,7 @@ import seaborn as sns
 from tqdm import tqdm
 import pandas as pd
 
+from src.plot_graph import plot_passing_networks
 from src.social_network_analysis import social_network_analysis_digraph, social_network_analysis_graph
 
 
@@ -72,7 +73,7 @@ def passing_networks(nations, matches, competitions, events, match_id, measures)
     team1_name = ''
     team2_name = ''
     # take the names of the two teams of the match
-    competition_name = None
+    competition_name = "World_Cup"
     for nation in nations:
         for match in matches[nation]:
             if match['wyId'] == match_id:
@@ -204,13 +205,18 @@ if __name__ == '__main__':
 
     # get matches from the FRANCE national team in the world cup: total of 7 matches
     measures = match_list(nation, matches, '4418', measures)
-    for match_id in measures.list_match_wyId:
-        print(match_id)
-        G1, G2, match_result, measures = passing_networks(nation, matches, competitions, events, match_id, measures)
-        # plot_passing_networks(G1, G2)
-        if G1.name == "France":
-            measures = social_network_analysis_digraph(G1, match_result, match_id, measures)
-            measures = social_network_analysis_graph(G1, match_id, measures)
-        else:
-            measures = social_network_analysis_digraph(G2, match_result, match_id, measures)
-            measures = social_network_analysis_graph(G2, match_id, measures)
+    # for match_id in measures.list_match_wyId:
+    #     print(match_id)
+    #     G1, G2, match_result, measures = passing_networks(nation, matches, competitions, events, match_id, measures)
+    #     # plot_passing_networks(G1, G2)
+    #     if G1.name == "France":
+    #         measures = social_network_analysis_digraph(G1, match_result, match_id, False, measures)
+    #         measures = social_network_analysis_graph(G1, match_id, measures)
+    #     else:
+    #         measures = social_network_analysis_digraph(G2, match_result, match_id, False, measures)
+    #         measures = social_network_analysis_graph(G2, match_id, measures)
+
+    G1, G2, match_result, measures = passing_networks(nation, matches, competitions, events, '2058017', measures)
+    social_network_analysis_digraph(G1, match_result, '2058017', False, measures)
+    social_network_analysis_graph(G1, '2058017', measures)
+    plot_passing_networks(G1, G2)

@@ -5,17 +5,18 @@ import json
 
 
 # function for calculate metrics for sna in digraph
-def social_network_analysis_digraph(G, match_result, match_id, measures):
+def social_network_analysis_digraph(G, match_result, match_id, remove_nodes, measures):
     G.remove_edges_from(nx.selfloop_edges(G))
 
-    if G.has_node('P. Pogba'):
-        G.remove_node('P. Pogba')
+    if remove_nodes:
+        if G.has_node('P. Pogba'):
+            G.remove_node('P. Pogba')
 
-    if G.has_node('A. Griezmann'):
-        G.remove_node('A. Griezmann')
+        if G.has_node('A. Griezmann'):
+            G.remove_node('A. Griezmann')
 
-    if G.has_node('A. Griezmann'):
-        G.remove_node('A. Griezmann')
+        if G.has_node('N. Kanté'):
+            G.remove_node('N. Kanté')
 
     info_graph = nx.info(G)
     print('info G')
