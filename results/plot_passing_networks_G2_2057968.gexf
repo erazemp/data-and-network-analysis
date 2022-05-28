@@ -1,0 +1,134 @@
+<?xml version='1.0' encoding='utf-8'?>
+<gexf xmlns="http://www.gexf.net/1.2draft" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.gexf.net/1.2draft http://www.gexf.net/1.2draft/gexf.xsd" version="1.2">
+  <meta lastmodifieddate="2022-05-28">
+    <creator>NetworkX 2.8.2</creator>
+  </meta>
+  <graph defaultedgetype="directed" mode="static" name="Peru">
+    <nodes>
+      <node id="A. Rodríguez" label="A. Rodríguez" />
+      <node id="Y. Yotún" label="Y. Yotún" />
+      <node id="P. Aquino" label="P. Aquino" />
+      <node id="L. Advíncula" label="L. Advíncula" />
+      <node id="P. Guerrero" label="P. Guerrero" />
+      <node id="C. Cueva" label="C. Cueva" />
+      <node id="M. Trauco" label="M. Trauco" />
+      <node id="A. Carrillo" label="A. Carrillo" />
+      <node id="É. Flores" label="É. Flores" />
+      <node id="C. Ramos" label="C. Ramos" />
+      <node id="P. Gallese" label="P. Gallese" />
+      <node id="J. Farfán" label="J. Farfán" />
+      <node id="A. Santamaría" label="A. Santamaría" />
+      <node id="R. Ruidíaz" label="R. Ruidíaz" />
+    </nodes>
+    <edges>
+      <edge source="A. Rodríguez" target="Y. Yotún" id="0" weight="5" />
+      <edge source="A. Rodríguez" target="P. Aquino" id="1" weight="2" />
+      <edge source="A. Rodríguez" target="M. Trauco" id="2" weight="5" />
+      <edge source="A. Rodríguez" target="C. Ramos" id="3" weight="4" />
+      <edge source="A. Rodríguez" target="A. Carrillo" id="4" weight="1" />
+      <edge source="A. Rodríguez" target="P. Guerrero" id="5" weight="1" />
+      <edge source="A. Rodríguez" target="É. Flores" id="6" weight="1" />
+      <edge source="A. Rodríguez" target="C. Cueva" id="7" weight="2" />
+      <edge source="A. Rodríguez" target="L. Advíncula" id="8" weight="1" />
+      <edge source="Y. Yotún" target="P. Aquino" id="9" weight="3" />
+      <edge source="Y. Yotún" target="M. Trauco" id="10" weight="10" />
+      <edge source="Y. Yotún" target="C. Ramos" id="11" weight="4" />
+      <edge source="Y. Yotún" target="C. Cueva" id="12" weight="3" />
+      <edge source="Y. Yotún" target="A. Carrillo" id="13" weight="2" />
+      <edge source="Y. Yotún" target="A. Rodríguez" id="14" weight="1" />
+      <edge source="Y. Yotún" target="L. Advíncula" id="15" weight="3" />
+      <edge source="Y. Yotún" target="É. Flores" id="16" weight="1" />
+      <edge source="P. Aquino" target="L. Advíncula" id="17" weight="15" />
+      <edge source="P. Aquino" target="C. Ramos" id="18" weight="7" />
+      <edge source="P. Aquino" target="M. Trauco" id="19" weight="3" />
+      <edge source="P. Aquino" target="C. Cueva" id="20" weight="4" />
+      <edge source="P. Aquino" target="A. Carrillo" id="21" weight="9" />
+      <edge source="P. Aquino" target="A. Rodríguez" id="22" weight="6" />
+      <edge source="P. Aquino" target="Y. Yotún" id="23" weight="5" />
+      <edge source="P. Aquino" target="P. Aquino" id="24" weight="1" />
+      <edge source="P. Aquino" target="A. Santamaría" id="25" weight="3" />
+      <edge source="P. Aquino" target="É. Flores" id="26" weight="1" />
+      <edge source="P. Aquino" target="R. Ruidíaz" id="27" weight="1" />
+      <edge source="P. Aquino" target="J. Farfán" id="28" weight="1" />
+      <edge source="L. Advíncula" target="P. Guerrero" id="29" weight="1" />
+      <edge source="L. Advíncula" target="A. Carrillo" id="30" weight="12" />
+      <edge source="L. Advíncula" target="É. Flores" id="31" weight="5" />
+      <edge source="L. Advíncula" target="C. Ramos" id="32" weight="8" />
+      <edge source="L. Advíncula" target="P. Aquino" id="33" weight="10" />
+      <edge source="L. Advíncula" target="C. Cueva" id="34" weight="1" />
+      <edge source="P. Guerrero" target="C. Cueva" id="35" weight="4" />
+      <edge source="P. Guerrero" target="P. Aquino" id="36" weight="2" />
+      <edge source="P. Guerrero" target="L. Advíncula" id="37" weight="1" />
+      <edge source="P. Guerrero" target="A. Carrillo" id="38" weight="1" />
+      <edge source="P. Guerrero" target="J. Farfán" id="39" weight="2" />
+      <edge source="C. Cueva" target="P. Aquino" id="40" weight="2" />
+      <edge source="C. Cueva" target="A. Carrillo" id="41" weight="4" />
+      <edge source="C. Cueva" target="Y. Yotún" id="42" weight="5" />
+      <edge source="C. Cueva" target="A. Rodríguez" id="43" weight="1" />
+      <edge source="C. Cueva" target="P. Guerrero" id="44" weight="3" />
+      <edge source="C. Cueva" target="É. Flores" id="45" weight="7" />
+      <edge source="C. Cueva" target="C. Ramos" id="46" weight="2" />
+      <edge source="C. Cueva" target="J. Farfán" id="47" weight="4" />
+      <edge source="C. Cueva" target="M. Trauco" id="48" weight="2" />
+      <edge source="C. Cueva" target="A. Santamaría" id="49" weight="3" />
+      <edge source="C. Cueva" target="C. Cueva" id="50" weight="1" />
+      <edge source="M. Trauco" target="P. Guerrero" id="51" weight="4" />
+      <edge source="M. Trauco" target="É. Flores" id="52" weight="6" />
+      <edge source="M. Trauco" target="P. Aquino" id="53" weight="3" />
+      <edge source="M. Trauco" target="Y. Yotún" id="54" weight="6" />
+      <edge source="M. Trauco" target="A. Rodríguez" id="55" weight="4" />
+      <edge source="M. Trauco" target="J. Farfán" id="56" weight="5" />
+      <edge source="M. Trauco" target="M. Trauco" id="57" weight="1" />
+      <edge source="M. Trauco" target="C. Cueva" id="58" weight="5" />
+      <edge source="M. Trauco" target="A. Santamaría" id="59" weight="7" />
+      <edge source="M. Trauco" target="C. Ramos" id="60" weight="1" />
+      <edge source="A. Carrillo" target="É. Flores" id="61" weight="2" />
+      <edge source="A. Carrillo" target="L. Advíncula" id="62" weight="5" />
+      <edge source="A. Carrillo" target="M. Trauco" id="63" weight="3" />
+      <edge source="A. Carrillo" target="Y. Yotún" id="64" weight="2" />
+      <edge source="A. Carrillo" target="P. Aquino" id="65" weight="8" />
+      <edge source="A. Carrillo" target="C. Cueva" id="66" weight="2" />
+      <edge source="A. Carrillo" target="A. Rodríguez" id="67" weight="1" />
+      <edge source="A. Carrillo" target="C. Ramos" id="68" weight="1" />
+      <edge source="A. Carrillo" target="A. Santamaría" id="69" weight="3" />
+      <edge source="É. Flores" target="P. Aquino" id="70" weight="5" />
+      <edge source="É. Flores" target="M. Trauco" id="71" weight="12" />
+      <edge source="É. Flores" target="L. Advíncula" id="72" weight="3" />
+      <edge source="É. Flores" target="C. Cueva" id="73" weight="12" />
+      <edge source="É. Flores" target="A. Carrillo" id="74" weight="1" />
+      <edge source="É. Flores" target="A. Santamaría" id="75" weight="5" />
+      <edge source="É. Flores" target="P. Guerrero" id="76" weight="1" />
+      <edge source="É. Flores" target="C. Ramos" id="77" weight="1" />
+      <edge source="C. Ramos" target="A. Rodríguez" id="78" weight="6" />
+      <edge source="C. Ramos" target="L. Advíncula" id="79" weight="9" />
+      <edge source="C. Ramos" target="M. Trauco" id="80" weight="1" />
+      <edge source="C. Ramos" target="C. Cueva" id="81" weight="2" />
+      <edge source="C. Ramos" target="Y. Yotún" id="82" weight="2" />
+      <edge source="C. Ramos" target="P. Aquino" id="83" weight="3" />
+      <edge source="C. Ramos" target="A. Santamaría" id="84" weight="2" />
+      <edge source="C. Ramos" target="P. Guerrero" id="85" weight="1" />
+      <edge source="C. Ramos" target="A. Carrillo" id="86" weight="3" />
+      <edge source="C. Ramos" target="É. Flores" id="87" weight="2" />
+      <edge source="C. Ramos" target="P. Gallese" id="88" weight="2" />
+      <edge source="P. Gallese" target="A. Carrillo" id="89" weight="1" />
+      <edge source="P. Gallese" target="C. Ramos" id="90" weight="1" />
+      <edge source="P. Gallese" target="É. Flores" id="91" weight="2" />
+      <edge source="P. Gallese" target="A. Santamaría" id="92" weight="4" />
+      <edge source="P. Gallese" target="P. Guerrero" id="93" weight="2" />
+      <edge source="J. Farfán" target="L. Advíncula" id="94" weight="1" />
+      <edge source="J. Farfán" target="M. Trauco" id="95" weight="2" />
+      <edge source="J. Farfán" target="C. Cueva" id="96" weight="1" />
+      <edge source="J. Farfán" target="É. Flores" id="97" weight="3" />
+      <edge source="J. Farfán" target="A. Carrillo" id="98" weight="1" />
+      <edge source="J. Farfán" target="A. Santamaría" id="99" weight="2" />
+      <edge source="J. Farfán" target="P. Guerrero" id="100" weight="1" />
+      <edge source="A. Santamaría" target="M. Trauco" id="101" weight="10" />
+      <edge source="A. Santamaría" target="C. Ramos" id="102" weight="4" />
+      <edge source="A. Santamaría" target="É. Flores" id="103" weight="8" />
+      <edge source="A. Santamaría" target="P. Aquino" id="104" weight="6" />
+      <edge source="A. Santamaría" target="A. Carrillo" id="105" weight="2" />
+      <edge source="A. Santamaría" target="L. Advíncula" id="106" weight="1" />
+      <edge source="R. Ruidíaz" target="É. Flores" id="107" weight="1" />
+    </edges>
+  </graph>
+</gexf>

@@ -1,0 +1,115 @@
+<?xml version='1.0' encoding='utf-8'?>
+<gexf xmlns="http://www.gexf.net/1.2draft" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.gexf.net/1.2draft http://www.gexf.net/1.2draft/gexf.xsd" version="1.2">
+  <meta lastmodifieddate="2022-05-28">
+    <creator>NetworkX 2.8.2</creator>
+  </meta>
+  <graph defaultedgetype="directed" mode="static" name="France">
+    <nodes>
+      <node id="A. Griezmann" label="A. Griezmann" />
+      <node id="R. Varane" label="R. Varane" />
+      <node id="S. Umtiti" label="S. Umtiti" />
+      <node id="K. Mbappé" label="K. Mbappé" />
+      <node id="B. Pavard" label="B. Pavard" />
+      <node id="N. Kanté" label="N. Kanté" />
+      <node id="L. Hernández" label="L. Hernández" />
+      <node id="P. Pogba" label="P. Pogba" />
+      <node id="B. Matuidi" label="B. Matuidi" />
+      <node id="O. Giroud" label="O. Giroud" />
+      <node id="H. Lloris" label="H. Lloris" />
+      <node id="O. Dembélé" label="O. Dembélé" />
+      <node id="N. Fekir" label="N. Fekir" />
+    </nodes>
+    <edges>
+      <edge source="A. Griezmann" target="R. Varane" id="0" weight="1" />
+      <edge source="A. Griezmann" target="K. Mbappé" id="1" weight="4" />
+      <edge source="A. Griezmann" target="N. Kanté" id="2" weight="3" />
+      <edge source="A. Griezmann" target="P. Pogba" id="3" weight="6" />
+      <edge source="A. Griezmann" target="B. Matuidi" id="4" weight="3" />
+      <edge source="A. Griezmann" target="O. Giroud" id="5" weight="1" />
+      <edge source="A. Griezmann" target="S. Umtiti" id="6" weight="1" />
+      <edge source="A. Griezmann" target="L. Hernández" id="7" weight="1" />
+      <edge source="R. Varane" target="R. Varane" id="8" weight="1" />
+      <edge source="R. Varane" target="S. Umtiti" id="9" weight="3" />
+      <edge source="R. Varane" target="K. Mbappé" id="10" weight="2" />
+      <edge source="R. Varane" target="P. Pogba" id="11" weight="3" />
+      <edge source="R. Varane" target="B. Pavard" id="12" weight="8" />
+      <edge source="R. Varane" target="L. Hernández" id="13" weight="1" />
+      <edge source="R. Varane" target="O. Giroud" id="14" weight="1" />
+      <edge source="R. Varane" target="N. Kanté" id="15" weight="1" />
+      <edge source="R. Varane" target="H. Lloris" id="16" weight="2" />
+      <edge source="R. Varane" target="A. Griezmann" id="17" weight="1" />
+      <edge source="R. Varane" target="O. Dembélé" id="18" weight="1" />
+      <edge source="S. Umtiti" target="R. Varane" id="19" weight="3" />
+      <edge source="S. Umtiti" target="L. Hernández" id="20" weight="6" />
+      <edge source="S. Umtiti" target="P. Pogba" id="21" weight="5" />
+      <edge source="S. Umtiti" target="N. Kanté" id="22" weight="3" />
+      <edge source="S. Umtiti" target="A. Griezmann" id="23" weight="3" />
+      <edge source="S. Umtiti" target="B. Pavard" id="24" weight="1" />
+      <edge source="S. Umtiti" target="H. Lloris" id="25" weight="1" />
+      <edge source="K. Mbappé" target="B. Pavard" id="26" weight="8" />
+      <edge source="K. Mbappé" target="R. Varane" id="27" weight="1" />
+      <edge source="K. Mbappé" target="N. Kanté" id="28" weight="5" />
+      <edge source="K. Mbappé" target="P. Pogba" id="29" weight="1" />
+      <edge source="K. Mbappé" target="O. Giroud" id="30" weight="1" />
+      <edge source="K. Mbappé" target="A. Griezmann" id="31" weight="4" />
+      <edge source="K. Mbappé" target="B. Matuidi" id="32" weight="2" />
+      <edge source="B. Pavard" target="N. Kanté" id="33" weight="10" />
+      <edge source="B. Pavard" target="B. Pavard" id="34" weight="1" />
+      <edge source="B. Pavard" target="K. Mbappé" id="35" weight="9" />
+      <edge source="B. Pavard" target="R. Varane" id="36" weight="3" />
+      <edge source="B. Pavard" target="P. Pogba" id="37" weight="3" />
+      <edge source="B. Pavard" target="H. Lloris" id="38" weight="4" />
+      <edge source="B. Pavard" target="O. Dembélé" id="39" weight="3" />
+      <edge source="B. Pavard" target="O. Giroud" id="40" weight="1" />
+      <edge source="N. Kanté" target="R. Varane" id="41" weight="6" />
+      <edge source="N. Kanté" target="B. Pavard" id="42" weight="13" />
+      <edge source="N. Kanté" target="A. Griezmann" id="43" weight="6" />
+      <edge source="N. Kanté" target="K. Mbappé" id="44" weight="5" />
+      <edge source="N. Kanté" target="P. Pogba" id="45" weight="3" />
+      <edge source="N. Kanté" target="N. Kanté" id="46" weight="1" />
+      <edge source="N. Kanté" target="B. Matuidi" id="47" weight="4" />
+      <edge source="N. Kanté" target="L. Hernández" id="48" weight="2" />
+      <edge source="N. Kanté" target="S. Umtiti" id="49" weight="1" />
+      <edge source="L. Hernández" target="S. Umtiti" id="50" weight="3" />
+      <edge source="L. Hernández" target="P. Pogba" id="51" weight="8" />
+      <edge source="L. Hernández" target="B. Matuidi" id="52" weight="6" />
+      <edge source="L. Hernández" target="N. Kanté" id="53" weight="2" />
+      <edge source="L. Hernández" target="A. Griezmann" id="54" weight="1" />
+      <edge source="P. Pogba" target="B. Matuidi" id="55" weight="9" />
+      <edge source="P. Pogba" target="L. Hernández" id="56" weight="5" />
+      <edge source="P. Pogba" target="B. Pavard" id="57" weight="2" />
+      <edge source="P. Pogba" target="R. Varane" id="58" weight="6" />
+      <edge source="P. Pogba" target="K. Mbappé" id="59" weight="2" />
+      <edge source="P. Pogba" target="N. Kanté" id="60" weight="6" />
+      <edge source="P. Pogba" target="S. Umtiti" id="61" weight="3" />
+      <edge source="P. Pogba" target="P. Pogba" id="62" weight="2" />
+      <edge source="P. Pogba" target="A. Griezmann" id="63" weight="2" />
+      <edge source="P. Pogba" target="O. Giroud" id="64" weight="3" />
+      <edge source="B. Matuidi" target="P. Pogba" id="65" weight="8" />
+      <edge source="B. Matuidi" target="K. Mbappé" id="66" weight="2" />
+      <edge source="B. Matuidi" target="A. Griezmann" id="67" weight="5" />
+      <edge source="B. Matuidi" target="L. Hernández" id="68" weight="2" />
+      <edge source="B. Matuidi" target="O. Giroud" id="69" weight="2" />
+      <edge source="B. Matuidi" target="N. Kanté" id="70" weight="1" />
+      <edge source="B. Matuidi" target="S. Umtiti" id="71" weight="1" />
+      <edge source="B. Matuidi" target="B. Matuidi" id="72" weight="1" />
+      <edge source="B. Matuidi" target="N. Fekir" id="73" weight="2" />
+      <edge source="O. Giroud" target="B. Matuidi" id="74" weight="1" />
+      <edge source="O. Giroud" target="R. Varane" id="75" weight="1" />
+      <edge source="O. Giroud" target="A. Griezmann" id="76" weight="1" />
+      <edge source="O. Giroud" target="P. Pogba" id="77" weight="3" />
+      <edge source="O. Giroud" target="L. Hernández" id="78" weight="1" />
+      <edge source="O. Giroud" target="K. Mbappé" id="79" weight="1" />
+      <edge source="O. Giroud" target="N. Fekir" id="80" weight="1" />
+      <edge source="H. Lloris" target="N. Kanté" id="81" weight="1" />
+      <edge source="H. Lloris" target="R. Varane" id="82" weight="2" />
+      <edge source="H. Lloris" target="S. Umtiti" id="83" weight="2" />
+      <edge source="H. Lloris" target="A. Griezmann" id="84" weight="1" />
+      <edge source="O. Dembélé" target="B. Pavard" id="85" weight="2" />
+      <edge source="O. Dembélé" target="O. Giroud" id="86" weight="1" />
+      <edge source="O. Dembélé" target="N. Kanté" id="87" weight="1" />
+      <edge source="O. Dembélé" target="N. Fekir" id="88" weight="1" />
+      <edge source="N. Fekir" target="O. Dembélé" id="89" weight="2" />
+    </edges>
+  </graph>
+</gexf>

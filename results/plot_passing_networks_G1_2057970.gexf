@@ -1,0 +1,117 @@
+<?xml version='1.0' encoding='utf-8'?>
+<gexf xmlns="http://www.gexf.net/1.2draft" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.gexf.net/1.2draft http://www.gexf.net/1.2draft/gexf.xsd" version="1.2">
+  <meta lastmodifieddate="2022-05-28">
+    <creator>NetworkX 2.8.2</creator>
+  </meta>
+  <graph defaultedgetype="directed" mode="static" name="Denmark">
+    <nodes>
+      <node id="M. Jørgensen" label="M. Jørgensen" />
+      <node id="M. Braithwaite" label="M. Braithwaite" />
+      <node id="H. Dalsgaard" label="H. Dalsgaard" />
+      <node id="C. Eriksen" label="C. Eriksen" />
+      <node id="T. Delaney" label="T. Delaney" />
+      <node id="J. Stryger Larsen" label="J. Stryger Larsen" />
+      <node id="K. Schmeichel" label="K. Schmeichel" />
+      <node id="A. Christensen" label="A. Christensen" />
+      <node id="A. Cornelius" label="A. Cornelius" />
+      <node id="P. Sisto" label="P. Sisto" />
+      <node id="S. Kjær" label="S. Kjær" />
+      <node id="V. Fischer" label="V. Fischer" />
+      <node id="K. Dolberg" label="K. Dolberg" />
+    </nodes>
+    <edges>
+      <edge source="M. Jørgensen" target="M. Braithwaite" id="0" weight="1" />
+      <edge source="M. Jørgensen" target="T. Delaney" id="1" weight="2" />
+      <edge source="M. Jørgensen" target="S. Kjær" id="2" weight="11" />
+      <edge source="M. Jørgensen" target="A. Christensen" id="3" weight="2" />
+      <edge source="M. Jørgensen" target="K. Schmeichel" id="4" weight="6" />
+      <edge source="M. Jørgensen" target="P. Sisto" id="5" weight="1" />
+      <edge source="M. Jørgensen" target="A. Cornelius" id="6" weight="1" />
+      <edge source="M. Jørgensen" target="H. Dalsgaard" id="7" weight="1" />
+      <edge source="M. Jørgensen" target="V. Fischer" id="8" weight="1" />
+      <edge source="M. Jørgensen" target="J. Stryger Larsen" id="9" weight="1" />
+      <edge source="M. Braithwaite" target="H. Dalsgaard" id="10" weight="8" />
+      <edge source="M. Braithwaite" target="C. Eriksen" id="11" weight="3" />
+      <edge source="M. Braithwaite" target="T. Delaney" id="12" weight="2" />
+      <edge source="M. Braithwaite" target="A. Christensen" id="13" weight="1" />
+      <edge source="M. Braithwaite" target="A. Cornelius" id="14" weight="1" />
+      <edge source="M. Braithwaite" target="V. Fischer" id="15" weight="1" />
+      <edge source="M. Braithwaite" target="J. Stryger Larsen" id="16" weight="1" />
+      <edge source="H. Dalsgaard" target="C. Eriksen" id="17" weight="4" />
+      <edge source="H. Dalsgaard" target="M. Braithwaite" id="18" weight="3" />
+      <edge source="H. Dalsgaard" target="T. Delaney" id="19" weight="1" />
+      <edge source="H. Dalsgaard" target="M. Jørgensen" id="20" weight="1" />
+      <edge source="H. Dalsgaard" target="K. Schmeichel" id="21" weight="1" />
+      <edge source="H. Dalsgaard" target="S. Kjær" id="22" weight="6" />
+      <edge source="H. Dalsgaard" target="K. Dolberg" id="23" weight="1" />
+      <edge source="H. Dalsgaard" target="J. Stryger Larsen" id="24" weight="1" />
+      <edge source="C. Eriksen" target="T. Delaney" id="25" weight="1" />
+      <edge source="C. Eriksen" target="M. Braithwaite" id="26" weight="5" />
+      <edge source="C. Eriksen" target="A. Cornelius" id="27" weight="2" />
+      <edge source="C. Eriksen" target="J. Stryger Larsen" id="28" weight="1" />
+      <edge source="C. Eriksen" target="A. Christensen" id="29" weight="2" />
+      <edge source="C. Eriksen" target="S. Kjær" id="30" weight="3" />
+      <edge source="C. Eriksen" target="M. Jørgensen" id="31" weight="2" />
+      <edge source="C. Eriksen" target="V. Fischer" id="32" weight="1" />
+      <edge source="C. Eriksen" target="H. Dalsgaard" id="33" weight="1" />
+      <edge source="T. Delaney" target="C. Eriksen" id="34" weight="2" />
+      <edge source="T. Delaney" target="M. Jørgensen" id="35" weight="4" />
+      <edge source="T. Delaney" target="P. Sisto" id="36" weight="2" />
+      <edge source="T. Delaney" target="S. Kjær" id="37" weight="2" />
+      <edge source="T. Delaney" target="H. Dalsgaard" id="38" weight="3" />
+      <edge source="T. Delaney" target="A. Cornelius" id="39" weight="5" />
+      <edge source="T. Delaney" target="J. Stryger Larsen" id="40" weight="1" />
+      <edge source="T. Delaney" target="K. Schmeichel" id="41" weight="1" />
+      <edge source="T. Delaney" target="A. Christensen" id="42" weight="2" />
+      <edge source="T. Delaney" target="V. Fischer" id="43" weight="1" />
+      <edge source="T. Delaney" target="M. Braithwaite" id="44" weight="1" />
+      <edge source="J. Stryger Larsen" target="K. Schmeichel" id="45" weight="2" />
+      <edge source="J. Stryger Larsen" target="A. Christensen" id="46" weight="1" />
+      <edge source="J. Stryger Larsen" target="S. Kjær" id="47" weight="2" />
+      <edge source="J. Stryger Larsen" target="T. Delaney" id="48" weight="2" />
+      <edge source="J. Stryger Larsen" target="M. Jørgensen" id="49" weight="4" />
+      <edge source="J. Stryger Larsen" target="P. Sisto" id="50" weight="2" />
+      <edge source="J. Stryger Larsen" target="C. Eriksen" id="51" weight="2" />
+      <edge source="J. Stryger Larsen" target="M. Braithwaite" id="52" weight="1" />
+      <edge source="J. Stryger Larsen" target="K. Dolberg" id="53" weight="1" />
+      <edge source="K. Schmeichel" target="A. Cornelius" id="54" weight="1" />
+      <edge source="K. Schmeichel" target="T. Delaney" id="55" weight="2" />
+      <edge source="K. Schmeichel" target="A. Christensen" id="56" weight="3" />
+      <edge source="K. Schmeichel" target="C. Eriksen" id="57" weight="1" />
+      <edge source="K. Schmeichel" target="S. Kjær" id="58" weight="2" />
+      <edge source="A. Christensen" target="H. Dalsgaard" id="59" weight="5" />
+      <edge source="A. Christensen" target="J. Stryger Larsen" id="60" weight="2" />
+      <edge source="A. Christensen" target="C. Eriksen" id="61" weight="3" />
+      <edge source="A. Christensen" target="P. Sisto" id="62" weight="1" />
+      <edge source="A. Christensen" target="S. Kjær" id="63" weight="5" />
+      <edge source="A. Christensen" target="T. Delaney" id="64" weight="4" />
+      <edge source="A. Christensen" target="A. Christensen" id="65" weight="1" />
+      <edge source="A. Christensen" target="M. Braithwaite" id="66" weight="2" />
+      <edge source="A. Christensen" target="K. Dolberg" id="67" weight="1" />
+      <edge source="A. Christensen" target="M. Jørgensen" id="68" weight="1" />
+      <edge source="A. Cornelius" target="C. Eriksen" id="69" weight="2" />
+      <edge source="A. Cornelius" target="M. Braithwaite" id="70" weight="1" />
+      <edge source="A. Cornelius" target="H. Dalsgaard" id="71" weight="1" />
+      <edge source="A. Cornelius" target="V. Fischer" id="72" weight="1" />
+      <edge source="P. Sisto" target="M. Jørgensen" id="73" weight="3" />
+      <edge source="P. Sisto" target="M. Braithwaite" id="74" weight="1" />
+      <edge source="P. Sisto" target="J. Stryger Larsen" id="75" weight="1" />
+      <edge source="P. Sisto" target="H. Dalsgaard" id="76" weight="1" />
+      <edge source="S. Kjær" target="H. Dalsgaard" id="77" weight="2" />
+      <edge source="S. Kjær" target="M. Jørgensen" id="78" weight="11" />
+      <edge source="S. Kjær" target="J. Stryger Larsen" id="79" weight="1" />
+      <edge source="S. Kjær" target="M. Braithwaite" id="80" weight="1" />
+      <edge source="S. Kjær" target="K. Schmeichel" id="81" weight="5" />
+      <edge source="S. Kjær" target="T. Delaney" id="82" weight="4" />
+      <edge source="S. Kjær" target="A. Christensen" id="83" weight="2" />
+      <edge source="S. Kjær" target="C. Eriksen" id="84" weight="1" />
+      <edge source="V. Fischer" target="J. Stryger Larsen" id="85" weight="2" />
+      <edge source="V. Fischer" target="C. Eriksen" id="86" weight="2" />
+      <edge source="V. Fischer" target="A. Christensen" id="87" weight="1" />
+      <edge source="V. Fischer" target="T. Delaney" id="88" weight="2" />
+      <edge source="V. Fischer" target="K. Dolberg" id="89" weight="1" />
+      <edge source="K. Dolberg" target="M. Braithwaite" id="90" weight="1" />
+      <edge source="K. Dolberg" target="V. Fischer" id="91" weight="2" />
+    </edges>
+  </graph>
+</gexf>

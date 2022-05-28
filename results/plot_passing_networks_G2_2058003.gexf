@@ -1,0 +1,135 @@
+<?xml version='1.0' encoding='utf-8'?>
+<gexf xmlns="http://www.gexf.net/1.2draft" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.gexf.net/1.2draft http://www.gexf.net/1.2draft/gexf.xsd" version="1.2">
+  <meta lastmodifieddate="2022-05-28">
+    <creator>NetworkX 2.8.2</creator>
+  </meta>
+  <graph defaultedgetype="directed" mode="static" name="Argentina">
+    <nodes>
+      <node id="M. Rojo" label="M. Rojo" />
+      <node id="N. Tagliafico" label="N. Tagliafico" />
+      <node id="N. Otamendi" label="N. Otamendi" />
+      <node id="G. Mercado" label="G. Mercado" />
+      <node id="C. Pavón" label="C. Pavón" />
+      <node id="J. Mascherano" label="J. Mascherano" />
+      <node id="F. Armani" label="F. Armani" />
+      <node id="E. Pérez" label="E. Pérez" />
+      <node id="Á. di María" label="Á. di María" />
+      <node id="É. Banega" label="É. Banega" />
+      <node id="L. Messi" label="L. Messi" />
+      <node id="F. Fazio" label="F. Fazio" />
+      <node id="S. Agüero" label="S. Agüero" />
+      <node id="M. Meza" label="M. Meza" />
+    </nodes>
+    <edges>
+      <edge source="M. Rojo" target="N. Tagliafico" id="0" weight="6" />
+      <edge source="M. Rojo" target="N. Otamendi" id="1" weight="5" />
+      <edge source="M. Rojo" target="É. Banega" id="2" weight="5" />
+      <edge source="M. Rojo" target="L. Messi" id="3" weight="1" />
+      <edge source="M. Rojo" target="G. Mercado" id="4" weight="2" />
+      <edge source="M. Rojo" target="J. Mascherano" id="5" weight="6" />
+      <edge source="N. Tagliafico" target="M. Rojo" id="6" weight="3" />
+      <edge source="N. Tagliafico" target="F. Armani" id="7" weight="1" />
+      <edge source="N. Tagliafico" target="É. Banega" id="8" weight="4" />
+      <edge source="N. Tagliafico" target="Á. di María" id="9" weight="4" />
+      <edge source="N. Tagliafico" target="N. Otamendi" id="10" weight="2" />
+      <edge source="N. Tagliafico" target="C. Pavón" id="11" weight="1" />
+      <edge source="N. Tagliafico" target="L. Messi" id="12" weight="1" />
+      <edge source="N. Tagliafico" target="M. Meza" id="13" weight="1" />
+      <edge source="N. Otamendi" target="G. Mercado" id="14" weight="17" />
+      <edge source="N. Otamendi" target="E. Pérez" id="15" weight="6" />
+      <edge source="N. Otamendi" target="M. Rojo" id="16" weight="6" />
+      <edge source="N. Otamendi" target="J. Mascherano" id="17" weight="5" />
+      <edge source="N. Otamendi" target="C. Pavón" id="18" weight="2" />
+      <edge source="N. Otamendi" target="É. Banega" id="19" weight="12" />
+      <edge source="N. Otamendi" target="F. Armani" id="20" weight="4" />
+      <edge source="N. Otamendi" target="L. Messi" id="21" weight="2" />
+      <edge source="N. Otamendi" target="N. Tagliafico" id="22" weight="4" />
+      <edge source="N. Otamendi" target="Á. di María" id="23" weight="1" />
+      <edge source="N. Otamendi" target="F. Fazio" id="24" weight="2" />
+      <edge source="N. Otamendi" target="M. Meza" id="25" weight="1" />
+      <edge source="G. Mercado" target="C. Pavón" id="26" weight="11" />
+      <edge source="G. Mercado" target="N. Otamendi" id="27" weight="13" />
+      <edge source="G. Mercado" target="É. Banega" id="28" weight="4" />
+      <edge source="G. Mercado" target="E. Pérez" id="29" weight="15" />
+      <edge source="G. Mercado" target="L. Messi" id="30" weight="11" />
+      <edge source="G. Mercado" target="J. Mascherano" id="31" weight="4" />
+      <edge source="G. Mercado" target="F. Fazio" id="32" weight="4" />
+      <edge source="G. Mercado" target="M. Meza" id="33" weight="5" />
+      <edge source="G. Mercado" target="F. Armani" id="34" weight="1" />
+      <edge source="C. Pavón" target="G. Mercado" id="35" weight="6" />
+      <edge source="C. Pavón" target="N. Otamendi" id="36" weight="3" />
+      <edge source="C. Pavón" target="E. Pérez" id="37" weight="3" />
+      <edge source="C. Pavón" target="J. Mascherano" id="38" weight="2" />
+      <edge source="C. Pavón" target="N. Tagliafico" id="39" weight="1" />
+      <edge source="C. Pavón" target="É. Banega" id="40" weight="1" />
+      <edge source="C. Pavón" target="F. Fazio" id="41" weight="1" />
+      <edge source="J. Mascherano" target="F. Armani" id="42" weight="4" />
+      <edge source="J. Mascherano" target="N. Tagliafico" id="43" weight="3" />
+      <edge source="J. Mascherano" target="G. Mercado" id="44" weight="11" />
+      <edge source="J. Mascherano" target="E. Pérez" id="45" weight="3" />
+      <edge source="J. Mascherano" target="M. Rojo" id="46" weight="3" />
+      <edge source="J. Mascherano" target="C. Pavón" id="47" weight="3" />
+      <edge source="J. Mascherano" target="Á. di María" id="48" weight="3" />
+      <edge source="J. Mascherano" target="É. Banega" id="49" weight="9" />
+      <edge source="J. Mascherano" target="N. Otamendi" id="50" weight="5" />
+      <edge source="J. Mascherano" target="L. Messi" id="51" weight="1" />
+      <edge source="J. Mascherano" target="F. Fazio" id="52" weight="3" />
+      <edge source="J. Mascherano" target="J. Mascherano" id="53" weight="1" />
+      <edge source="F. Armani" target="N. Otamendi" id="54" weight="1" />
+      <edge source="F. Armani" target="N. Tagliafico" id="55" weight="1" />
+      <edge source="F. Armani" target="G. Mercado" id="56" weight="4" />
+      <edge source="F. Armani" target="J. Mascherano" id="57" weight="3" />
+      <edge source="F. Armani" target="M. Rojo" id="58" weight="1" />
+      <edge source="F. Armani" target="F. Fazio" id="59" weight="2" />
+      <edge source="E. Pérez" target="G. Mercado" id="60" weight="10" />
+      <edge source="E. Pérez" target="C. Pavón" id="61" weight="4" />
+      <edge source="E. Pérez" target="Á. di María" id="62" weight="1" />
+      <edge source="E. Pérez" target="J. Mascherano" id="63" weight="4" />
+      <edge source="E. Pérez" target="N. Otamendi" id="64" weight="6" />
+      <edge source="E. Pérez" target="L. Messi" id="65" weight="7" />
+      <edge source="E. Pérez" target="F. Fazio" id="66" weight="1" />
+      <edge source="E. Pérez" target="N. Tagliafico" id="67" weight="1" />
+      <edge source="Á. di María" target="É. Banega" id="68" weight="3" />
+      <edge source="Á. di María" target="M. Rojo" id="69" weight="2" />
+      <edge source="Á. di María" target="J. Mascherano" id="70" weight="1" />
+      <edge source="Á. di María" target="L. Messi" id="71" weight="1" />
+      <edge source="Á. di María" target="S. Agüero" id="72" weight="1" />
+      <edge source="É. Banega" target="Á. di María" id="73" weight="7" />
+      <edge source="É. Banega" target="E. Pérez" id="74" weight="4" />
+      <edge source="É. Banega" target="G. Mercado" id="75" weight="7" />
+      <edge source="É. Banega" target="M. Rojo" id="76" weight="3" />
+      <edge source="É. Banega" target="N. Otamendi" id="77" weight="10" />
+      <edge source="É. Banega" target="N. Tagliafico" id="78" weight="1" />
+      <edge source="É. Banega" target="C. Pavón" id="79" weight="1" />
+      <edge source="É. Banega" target="J. Mascherano" id="80" weight="6" />
+      <edge source="É. Banega" target="F. Fazio" id="81" weight="2" />
+      <edge source="É. Banega" target="F. Armani" id="82" weight="1" />
+      <edge source="É. Banega" target="L. Messi" id="83" weight="3" />
+      <edge source="É. Banega" target="S. Agüero" id="84" weight="3" />
+      <edge source="É. Banega" target="É. Banega" id="85" weight="1" />
+      <edge source="L. Messi" target="G. Mercado" id="86" weight="6" />
+      <edge source="L. Messi" target="C. Pavón" id="87" weight="4" />
+      <edge source="L. Messi" target="J. Mascherano" id="88" weight="4" />
+      <edge source="L. Messi" target="E. Pérez" id="89" weight="1" />
+      <edge source="L. Messi" target="É. Banega" id="90" weight="2" />
+      <edge source="L. Messi" target="N. Otamendi" id="91" weight="1" />
+      <edge source="L. Messi" target="S. Agüero" id="92" weight="2" />
+      <edge source="L. Messi" target="M. Meza" id="93" weight="1" />
+      <edge source="L. Messi" target="Á. di María" id="94" weight="1" />
+      <edge source="F. Fazio" target="N. Otamendi" id="95" weight="9" />
+      <edge source="F. Fazio" target="E. Pérez" id="96" weight="2" />
+      <edge source="F. Fazio" target="J. Mascherano" id="97" weight="3" />
+      <edge source="F. Fazio" target="G. Mercado" id="98" weight="2" />
+      <edge source="F. Fazio" target="F. Fazio" id="99" weight="1" />
+      <edge source="F. Fazio" target="F. Armani" id="100" weight="1" />
+      <edge source="F. Fazio" target="É. Banega" id="101" weight="1" />
+      <edge source="F. Fazio" target="Á. di María" id="102" weight="1" />
+      <edge source="S. Agüero" target="É. Banega" id="103" weight="4" />
+      <edge source="S. Agüero" target="M. Meza" id="104" weight="1" />
+      <edge source="M. Meza" target="F. Fazio" id="105" weight="3" />
+      <edge source="M. Meza" target="G. Mercado" id="106" weight="2" />
+      <edge source="M. Meza" target="L. Messi" id="107" weight="1" />
+      <edge source="M. Meza" target="J. Mascherano" id="108" weight="1" />
+    </edges>
+  </graph>
+</gexf>

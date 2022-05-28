@@ -5,7 +5,7 @@ import pandas as pd
 
 
 # function plot graph
-def plot_passing_networks(G1, G2, save=False):
+def plot_passing_networks(G1, G2, match_id, save=False):
     pos1 = nx.spring_layout(G1)
     pos2 = nx.spring_layout(G2)
     nome2degree = dict(G1.degree)
@@ -16,8 +16,8 @@ def plot_passing_networks(G1, G2, save=False):
             node_color='red', edge_color='black',
             with_labels=True, font_weight='bold', alpha=0.75)
     if save:
-        nx.write_gexf(G1, "../results/G1.gexf")
-        plt.savefig('../results/plot_passing_networks_G1.png')
+        nx.write_gexf(G1, f'../results/plot_passing_networks_G1_{match_id}.gexf')
+        plt.savefig(f'../results/plot_passing_networks_G1_{match_id}.png')
     plt.show()
 
     nome2degree = dict(G2.degree)
@@ -28,8 +28,8 @@ def plot_passing_networks(G1, G2, save=False):
             node_color='blue', edge_color='black',
             with_labels=True, font_weight='bold', alpha=0.75)
     if save:
-        plt.savefig('../results/plot_passing_networks_G2.png')
-        nx.write_gexf(G2, "../results/G2.gexf")
+        nx.write_gexf(G2, f'../results/plot_passing_networks_G2_{match_id}.gexf')
+        plt.savefig(f'../results/plot_passing_networks_G2_{match_id}.png')
     plt.show()
 
 

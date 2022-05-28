@@ -1,0 +1,123 @@
+<?xml version='1.0' encoding='utf-8'?>
+<gexf xmlns="http://www.gexf.net/1.2draft" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.gexf.net/1.2draft http://www.gexf.net/1.2draft/gexf.xsd" version="1.2">
+  <meta lastmodifieddate="2022-05-28">
+    <creator>NetworkX 2.8.2</creator>
+  </meta>
+  <graph defaultedgetype="directed" mode="static" name="Uruguay">
+    <nodes>
+      <node id="L. Suárez" label="L. Suárez" />
+      <node id="L. Torreira" label="L. Torreira" />
+      <node id="D. Godín" label="D. Godín" />
+      <node id="J. Giménez" label="J. Giménez" />
+      <node id="N. Nández" label="N. Nández" />
+      <node id="F. Muslera" label="F. Muslera" />
+      <node id="M. Cáceres" label="M. Cáceres" />
+      <node id="R. Bentancur" label="R. Bentancur" />
+      <node id="C. Stuani" label="C. Stuani" />
+      <node id="D. Laxalt" label="D. Laxalt" />
+      <node id="M. Vecino" label="M. Vecino" />
+      <node id="C. Rodríguez" label="C. Rodríguez" />
+      <node id="Maxi Gómez" label="Maxi Gómez" />
+      <node id="J. Urretavizcaya" label="J. Urretavizcaya" />
+    </nodes>
+    <edges>
+      <edge source="L. Suárez" target="L. Torreira" id="0" weight="3" />
+      <edge source="L. Suárez" target="D. Laxalt" id="1" weight="2" />
+      <edge source="L. Suárez" target="C. Stuani" id="2" weight="2" />
+      <edge source="L. Suárez" target="M. Vecino" id="3" weight="1" />
+      <edge source="L. Suárez" target="N. Nández" id="4" weight="2" />
+      <edge source="L. Suárez" target="R. Bentancur" id="5" weight="1" />
+      <edge source="L. Suárez" target="M. Cáceres" id="6" weight="1" />
+      <edge source="L. Suárez" target="C. Rodríguez" id="7" weight="1" />
+      <edge source="L. Torreira" target="D. Godín" id="8" weight="2" />
+      <edge source="L. Torreira" target="M. Vecino" id="9" weight="3" />
+      <edge source="L. Torreira" target="J. Giménez" id="10" weight="7" />
+      <edge source="L. Torreira" target="N. Nández" id="11" weight="1" />
+      <edge source="L. Torreira" target="L. Suárez" id="12" weight="1" />
+      <edge source="L. Torreira" target="R. Bentancur" id="13" weight="3" />
+      <edge source="L. Torreira" target="C. Rodríguez" id="14" weight="2" />
+      <edge source="L. Torreira" target="J. Urretavizcaya" id="15" weight="2" />
+      <edge source="L. Torreira" target="M. Cáceres" id="16" weight="3" />
+      <edge source="L. Torreira" target="D. Laxalt" id="17" weight="1" />
+      <edge source="D. Godín" target="L. Torreira" id="18" weight="5" />
+      <edge source="D. Godín" target="M. Cáceres" id="19" weight="4" />
+      <edge source="D. Godín" target="M. Vecino" id="20" weight="4" />
+      <edge source="D. Godín" target="J. Giménez" id="21" weight="5" />
+      <edge source="D. Godín" target="R. Bentancur" id="22" weight="1" />
+      <edge source="D. Godín" target="D. Godín" id="23" weight="1" />
+      <edge source="D. Godín" target="L. Suárez" id="24" weight="2" />
+      <edge source="D. Godín" target="C. Rodríguez" id="25" weight="2" />
+      <edge source="D. Godín" target="N. Nández" id="26" weight="1" />
+      <edge source="D. Godín" target="F. Muslera" id="27" weight="1" />
+      <edge source="D. Godín" target="J. Urretavizcaya" id="28" weight="1" />
+      <edge source="J. Giménez" target="D. Godín" id="29" weight="6" />
+      <edge source="J. Giménez" target="M. Cáceres" id="30" weight="4" />
+      <edge source="J. Giménez" target="J. Giménez" id="31" weight="1" />
+      <edge source="J. Giménez" target="R. Bentancur" id="32" weight="2" />
+      <edge source="J. Giménez" target="M. Vecino" id="33" weight="1" />
+      <edge source="J. Giménez" target="N. Nández" id="34" weight="2" />
+      <edge source="J. Giménez" target="Maxi Gómez" id="35" weight="1" />
+      <edge source="J. Giménez" target="L. Torreira" id="36" weight="1" />
+      <edge source="J. Giménez" target="J. Urretavizcaya" id="37" weight="1" />
+      <edge source="N. Nández" target="L. Torreira" id="38" weight="1" />
+      <edge source="N. Nández" target="M. Cáceres" id="39" weight="4" />
+      <edge source="N. Nández" target="L. Suárez" id="40" weight="3" />
+      <edge source="N. Nández" target="N. Nández" id="41" weight="1" />
+      <edge source="N. Nández" target="R. Bentancur" id="42" weight="1" />
+      <edge source="N. Nández" target="J. Giménez" id="43" weight="2" />
+      <edge source="N. Nández" target="C. Stuani" id="44" weight="4" />
+      <edge source="N. Nández" target="M. Vecino" id="45" weight="1" />
+      <edge source="N. Nández" target="C. Rodríguez" id="46" weight="1" />
+      <edge source="F. Muslera" target="J. Giménez" id="47" weight="2" />
+      <edge source="F. Muslera" target="D. Godín" id="48" weight="3" />
+      <edge source="F. Muslera" target="M. Cáceres" id="49" weight="2" />
+      <edge source="F. Muslera" target="L. Torreira" id="50" weight="1" />
+      <edge source="M. Cáceres" target="J. Giménez" id="51" weight="2" />
+      <edge source="M. Cáceres" target="F. Muslera" id="52" weight="1" />
+      <edge source="M. Cáceres" target="N. Nández" id="53" weight="4" />
+      <edge source="M. Cáceres" target="C. Stuani" id="54" weight="1" />
+      <edge source="M. Cáceres" target="D. Godín" id="55" weight="3" />
+      <edge source="M. Cáceres" target="L. Suárez" id="56" weight="2" />
+      <edge source="M. Cáceres" target="L. Torreira" id="57" weight="2" />
+      <edge source="M. Cáceres" target="J. Urretavizcaya" id="58" weight="2" />
+      <edge source="M. Cáceres" target="M. Vecino" id="59" weight="1" />
+      <edge source="M. Cáceres" target="D. Laxalt" id="60" weight="1" />
+      <edge source="R. Bentancur" target="C. Stuani" id="61" weight="2" />
+      <edge source="R. Bentancur" target="N. Nández" id="62" weight="3" />
+      <edge source="R. Bentancur" target="L. Torreira" id="63" weight="3" />
+      <edge source="R. Bentancur" target="D. Laxalt" id="64" weight="1" />
+      <edge source="R. Bentancur" target="L. Suárez" id="65" weight="1" />
+      <edge source="R. Bentancur" target="M. Vecino" id="66" weight="1" />
+      <edge source="C. Stuani" target="R. Bentancur" id="67" weight="2" />
+      <edge source="C. Stuani" target="M. Cáceres" id="68" weight="2" />
+      <edge source="D. Laxalt" target="R. Bentancur" id="69" weight="1" />
+      <edge source="D. Laxalt" target="D. Godín" id="70" weight="2" />
+      <edge source="D. Laxalt" target="M. Vecino" id="71" weight="1" />
+      <edge source="D. Laxalt" target="L. Suárez" id="72" weight="1" />
+      <edge source="D. Laxalt" target="J. Giménez" id="73" weight="1" />
+      <edge source="D. Laxalt" target="M. Cáceres" id="74" weight="1" />
+      <edge source="D. Laxalt" target="J. Urretavizcaya" id="75" weight="4" />
+      <edge source="D. Laxalt" target="Maxi Gómez" id="76" weight="1" />
+      <edge source="M. Vecino" target="D. Laxalt" id="77" weight="1" />
+      <edge source="M. Vecino" target="L. Torreira" id="78" weight="2" />
+      <edge source="M. Vecino" target="C. Stuani" id="79" weight="1" />
+      <edge source="M. Vecino" target="R. Bentancur" id="80" weight="3" />
+      <edge source="M. Vecino" target="J. Giménez" id="81" weight="1" />
+      <edge source="M. Vecino" target="M. Vecino" id="82" weight="2" />
+      <edge source="M. Vecino" target="N. Nández" id="83" weight="2" />
+      <edge source="M. Vecino" target="M. Cáceres" id="84" weight="1" />
+      <edge source="M. Vecino" target="C. Rodríguez" id="85" weight="1" />
+      <edge source="C. Rodríguez" target="C. Rodríguez" id="86" weight="1" />
+      <edge source="C. Rodríguez" target="L. Suárez" id="87" weight="3" />
+      <edge source="C. Rodríguez" target="D. Laxalt" id="88" weight="4" />
+      <edge source="C. Rodríguez" target="L. Torreira" id="89" weight="1" />
+      <edge source="Maxi Gómez" target="N. Nández" id="90" weight="1" />
+      <edge source="J. Urretavizcaya" target="J. Urretavizcaya" id="91" weight="1" />
+      <edge source="J. Urretavizcaya" target="M. Cáceres" id="92" weight="2" />
+      <edge source="J. Urretavizcaya" target="D. Godín" id="93" weight="1" />
+      <edge source="J. Urretavizcaya" target="L. Torreira" id="94" weight="3" />
+      <edge source="J. Urretavizcaya" target="C. Rodríguez" id="95" weight="1" />
+      <edge source="J. Urretavizcaya" target="M. Vecino" id="96" weight="1" />
+    </edges>
+  </graph>
+</gexf>

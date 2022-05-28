@@ -1,0 +1,102 @@
+<?xml version='1.0' encoding='utf-8'?>
+<gexf xmlns="http://www.gexf.net/1.2draft" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.gexf.net/1.2draft http://www.gexf.net/1.2draft/gexf.xsd" version="1.2">
+  <meta lastmodifieddate="2022-05-28">
+    <creator>NetworkX 2.8.2</creator>
+  </meta>
+  <graph defaultedgetype="directed" mode="static" name="Australia">
+    <nodes>
+      <node id="A. Nabbout" label="A. Nabbout" />
+      <node id="T. Sainsbury" label="T. Sainsbury" />
+      <node id="M. Jedinak" label="M. Jedinak" />
+      <node id="J. Risdon" label="J. Risdon" />
+      <node id="A. Behich" label="A. Behich" />
+      <node id="A. Mooy" label="A. Mooy" />
+      <node id="M. Ryan" label="M. Ryan" />
+      <node id="M. Milligan" label="M. Milligan" />
+      <node id="T. Rogić" label="T. Rogić" />
+      <node id="M. Leckie" label="M. Leckie" />
+      <node id="R. Kruse" label="R. Kruse" />
+      <node id="J. Irvine" label="J. Irvine" />
+      <node id="T. Jurić" label="T. Jurić" />
+      <node id="D. Arzani" label="D. Arzani" />
+    </nodes>
+    <edges>
+      <edge source="A. Nabbout" target="T. Sainsbury" id="0" weight="1" />
+      <edge source="A. Nabbout" target="M. Leckie" id="1" weight="1" />
+      <edge source="T. Sainsbury" target="M. Milligan" id="2" weight="11" />
+      <edge source="T. Sainsbury" target="T. Rogić" id="3" weight="4" />
+      <edge source="T. Sainsbury" target="M. Ryan" id="4" weight="4" />
+      <edge source="T. Sainsbury" target="A. Mooy" id="5" weight="10" />
+      <edge source="T. Sainsbury" target="M. Jedinak" id="6" weight="5" />
+      <edge source="T. Sainsbury" target="J. Risdon" id="7" weight="6" />
+      <edge source="T. Sainsbury" target="M. Leckie" id="8" weight="1" />
+      <edge source="T. Sainsbury" target="T. Jurić" id="9" weight="1" />
+      <edge source="M. Jedinak" target="J. Risdon" id="10" weight="5" />
+      <edge source="M. Jedinak" target="A. Mooy" id="11" weight="7" />
+      <edge source="M. Jedinak" target="M. Milligan" id="12" weight="8" />
+      <edge source="M. Jedinak" target="A. Behich" id="13" weight="3" />
+      <edge source="M. Jedinak" target="T. Sainsbury" id="14" weight="2" />
+      <edge source="M. Jedinak" target="M. Leckie" id="15" weight="1" />
+      <edge source="M. Jedinak" target="T. Rogić" id="16" weight="1" />
+      <edge source="M. Jedinak" target="M. Ryan" id="17" weight="1" />
+      <edge source="J. Risdon" target="M. Ryan" id="18" weight="2" />
+      <edge source="J. Risdon" target="T. Sainsbury" id="19" weight="4" />
+      <edge source="J. Risdon" target="A. Nabbout" id="20" weight="1" />
+      <edge source="J. Risdon" target="M. Leckie" id="21" weight="4" />
+      <edge source="J. Risdon" target="A. Mooy" id="22" weight="3" />
+      <edge source="J. Risdon" target="M. Jedinak" id="23" weight="2" />
+      <edge source="J. Risdon" target="M. Milligan" id="24" weight="1" />
+      <edge source="J. Risdon" target="R. Kruse" id="25" weight="1" />
+      <edge source="A. Behich" target="A. Mooy" id="26" weight="5" />
+      <edge source="A. Behich" target="M. Milligan" id="27" weight="18" />
+      <edge source="A. Behich" target="M. Ryan" id="28" weight="5" />
+      <edge source="A. Behich" target="M. Leckie" id="29" weight="1" />
+      <edge source="A. Behich" target="R. Kruse" id="30" weight="4" />
+      <edge source="A. Behich" target="M. Jedinak" id="31" weight="4" />
+      <edge source="A. Behich" target="D. Arzani" id="32" weight="1" />
+      <edge source="A. Mooy" target="M. Jedinak" id="33" weight="5" />
+      <edge source="A. Mooy" target="M. Milligan" id="34" weight="7" />
+      <edge source="A. Mooy" target="T. Sainsbury" id="35" weight="12" />
+      <edge source="A. Mooy" target="A. Behich" id="36" weight="6" />
+      <edge source="A. Mooy" target="T. Rogić" id="37" weight="4" />
+      <edge source="A. Mooy" target="J. Risdon" id="38" weight="4" />
+      <edge source="A. Mooy" target="M. Ryan" id="39" weight="3" />
+      <edge source="A. Mooy" target="M. Leckie" id="40" weight="1" />
+      <edge source="A. Mooy" target="J. Irvine" id="41" weight="1" />
+      <edge source="A. Mooy" target="A. Mooy" id="42" weight="1" />
+      <edge source="A. Mooy" target="R. Kruse" id="43" weight="1" />
+      <edge source="M. Ryan" target="M. Milligan" id="44" weight="9" />
+      <edge source="M. Ryan" target="T. Sainsbury" id="45" weight="8" />
+      <edge source="M. Ryan" target="M. Leckie" id="46" weight="2" />
+      <edge source="M. Ryan" target="A. Behich" id="47" weight="4" />
+      <edge source="M. Ryan" target="J. Risdon" id="48" weight="4" />
+      <edge source="M. Ryan" target="M. Jedinak" id="49" weight="3" />
+      <edge source="M. Milligan" target="M. Ryan" id="50" weight="11" />
+      <edge source="M. Milligan" target="T. Sainsbury" id="51" weight="17" />
+      <edge source="M. Milligan" target="A. Behich" id="52" weight="22" />
+      <edge source="M. Milligan" target="A. Mooy" id="53" weight="9" />
+      <edge source="M. Milligan" target="R. Kruse" id="54" weight="3" />
+      <edge source="M. Milligan" target="M. Milligan" id="55" weight="1" />
+      <edge source="M. Milligan" target="M. Jedinak" id="56" weight="2" />
+      <edge source="M. Milligan" target="J. Risdon" id="57" weight="2" />
+      <edge source="T. Rogić" target="M. Jedinak" id="58" weight="4" />
+      <edge source="T. Rogić" target="A. Behich" id="59" weight="4" />
+      <edge source="T. Rogić" target="J. Risdon" id="60" weight="2" />
+      <edge source="T. Rogić" target="A. Mooy" id="61" weight="1" />
+      <edge source="M. Leckie" target="A. Mooy" id="62" weight="1" />
+      <edge source="M. Leckie" target="J. Risdon" id="63" weight="4" />
+      <edge source="M. Leckie" target="T. Sainsbury" id="64" weight="2" />
+      <edge source="M. Leckie" target="M. Ryan" id="65" weight="1" />
+      <edge source="M. Leckie" target="J. Irvine" id="66" weight="1" />
+      <edge source="M. Leckie" target="M. Milligan" id="67" weight="1" />
+      <edge source="R. Kruse" target="A. Mooy" id="68" weight="2" />
+      <edge source="R. Kruse" target="A. Behich" id="69" weight="3" />
+      <edge source="R. Kruse" target="M. Milligan" id="70" weight="2" />
+      <edge source="R. Kruse" target="J. Risdon" id="71" weight="2" />
+      <edge source="J. Irvine" target="M. Leckie" id="72" weight="2" />
+      <edge source="J. Irvine" target="J. Risdon" id="73" weight="1" />
+      <edge source="T. Jurić" target="J. Risdon" id="74" weight="1" />
+      <edge source="D. Arzani" target="M. Leckie" id="75" weight="1" />
+    </edges>
+  </graph>
+</gexf>

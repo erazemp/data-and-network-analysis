@@ -1,0 +1,124 @@
+<?xml version='1.0' encoding='utf-8'?>
+<gexf xmlns="http://www.gexf.net/1.2draft" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.gexf.net/1.2draft http://www.gexf.net/1.2draft/gexf.xsd" version="1.2">
+  <meta lastmodifieddate="2022-05-28">
+    <creator>NetworkX 2.8.2</creator>
+  </meta>
+  <graph defaultedgetype="directed" mode="static" name="Belgium">
+    <nodes>
+      <node id="J. Vertonghen" label="J. Vertonghen" />
+      <node id="E. Hazard" label="E. Hazard" />
+      <node id="K. De Bruyne" label="K. De Bruyne" />
+      <node id="N. Chadli" label="N. Chadli" />
+      <node id="T. Alderweireld" label="T. Alderweireld" />
+      <node id="M. Dembélé" label="M. Dembélé" />
+      <node id="M. Fellaini" label="M. Fellaini" />
+      <node id="A. Witsel" label="A. Witsel" />
+      <node id="V. Kompany" label="V. Kompany" />
+      <node id="T. Courtois" label="T. Courtois" />
+      <node id="R. Lukaku" label="R. Lukaku" />
+      <node id="D. Mertens" label="D. Mertens" />
+      <node id="Y. Carrasco" label="Y. Carrasco" />
+    </nodes>
+    <edges>
+      <edge source="J. Vertonghen" target="E. Hazard" id="0" weight="6" />
+      <edge source="J. Vertonghen" target="K. De Bruyne" id="1" weight="4" />
+      <edge source="J. Vertonghen" target="T. Alderweireld" id="2" weight="6" />
+      <edge source="J. Vertonghen" target="M. Fellaini" id="3" weight="3" />
+      <edge source="J. Vertonghen" target="V. Kompany" id="4" weight="17" />
+      <edge source="J. Vertonghen" target="R. Lukaku" id="5" weight="1" />
+      <edge source="J. Vertonghen" target="M. Dembélé" id="6" weight="3" />
+      <edge source="J. Vertonghen" target="A. Witsel" id="7" weight="2" />
+      <edge source="J. Vertonghen" target="N. Chadli" id="8" weight="1" />
+      <edge source="J. Vertonghen" target="T. Courtois" id="9" weight="1" />
+      <edge source="J. Vertonghen" target="Y. Carrasco" id="10" weight="1" />
+      <edge source="E. Hazard" target="J. Vertonghen" id="11" weight="4" />
+      <edge source="E. Hazard" target="M. Dembélé" id="12" weight="4" />
+      <edge source="E. Hazard" target="K. De Bruyne" id="13" weight="6" />
+      <edge source="E. Hazard" target="A. Witsel" id="14" weight="5" />
+      <edge source="E. Hazard" target="M. Fellaini" id="15" weight="4" />
+      <edge source="E. Hazard" target="N. Chadli" id="16" weight="8" />
+      <edge source="E. Hazard" target="R. Lukaku" id="17" weight="6" />
+      <edge source="E. Hazard" target="D. Mertens" id="18" weight="3" />
+      <edge source="E. Hazard" target="T. Alderweireld" id="19" weight="1" />
+      <edge source="K. De Bruyne" target="N. Chadli" id="20" weight="8" />
+      <edge source="K. De Bruyne" target="T. Alderweireld" id="21" weight="8" />
+      <edge source="K. De Bruyne" target="M. Fellaini" id="22" weight="2" />
+      <edge source="K. De Bruyne" target="V. Kompany" id="23" weight="7" />
+      <edge source="K. De Bruyne" target="E. Hazard" id="24" weight="4" />
+      <edge source="K. De Bruyne" target="A. Witsel" id="25" weight="3" />
+      <edge source="K. De Bruyne" target="R. Lukaku" id="26" weight="1" />
+      <edge source="K. De Bruyne" target="D. Mertens" id="27" weight="4" />
+      <edge source="N. Chadli" target="A. Witsel" id="28" weight="14" />
+      <edge source="N. Chadli" target="T. Alderweireld" id="29" weight="28" />
+      <edge source="N. Chadli" target="K. De Bruyne" id="30" weight="11" />
+      <edge source="N. Chadli" target="E. Hazard" id="31" weight="4" />
+      <edge source="N. Chadli" target="R. Lukaku" id="32" weight="1" />
+      <edge source="N. Chadli" target="T. Courtois" id="33" weight="1" />
+      <edge source="T. Alderweireld" target="M. Dembélé" id="34" weight="1" />
+      <edge source="T. Alderweireld" target="V. Kompany" id="35" weight="41" />
+      <edge source="T. Alderweireld" target="N. Chadli" id="36" weight="32" />
+      <edge source="T. Alderweireld" target="A. Witsel" id="37" weight="2" />
+      <edge source="T. Alderweireld" target="E. Hazard" id="38" weight="5" />
+      <edge source="T. Alderweireld" target="K. De Bruyne" id="39" weight="6" />
+      <edge source="T. Alderweireld" target="T. Courtois" id="40" weight="4" />
+      <edge source="T. Alderweireld" target="M. Fellaini" id="41" weight="1" />
+      <edge source="T. Alderweireld" target="T. Alderweireld" id="42" weight="2" />
+      <edge source="T. Alderweireld" target="D. Mertens" id="43" weight="6" />
+      <edge source="T. Alderweireld" target="J. Vertonghen" id="44" weight="1" />
+      <edge source="M. Dembélé" target="E. Hazard" id="45" weight="6" />
+      <edge source="M. Dembélé" target="A. Witsel" id="46" weight="5" />
+      <edge source="M. Dembélé" target="M. Fellaini" id="47" weight="4" />
+      <edge source="M. Dembélé" target="V. Kompany" id="48" weight="2" />
+      <edge source="M. Dembélé" target="T. Alderweireld" id="49" weight="3" />
+      <edge source="M. Dembélé" target="N. Chadli" id="50" weight="1" />
+      <edge source="M. Dembélé" target="R. Lukaku" id="51" weight="2" />
+      <edge source="M. Fellaini" target="M. Dembélé" id="52" weight="3" />
+      <edge source="M. Fellaini" target="K. De Bruyne" id="53" weight="2" />
+      <edge source="M. Fellaini" target="J. Vertonghen" id="54" weight="5" />
+      <edge source="M. Fellaini" target="V. Kompany" id="55" weight="3" />
+      <edge source="M. Fellaini" target="T. Alderweireld" id="56" weight="2" />
+      <edge source="M. Fellaini" target="E. Hazard" id="57" weight="4" />
+      <edge source="M. Fellaini" target="R. Lukaku" id="58" weight="2" />
+      <edge source="M. Fellaini" target="A. Witsel" id="59" weight="1" />
+      <edge source="A. Witsel" target="T. Alderweireld" id="60" weight="10" />
+      <edge source="A. Witsel" target="V. Kompany" id="61" weight="12" />
+      <edge source="A. Witsel" target="J. Vertonghen" id="62" weight="5" />
+      <edge source="A. Witsel" target="N. Chadli" id="63" weight="6" />
+      <edge source="A. Witsel" target="M. Fellaini" id="64" weight="5" />
+      <edge source="A. Witsel" target="E. Hazard" id="65" weight="4" />
+      <edge source="A. Witsel" target="M. Dembélé" id="66" weight="4" />
+      <edge source="A. Witsel" target="K. De Bruyne" id="67" weight="3" />
+      <edge source="A. Witsel" target="R. Lukaku" id="68" weight="1" />
+      <edge source="A. Witsel" target="D. Mertens" id="69" weight="1" />
+      <edge source="A. Witsel" target="Y. Carrasco" id="70" weight="1" />
+      <edge source="V. Kompany" target="J. Vertonghen" id="71" weight="21" />
+      <edge source="V. Kompany" target="N. Chadli" id="72" weight="7" />
+      <edge source="V. Kompany" target="T. Alderweireld" id="73" weight="30" />
+      <edge source="V. Kompany" target="M. Dembélé" id="74" weight="6" />
+      <edge source="V. Kompany" target="A. Witsel" id="75" weight="13" />
+      <edge source="V. Kompany" target="M. Fellaini" id="76" weight="4" />
+      <edge source="V. Kompany" target="E. Hazard" id="77" weight="6" />
+      <edge source="V. Kompany" target="K. De Bruyne" id="78" weight="4" />
+      <edge source="V. Kompany" target="D. Mertens" id="79" weight="1" />
+      <edge source="V. Kompany" target="R. Lukaku" id="80" weight="1" />
+      <edge source="T. Courtois" target="T. Alderweireld" id="81" weight="5" />
+      <edge source="T. Courtois" target="V. Kompany" id="82" weight="1" />
+      <edge source="T. Courtois" target="J. Vertonghen" id="83" weight="1" />
+      <edge source="T. Courtois" target="K. De Bruyne" id="84" weight="1" />
+      <edge source="R. Lukaku" target="E. Hazard" id="85" weight="6" />
+      <edge source="R. Lukaku" target="V. Kompany" id="86" weight="1" />
+      <edge source="R. Lukaku" target="J. Vertonghen" id="87" weight="1" />
+      <edge source="R. Lukaku" target="A. Witsel" id="88" weight="1" />
+      <edge source="R. Lukaku" target="K. De Bruyne" id="89" weight="2" />
+      <edge source="R. Lukaku" target="D. Mertens" id="90" weight="2" />
+      <edge source="D. Mertens" target="K. De Bruyne" id="91" weight="4" />
+      <edge source="D. Mertens" target="N. Chadli" id="92" weight="2" />
+      <edge source="D. Mertens" target="T. Alderweireld" id="93" weight="3" />
+      <edge source="D. Mertens" target="E. Hazard" id="94" weight="1" />
+      <edge source="D. Mertens" target="V. Kompany" id="95" weight="1" />
+      <edge source="Y. Carrasco" target="A. Witsel" id="96" weight="1" />
+      <edge source="Y. Carrasco" target="V. Kompany" id="97" weight="1" />
+      <edge source="Y. Carrasco" target="E. Hazard" id="98" weight="1" />
+    </edges>
+  </graph>
+</gexf>
