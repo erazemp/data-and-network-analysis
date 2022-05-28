@@ -212,7 +212,7 @@ if __name__ == '__main__':
             measures = social_network_analysis_graph(G2, match_id, measures)
 
     G1, G2, match_result, measures = passing_networks(nation, matches, competitions, events, '2058017', measures)
-    social_network_analysis_digraph(G1, match_result, '2058017', False, measures)
-    social_network_analysis_graph(G1, '2058017', measures)
+    measures, measures.list_num_edge_2 = social_network_analysis_digraph(G1, match_result, '2058017', False, measures)
+    measures = social_network_analysis_graph(G1, '2058017', measures)
     plot_passing_networks(G1, G2, True)
     get_results(measures)
