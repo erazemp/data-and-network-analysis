@@ -1,3 +1,4 @@
 /.idea/
 /__pycache__/
 data/events/*json
+src/__pycache__/*

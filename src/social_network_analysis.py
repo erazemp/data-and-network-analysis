@@ -8,9 +8,14 @@ import json
 def social_network_analysis_digraph(G, match_result, match_id, measures):
     G.remove_edges_from(nx.selfloop_edges(G))
 
-    G.remove_node('P. Pogba')
-    G.remove_node('A. Griezmann')
-    G.remove_node('N. Kant\\u00e9')
+    if G.has_node('P. Pogba'):
+        G.remove_node('P. Pogba')
+
+    if G.has_node('A. Griezmann'):
+        G.remove_node('A. Griezmann')
+
+    if G.has_node('A. Griezmann'):
+        G.remove_node('A. Griezmann')
 
     info_graph = nx.info(G)
     print('info G')
@@ -241,17 +246,17 @@ def social_network_analysis_digraph(G, match_result, match_id, measures):
                   'clustering_coefficient': clustering_coefficient,
                   'avarage_clustering_coefficient': avarage_clustering_coefficient,
                   }
-    with open('sna_match_' + str(match_id) + '2.json', 'w') as f:
+    with open('../results/sna_match_' + str(match_id) + '.json', 'w', encoding='utf-8') as f:
         json.dump(data_match, f, indent=4)
 
     return measures
 
 
 # function for calculate metrics for sna in graph
-def social_network_analysis_graph(G, match, measures):
+def social_network_analysis_graph(G, match_id, measures):
     # function for add JSON code
-    def write_json(data, filename='sna_match_' + str(match) + '2.json'):
-        with open(filename, 'w') as f:
+    def write_json(data, filename='../results/sna_match_' + str(match_id) + '.json'):
+        with open(filename, 'w', encoding='utf-8') as f:
             json.dump(data, f, indent=4)
 
     if G.number_of_nodes() > 0:
@@ -279,7 +284,7 @@ def social_network_analysis_graph(G, match, measures):
             print("%.2f" % transitivity)
             measures.list_transitivity_avg.append(transitivity)
 
-            with open('sna_match_' + str(match) + '.json') as json_file:
+            with open('../results/sna_match_' + str(match_id) + '.json', encoding='utf-8') as json_file:
                 data = json.load(json_file)
 
                 data_match = {

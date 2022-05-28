@@ -10,35 +10,35 @@ import seaborn as sns
 from tqdm import tqdm
 import pandas as pd
 
-from src.social_network_analysis import social_network_analysis_digraph
+from src.social_network_analysis import social_network_analysis_digraph, social_network_analysis_graph
 
 
 def load_data(nations):
     # loading the events data
     events = {}
     for nation in nations:
-        with open('../data/events/events_%s.json' % nation) as json_data:
+        with open('../data/events/events_%s.json' % nation, encoding='utf-8') as json_data:
             events[nation] = json.load(json_data)
 
     # loading the match data
     matches = {}
     for nation in nations:
-        with open('../data/matches/matches_%s.json' % nation) as json_data:
+        with open('../data/matches/matches_%s.json' % nation, encoding='utf-8') as json_data:
             matches[nation] = json.load(json_data)
 
     # loading the players data
     players = {}
-    with open('../data/players.json') as json_data:
+    with open('../data/players.json', encoding='utf-8') as json_data:
         players = json.load(json_data)
 
     # loading the competitions data
     competitions = {}
-    with open('../data/competitions.json') as json_data:
+    with open('../data/competitions.json', encoding='utf-8') as json_data:
         competitions = json.load(json_data)
 
     # loading the competitions data
     teams = {}
-    with open('../data/teams.json') as json_data:
+    with open('../data/teams.json', encoding='utf-8') as json_data:
         teams = json.load(json_data)
 
     return events, matches, players, competitions, teams
@@ -85,15 +85,15 @@ def passing_networks(nations, matches, competitions, events, match_id, measures)
                         match['label'].split('-')[0].split(' ')[0] == "Peru" or
                         match['label'].split('-')[0].split(' ')[0] == "Denmark" or
                         match['label'].split('-')[0].split(' ')[0] == "Argentina" or
-                        match['label'].split('-')[0].split(' ')[0] == "uruguay" or
+                        match['label'].split('-')[0].split(' ')[0] == "Uruguay" or
                         match['label'].split('-')[0].split(' ')[0] == "Belgium" or
                         match['label'].split('-')[0].split(' ')[0] == "Croatia"):
                     team1_name = match['label'].split(' -')[0]
-                    team2_name = match['label'].split('- ')[1].split(' ,')[0]
+                    team2_name = match['label'].split('- ')[1].split(', ')[0]
 
                 else:
                     team1_name = match['label'].split('-')[0].split(' ')[0]
-                    team2_name = match['label'].split('- ')[1].split(' ,')[0]
+                    team2_name = match['label'].split('- ')[1].split(', ')[0]
 
     # take the events Pass of the match
     match_events = []
@@ -202,17 +202,13 @@ if __name__ == '__main__':
     # get list of player_for team id
     list_player = player_list(players, 4418)
 
-    # gemerate passing network for a selected match: #wyid --> match id of world cup matches
-    # to je bol test da deluje kreiranje enenga grafa na podlagi match_id
-    G1, G2, match_result, measures = passing_networks(nation, matches, competitions, events, '2058017', measures)
-
     # get matches from the FRANCE national team in the world cup: total of 7 matches
     measures = match_list(nation, matches, '4418', measures)
     for match_id in measures.list_match_wyId:
         print(match_id)
         G1, G2, match_result, measures = passing_networks(nation, matches, competitions, events, match_id, measures)
         # plot_passing_networks(G1, G2)
-        if (G1.name == "France"):
+        if G1.name == "France":
             measures = social_network_analysis_digraph(G1, match_result, match_id, measures)
             measures = social_network_analysis_graph(G1, match_id, measures)
         else:
