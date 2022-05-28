@@ -9,7 +9,7 @@ def statistical_analysis_season_max(list):
 
     for key in dict:
         for i in zip(*dict[key]):
-            dict[key] = (sum(i) / 38)
+            dict[key] = (sum(i) / 7)
 
     sort_list = sorted(dict.items(), key=lambda x: x[1], reverse=True)
 
@@ -26,7 +26,7 @@ def statistical_analysis_season_min(list):
 
     for key in dict:
         for i in zip(*dict[key]):
-            dict[key] = (sum(i) / 38)
+            dict[key] = (sum(i) / 7)
 
     sort_list = sorted(dict.items(), key=lambda x: x[1])
 

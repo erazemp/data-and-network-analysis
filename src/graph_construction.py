@@ -4,6 +4,7 @@ import json
 
 from src.plot_graph import plot_passing_networks
 from src.social_network_analysis import social_network_analysis_digraph, social_network_analysis_graph
+from src.statistical_analysis import statistical_analysis_season_max
 
 
 def load_data(nations):
@@ -212,3 +213,11 @@ if __name__ == '__main__':
     social_network_analysis_digraph(G1, match_result, '2058017', False, measures)
     social_network_analysis_graph(G1, '2058017', measures)
     plot_passing_networks(G1, G2, True)
+
+    #
+    print('\nmax_degree_centrality_avg')
+    max_degree_centrality_avg = statistical_analysis_season_max(measures.listplayer_max_centrality_degree)
+    print('\n max_in_degree_centrality_avg')
+    max_in_degree_centrality_avg = statistical_analysis_season_max(measures.listplayer_max_centrality_indegree)
+    print('\n max_out_degree_cetrality_avg')
+    max_out_degree_centrality_avg = statistical_analysis_season_max(measures.listplayer_max_centrality_outdegree)
