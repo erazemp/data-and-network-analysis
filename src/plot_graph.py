@@ -44,8 +44,8 @@ def plot_centrality(players_centralities, names, cent_name, id_p, save=True,):
     plt.grid(alpha=0.55)
     plt.xticks(fontsize=18)
     plt.yticks(fontsize=18)
-    plt.xlabel(cent_name, fontsize=20)
-    plt.ylabel('frequency', fontsize=20)
+    plt.xlabel(cent_name, fontsize=30)
+    plt.ylabel('frequency', fontsize=30)
     ax.legend(loc=1, fontsize=18, frameon=True, shadow=True)
     f.tight_layout()
     if save:
