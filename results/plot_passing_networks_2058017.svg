@@ -1,0 +1,480 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+    "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd" >
+<svg contentScriptType="text/ecmascript" width="366.98785"
+     xmlns:xlink="http://www.w3.org/1999/xlink" zoomAndPan="magnify"
+     contentStyleType="text/css"
+     viewBox="-182.000000 -222.000000 366.987854 444.504944" height="444.50494"
+     preserveAspectRatio="xMidYMid meet" xmlns="http://www.w3.org/2000/svg"
+     version="1.1">
+    <g id="edges">
+        <path fill="none" stroke-width="2.0"
+              d="M 60.921009,-51.948917 C 72.729004,-1.101730 14.170223,92.881050 -36.676964,104.689049"
+              class="id_A._Griezmann id_R._Varane" stroke-opacity="1.0"
+              stroke="#5cd8a4"/>
+        <path fill="none" stroke-width="2.0"
+              d="M 60.921009,-51.948917 C 27.054565,-27.765310 -60.020527,-42.289566 -84.204132,-76.156006"
+              class="id_A._Griezmann id_B._Matuidi" stroke-opacity="1.0"
+              stroke="#64dcac"/>
+        <path fill="none" stroke-width="2.0"
+              d="M 60.921009,-51.948917 C 17.983950,-45.770824 -55.688774,-100.909271 -61.866863,-143.846329"
+              class="id_A._Griezmann id_L._Hernández" stroke-opacity="1.0"
+              stroke="#49cf90"/>
+        <path fill="none" stroke-width="1.0"
+              d="M 60.921009,-51.948917 C 99.155350,-15.998468 102.581192,95.278709 66.630745,133.513046"
+              class="id_A._Griezmann id_B._Pavard" stroke-opacity="1.0"
+              stroke="#6eddb0"/>
+        <path fill="none" stroke-width="1.0"
+              d="M 60.921009,-51.948917 C 38.612572,-4.792969 -65.584000,32.478287 -112.739944,10.169849"
+              class="id_A._Griezmann id_S._Umtiti" stroke-opacity="1.0"
+              stroke="#4fd297"/>
+        <path fill="none" stroke-width="1.0"
+              d="M 60.921009,-51.948917 C 64.437523,-25.720898 30.370262,18.895899 4.142241,22.412411"
+              class="id_A._Griezmann id_P._Pogba" stroke-opacity="1.0"
+              stroke="#28c06e"/>
+        <path fill="none" stroke-width="2.0"
+              d="M 60.921009,-51.948917 C 42.481728,-66.774010 37.060455,-116.670555 51.885544,-135.109833"
+              class="id_A._Griezmann id_S._N&apos;Zonzi" stroke-opacity="1.0"
+              stroke="#26bf6c"/>
+        <path fill="none" stroke-width="1.0"
+              d="M 60.921009,-51.948917 C 84.938828,-54.041550 124.104500,-21.153767 126.197128,2.864053"
+              class="id_A._Griezmann id_O._Giroud" stroke-opacity="1.0"
+              stroke="#61dba9"/>
+        <path fill="none" stroke-width="1.0"
+              d="M 60.921009,-51.948917 C 64.543068,-89.795296 126.745705,-141.131775 164.592087,-137.509720"
+              class="id_A._Griezmann id_C._Tolisso" stroke-opacity="1.0"
+              stroke="#8ce2bf"/>
+        <path fill="none" stroke-width="1.0"
+              d="M 60.921009,-51.948917 C 46.823238,-102.597580 101.649567,-199.717239 152.298233,-213.815002"
+              class="id_A._Griezmann id_N._Fekir" stroke-opacity="1.0"
+              stroke="#9de4c7"/>
+        <path fill="none" stroke-width="3.0"
+              d="M -36.676964,104.689049 C -22.683397,132.848740 -43.932579,196.078613 -72.092270,210.072189"
+              class="id_R._Varane id_H._Lloris" stroke-opacity="1.0"
+              stroke="#a1ead2"/>
+        <path fill="none" stroke-width="2.0"
+              d="M -36.676964,104.689049 C -44.968452,80.069878 -20.476929,30.703896 4.142241,22.412411"
+              class="id_R._Varane id_P._Pogba" stroke-opacity="1.0"
+              stroke="#37c77e"/>
+        <path fill="none" stroke-width="2.0"
+              d="M -36.676964,104.689049 C -70.793404,100.997803 -116.431183,44.286285 -112.739944,10.169849"
+              class="id_R._Varane id_S._Umtiti" stroke-opacity="1.0"
+              stroke="#5edaa7"/>
+        <path fill="none" stroke-width="3.0"
+              d="M -36.676964,104.689049 C -10.250621,89.792305 51.734001,107.086700 66.630745,133.513046"
+              class="id_R._Varane id_B._Pavard" stroke-opacity="1.0"
+              stroke="#7de5c0"/>
+        <path fill="none" stroke-width="1.0"
+              d="M -36.676964,104.689049 C -100.653687,94.626801 -181.525391,-16.431652 -171.463150,-80.408379"
+              class="id_R._Varane id_N._Kanté" stroke-opacity="1.0"
+              stroke="#8ae7c7"/>
+        <path fill="none" stroke-width="1.0"
+              d="M -36.676964,104.689049 C -91.422012,60.019955 -106.535957,-89.101273 -61.866863,-143.846329"
+              class="id_R._Varane id_L._Hernández" stroke-opacity="1.0"
+              stroke="#58d7a0"/>
+        <path fill="none" stroke-width="1.0"
+              d="M -36.676964,104.689049 C -48.484962,53.841866 10.073820,-40.140919 60.921009,-51.948917"
+              class="id_R._Varane id_A._Griezmann" stroke-opacity="1.0"
+              stroke="#5cd8a4"/>
+        <path fill="none" stroke-width="1.0"
+              d="M -36.676964,104.689049 C -66.924240,39.016769 -13.786736,-104.862556 51.885544,-135.109833"
+              class="id_R._Varane id_S._N&apos;Zonzi" stroke-opacity="1.0"
+              stroke="#35c67c"/>
+        <path fill="none" stroke-width="1.0"
+              d="M -72.092270,210.072189 C -120.202271,178.221252 -144.590881,58.279854 -112.739944,10.169849"
+              class="id_H._Lloris id_S._Umtiti" stroke-opacity="1.0"
+              stroke="#94e4c5"/>
+        <path fill="none" stroke-width="1.0"
+              d="M -72.092270,210.072189 C -59.659492,167.015762 23.574310,121.080269 66.630745,133.513046"
+              class="id_H._Lloris id_B._Pavard" stroke-opacity="1.0"
+              stroke="#b3efde"/>
+        <path fill="none" stroke-width="1.0"
+              d="M -72.092270,210.072189 C -66.008980,180.629059 -12.719334,145.589279 16.723803,151.672577"
+              class="id_H._Lloris id_K._Mbappé" stroke-opacity="1.0"
+              stroke="#c9f3e9"/>
+        <path fill="none" stroke-width="1.0"
+              d="M -72.092270,210.072189 C -94.377319,157.293335 -48.636620,44.697464 4.142241,22.412411"
+              class="id_H._Lloris id_P._Pogba" stroke-opacity="1.0"
+              stroke="#6dd29c"/>
+        <path fill="none" stroke-width="1.0"
+              d="M -112.739944,10.169849 C -124.297958,-12.802485 -107.176468,-64.598000 -84.204132,-76.156006"
+              class="id_S._Umtiti id_B._Matuidi" stroke-opacity="1.0"
+              stroke="#67deaf"/>
+        <path fill="none" stroke-width="2.0"
+              d="M -112.739944,10.169849 C -66.413689,-39.078728 76.948555,-43.462204 126.197128,2.864053"
+              class="id_S._Umtiti id_O._Giroud" stroke-opacity="1.0"
+              stroke="#63dcac"/>
+        <path fill="none" stroke-width="2.0"
+              d="M -112.739944,10.169849 C -142.600235,3.798844 -177.834152,-50.548092 -171.463150,-80.408379"
+              class="id_S._Umtiti id_N._Kanté" stroke-opacity="1.0"
+              stroke="#7de1ba"/>
+        <path fill="none" stroke-width="2.0"
+              d="M -112.739944,10.169849 C -78.623505,13.861094 -32.985718,70.572617 -36.676964,104.689049"
+              class="id_S._Umtiti id_R._Varane" stroke-opacity="1.0"
+              stroke="#5edaa7"/>
+        <path fill="none" stroke-width="1.0"
+              d="M -112.739944,10.169849 C -64.629944,42.020782 -40.241333,161.962189 -72.092270,210.072189"
+              class="id_S._Umtiti id_H._Lloris" stroke-opacity="1.0"
+              stroke="#94e4c5"/>
+        <path fill="none" stroke-width="1.0"
+              d="M -112.739944,10.169849 C -90.431503,-36.986099 13.765062,-74.257355 60.921009,-51.948917"
+              class="id_S._Umtiti id_A._Griezmann" stroke-opacity="1.0"
+              stroke="#4fd297"/>
+        <path fill="none" stroke-width="3.0"
+              d="M -112.739944,10.169849 C -86.915001,-10.758077 -16.785685,-3.412540 4.142241,22.412411"
+              class="id_S._Umtiti id_P._Pogba" stroke-opacity="1.0"
+              stroke="#2bc171"/>
+        <path fill="none" stroke-width="1.0"
+              d="M -112.739944,10.169849 C -108.870789,-51.811180 -10.095486,-138.978989 51.885544,-135.109833"
+              class="id_S._Umtiti id_S._N&apos;Zonzi" stroke-opacity="1.0"
+              stroke="#29c06f"/>
+        <path fill="none" stroke-width="1.0"
+              d="M -112.739944,10.169849 C -86.809448,-74.832474 79.589767,-163.440216 164.592087,-137.509720"
+              class="id_S._Umtiti id_C._Tolisso" stroke-opacity="1.0"
+              stroke="#8fe3c2"/>
+        <path fill="none" stroke-width="3.0"
+              d="M -84.204132,-76.156006 C -72.646118,-53.183674 -89.767609,-1.388159 -112.739944,10.169849"
+              class="id_B._Matuidi id_S._Umtiti" stroke-opacity="1.0"
+              stroke="#67deaf"/>
+        <path fill="none" stroke-width="2.0"
+              d="M -84.204132,-76.156006 C -102.506409,-59.554672 -154.861832,-62.106102 -171.463150,-80.408379"
+              class="id_B._Matuidi id_N._Kanté" stroke-opacity="1.0"
+              stroke="#92ebcf"/>
+        <path fill="none" stroke-width="3.0"
+              d="M -84.204132,-76.156006 C -93.274742,-94.161522 -79.872383,-134.775711 -61.866863,-143.846329"
+              class="id_B._Matuidi id_L._Hernández" stroke-opacity="1.0"
+              stroke="#60dba8"/>
+        <path fill="none" stroke-width="3.0"
+              d="M -84.204132,-76.156006 C -46.821175,-74.111595 6.186649,-14.970549 4.142241,22.412411"
+              class="id_B._Matuidi id_P._Pogba" stroke-opacity="1.0"
+              stroke="#40cb86"/>
+        <path fill="none" stroke-width="2.0"
+              d="M -84.204132,-76.156006 C -50.337688,-100.339615 36.737400,-85.815361 60.921009,-51.948917"
+              class="id_B._Matuidi id_A._Griezmann" stroke-opacity="1.0"
+              stroke="#64dcac"/>
+        <path fill="none" stroke-width="1.0"
+              d="M -84.204132,-76.156006 C -38.529686,-49.492424 -10.013382,59.014603 -36.676964,104.689049"
+              class="id_B._Matuidi id_R._Varane" stroke-opacity="1.0"
+              stroke="#73e4bc"/>
+        <path fill="none" stroke-width="1.0"
+              d="M -84.204132,-76.156006 C -68.776962,-115.164703 12.876842,-150.537003 51.885544,-135.109833"
+              class="id_B._Matuidi id_S._N&apos;Zonzi" stroke-opacity="1.0"
+              stroke="#3eca84"/>
+        <path fill="none" stroke-width="1.0"
+              d="M -84.204132,-76.156006 C -26.319870,-102.432243 99.920891,-55.020210 126.197128,2.864053"
+              class="id_B._Matuidi id_O._Giroud" stroke-opacity="1.0"
+              stroke="#78e6c1"/>
+        <path fill="none" stroke-width="2.0"
+              d="M 126.197128,2.864053 C 113.987320,55.803871 16.262856,116.898865 -36.676964,104.689049"
+              class="id_O._Giroud id_R._Varane" stroke-opacity="1.0"
+              stroke="#70e2b9"/>
+        <path fill="none" stroke-width="2.0"
+              d="M 126.197128,2.864053 C 105.695816,31.184700 32.462887,42.913715 4.142241,22.412411"
+              class="id_O._Giroud id_P._Pogba" stroke-opacity="1.0"
+              stroke="#3cca83"/>
+        <path fill="none" stroke-width="1.0"
+              d="M 126.197128,2.864053 C 59.242249,11.134775 -53.596142,-76.891449 -61.866863,-143.846329"
+              class="id_O._Giroud id_L._Hernández" stroke-opacity="1.0"
+              stroke="#5dd9a5"/>
+        <path fill="none" stroke-width="3.0"
+              d="M 126.197128,2.864053 C 102.179314,4.956684 63.013641,-27.931099 60.921009,-51.948917"
+              class="id_O._Giroud id_A._Griezmann" stroke-opacity="1.0"
+              stroke="#61dba9"/>
+        <path fill="none" stroke-width="1.0"
+              d="M 126.197128,2.864053 C 83.740028,-9.868407 39.153084,-92.652733 51.885544,-135.109833"
+              class="id_O._Giroud id_S._N&apos;Zonzi" stroke-opacity="1.0"
+              stroke="#3ac981"/>
+        <path fill="none" stroke-width="1.0"
+              d="M 126.197128,2.864053 C 140.413651,40.907127 104.673820,119.296524 66.630745,133.513046"
+              class="id_O._Giroud id_B._Pavard" stroke-opacity="1.0"
+              stroke="#82e7c5"/>
+        <path fill="none" stroke-width="1.0"
+              d="M 4.142241,22.412411 C -51.542999,36.969337 -156.906235,-24.723141 -171.463150,-80.408379"
+              class="id_P._Pogba id_N._Kanté" stroke-opacity="1.0"
+              stroke="#56ce91"/>
+        <path fill="none" stroke-width="5.0"
+              d="M 4.142241,22.412411 C 38.860069,32.134838 76.353172,98.795219 66.630745,133.513046"
+              class="id_P._Pogba id_B._Pavard" stroke-opacity="1.0"
+              stroke="#49cc8b"/>
+        <path fill="none" stroke-width="1.0"
+              d="M 4.142241,22.412411 C -21.682711,43.340336 -91.812019,35.994801 -112.739944,10.169849"
+              class="id_P._Pogba id_S._Umtiti" stroke-opacity="1.0"
+              stroke="#2bc171"/>
+        <path fill="none" stroke-width="4.0"
+              d="M 4.142241,22.412411 C 32.510586,45.748131 40.059525,123.304230 16.723803,151.672577"
+              class="id_P._Pogba id_K._Mbappé" stroke-opacity="1.0"
+              stroke="#60d096"/>
+        <path fill="none" stroke-width="2.0"
+              d="M 4.142241,22.412411 C -33.240719,20.368002 -86.248543,-38.773048 -84.204132,-76.156006"
+              class="id_P._Pogba id_B._Matuidi" stroke-opacity="1.0"
+              stroke="#40cb86"/>
+        <path fill="none" stroke-width="2.0"
+              d="M 4.142241,22.412411 C -42.311325,2.362483 -81.916794,-97.392761 -61.866863,-143.846329"
+              class="id_P._Pogba id_L._Hernández" stroke-opacity="1.0"
+              stroke="#24be6b"/>
+        <path fill="none" stroke-width="2.0"
+              d="M 4.142241,22.412411 C -17.813549,-18.640699 10.832434,-113.154045 51.885544,-135.109833"
+              class="id_P._Pogba id_S._N&apos;Zonzi" stroke-opacity="1.0"
+              stroke="#02ae47"/>
+        <path fill="none" stroke-width="2.0"
+              d="M 4.142241,22.412411 C 0.625730,-3.815609 34.692989,-48.432407 60.921009,-51.948917"
+              class="id_P._Pogba id_A._Griezmann" stroke-opacity="1.0"
+              stroke="#28c06e"/>
+        <path fill="none" stroke-width="1.0"
+              d="M 4.142241,22.412411 C 24.643545,-5.908237 97.876480,-17.637253 126.197128,2.864053"
+              class="id_P._Pogba id_O._Giroud" stroke-opacity="1.0"
+              stroke="#3cca83"/>
+        <path fill="none" stroke-width="1.0"
+              d="M 4.142241,22.412411 C -13.472042,-54.464272 75.421555,-196.200714 152.298233,-213.815002"
+              class="id_P._Pogba id_N._Fekir" stroke-opacity="1.0"
+              stroke="#78d3a2"/>
+        <path fill="none" stroke-width="1.0"
+              d="M -171.463150,-80.408379 C -162.231476,-115.015228 -96.473709,-153.078003 -61.866863,-143.846329"
+              class="id_N._Kanté id_L._Hernández" stroke-opacity="1.0"
+              stroke="#77deb3"/>
+        <path fill="none" stroke-width="2.0"
+              d="M -171.463150,-80.408379 C -141.602859,-74.037376 -106.368942,-19.690437 -112.739944,10.169849"
+              class="id_N._Kanté id_S._Umtiti" stroke-opacity="1.0"
+              stroke="#7de1ba"/>
+        <path fill="none" stroke-width="1.0"
+              d="M -171.463150,-80.408379 C -115.777916,-94.965302 -10.414684,-33.272827 4.142241,22.412411"
+              class="id_N._Kanté id_P._Pogba" stroke-opacity="1.0"
+              stroke="#56ce91"/>
+        <path fill="none" stroke-width="3.0"
+              d="M -171.463150,-80.408379 C -153.160873,-97.009712 -100.805466,-94.458282 -84.204132,-76.156006"
+              class="id_N._Kanté id_B._Matuidi" stroke-opacity="1.0"
+              stroke="#92ebcf"/>
+        <path fill="none" stroke-width="3.0"
+              d="M -61.866863,-143.846329 C -71.098526,-109.239479 -136.856293,-71.176712 -171.463150,-80.408379"
+              class="id_L._Hernández id_N._Kanté" stroke-opacity="1.0"
+              stroke="#77deb3"/>
+        <path fill="none" stroke-width="1.0"
+              d="M -61.866863,-143.846329 C -18.929804,-150.024414 54.742920,-94.885971 60.921009,-51.948917"
+              class="id_L._Hernández id_A._Griezmann" stroke-opacity="1.0"
+              stroke="#49cf90"/>
+        <path fill="none" stroke-width="1.0"
+              d="M -61.866863,-143.846329 C 12.955055,-100.460678 60.109451,76.850662 16.723803,151.672577"
+              class="id_L._Hernández id_K._Mbappé" stroke-opacity="1.0"
+              stroke="#80dfb8"/>
+        <path fill="none" stroke-width="1.0"
+              d="M -61.866863,-143.846329 C 5.088017,-152.117050 117.926407,-64.090828 126.197128,2.864053"
+              class="id_L._Hernández id_O._Giroud" stroke-opacity="1.0"
+              stroke="#5dd9a5"/>
+        <path fill="none" stroke-width="1.0"
+              d="M -61.866863,-143.846329 C -15.413296,-123.796402 24.192169,-24.041157 4.142241,22.412411"
+              class="id_L._Hernández id_P._Pogba" stroke-opacity="1.0"
+              stroke="#24be6b"/>
+        <path fill="none" stroke-width="1.0"
+              d="M -61.866863,-143.846329 C -52.796257,-125.840805 -66.198616,-85.226616 -84.204132,-76.156006"
+              class="id_L._Hernández id_B._Matuidi" stroke-opacity="1.0"
+              stroke="#60dba8"/>
+        <path fill="none" stroke-width="1.0"
+              d="M -61.866863,-143.846329 C -37.369083,-164.849518 30.882362,-159.607605 51.885544,-135.109833"
+              class="id_L._Hernández id_S._N&apos;Zonzi" stroke-opacity="1.0"
+              stroke="#22bd69"/>
+        <path fill="none" stroke-width="2.0"
+              d="M -61.866863,-143.846329 C -41.238243,-102.868477 -71.762093,-10.458770 -112.739944,10.169849"
+              class="id_L._Hernández id_S._Umtiti" stroke-opacity="1.0"
+              stroke="#4bd193"/>
+        <path fill="none" stroke-width="3.0"
+              d="M 66.630745,133.513046 C 40.204399,148.409790 -21.780220,131.115387 -36.676964,104.689049"
+              class="id_B._Pavard id_R._Varane" stroke-opacity="1.0"
+              stroke="#7de5c0"/>
+        <path fill="none" stroke-width="1.0"
+              d="M 66.630745,133.513046 C 54.197968,176.569473 -29.035835,222.504959 -72.092270,210.072189"
+              class="id_B._Pavard id_H._Lloris" stroke-opacity="1.0"
+              stroke="#b3efde"/>
+        <path fill="none" stroke-width="2.0"
+              d="M 66.630745,133.513046 C 60.281261,147.126343 30.337099,158.022049 16.723803,151.672577"
+              class="id_B._Pavard id_K._Mbappé" stroke-opacity="1.0"
+              stroke="#a5edd8"/>
+        <path fill="none" stroke-width="2.0"
+              d="M 66.630745,133.513046 C 31.912918,123.790627 -5.580185,57.130238 4.142241,22.412411"
+              class="id_B._Pavard id_P._Pogba" stroke-opacity="1.0"
+              stroke="#49cc8b"/>
+        <path fill="none" stroke-width="1.0"
+              d="M 66.630745,133.513046 C 52.414223,95.469971 88.154053,17.080574 126.197128,2.864053"
+              class="id_B._Pavard id_O._Giroud" stroke-opacity="1.0"
+              stroke="#82e7c5"/>
+        <path fill="none" stroke-width="1.0"
+              d="M 66.630745,133.513046 C 9.957134,82.737518 1.110012,-78.436218 51.885544,-135.109833"
+              class="id_B._Pavard id_S._N&apos;Zonzi" stroke-opacity="1.0"
+              stroke="#47cb89"/>
+        <path fill="none" stroke-width="2.0"
+              d="M 16.723803,151.672577 C -3.353056,152.956024 -35.393517,124.765907 -36.676964,104.689049"
+              class="id_K._Mbappé id_R._Varane" stroke-opacity="1.0"
+              stroke="#93e8cb"/>
+        <path fill="none" stroke-width="2.0"
+              d="M 16.723803,151.672577 C -15.161057,102.108833 11.357265,-20.064058 60.921009,-51.948917"
+              class="id_K._Mbappé id_A._Griezmann" stroke-opacity="1.0"
+              stroke="#84e1bb"/>
+        <path fill="none" stroke-width="1.0"
+              d="M 16.723803,151.672577 C -11.644544,128.336853 -19.193481,50.780754 4.142241,22.412411"
+              class="id_K._Mbappé id_P._Pogba" stroke-opacity="1.0"
+              stroke="#60d096"/>
+        <path fill="none" stroke-width="1.0"
+              d="M 16.723803,151.672577 C 23.073286,138.059280 53.017452,127.163567 66.630745,133.513046"
+              class="id_K._Mbappé id_B._Pavard" stroke-opacity="1.0"
+              stroke="#a5edd8"/>
+        <path fill="none" stroke-width="2.0"
+              d="M 51.885544,-135.109833 C 70.324821,-120.284737 75.746101,-70.388191 60.921009,-51.948917"
+              class="id_S._N&apos;Zonzi id_A._Griezmann" stroke-opacity="1.0"
+              stroke="#26bf6c"/>
+        <path fill="none" stroke-width="1.0"
+              d="M 51.885544,-135.109833 C 27.387764,-114.106651 -40.863682,-119.348549 -61.866863,-143.846329"
+              class="id_S._N&apos;Zonzi id_L._Hernández" stroke-opacity="1.0"
+              stroke="#22bd69"/>
+        <path fill="none" stroke-width="3.0"
+              d="M 51.885544,-135.109833 C 73.841331,-94.056725 45.195351,0.456621 4.142241,22.412411"
+              class="id_S._N&apos;Zonzi id_P._Pogba" stroke-opacity="1.0"
+              stroke="#02ae47"/>
+        <path fill="none" stroke-width="2.0"
+              d="M 51.885544,-135.109833 C 36.458374,-96.101135 -45.195435,-60.728836 -84.204132,-76.156006"
+              class="id_S._N&apos;Zonzi id_B._Matuidi" stroke-opacity="1.0"
+              stroke="#3eca84"/>
+        <path fill="none" stroke-width="1.0"
+              d="M 51.885544,-135.109833 C 48.016384,-73.128799 -50.758915,14.039009 -112.739944,10.169849"
+              class="id_S._N&apos;Zonzi id_S._Umtiti" stroke-opacity="1.0"
+              stroke="#29c06f"/>
+        <path fill="none" stroke-width="1.0"
+              d="M 51.885544,-135.109833 C 82.132820,-69.437553 28.995316,74.441772 -36.676964,104.689049"
+              class="id_S._N&apos;Zonzi id_R._Varane" stroke-opacity="1.0"
+              stroke="#35c67c"/>
+        <path fill="none" stroke-width="1.0"
+              d="M 51.885544,-135.109833 C 73.946869,-158.131119 141.570801,-159.571045 164.592087,-137.509720"
+              class="id_S._N&apos;Zonzi id_C._Tolisso" stroke-opacity="1.0"
+              stroke="#66d098"/>
+        <path fill="none" stroke-width="1.0"
+              d="M 164.592087,-137.509720 C 118.032974,-93.485245 -17.842392,-97.287216 -61.866863,-143.846329"
+              class="id_C._Tolisso id_L._Hernández" stroke-opacity="1.0"
+              stroke="#88e0bc"/>
+        <path fill="none" stroke-width="2.0"
+              d="M 164.592087,-137.509720 C 184.987854,-101.755974 161.950867,-17.531710 126.197128,2.864053"
+              class="id_C._Tolisso id_O._Giroud" stroke-opacity="1.0"
+              stroke="#a0ecd4"/>
+        <path fill="none" stroke-width="1.0"
+              d="M 164.592087,-137.509720 C 142.530762,-114.488434 74.906830,-113.048508 51.885544,-135.109833"
+              class="id_C._Tolisso id_S._N&apos;Zonzi" stroke-opacity="1.0"
+              stroke="#66d098"/>
+        <path fill="none" stroke-width="1.0"
+              d="M 152.298233,-213.815002 C 147.956726,-177.991440 87.709114,-130.768326 51.885544,-135.109833"
+              class="id_N._Fekir id_S._N&apos;Zonzi" stroke-opacity="1.0"
+              stroke="#76d2a0"/>
+    </g>
+    <g id="nodes">
+        <circle fill-opacity="1.0" fill="#4dd194" r="12.11993" cx="60.92101"
+                class="id_A._Griezmann" cy="-51.948917" stroke="#000000"
+                stroke-opacity="1.0" stroke-width="1.0"/>
+        <circle fill-opacity="1.0" fill="#6be0b4" r="11.370089" cx="-36.676964"
+                class="id_R._Varane" cy="104.68905" stroke="#000000"
+                stroke-opacity="1.0" stroke-width="1.0"/>
+        <circle fill-opacity="1.0" fill="#d7f5f0" r="8.559773" cx="-72.09227"
+                class="id_H._Lloris" cy="210.07219" stroke="#000000"
+                stroke-opacity="1.0" stroke-width="1.0"/>
+        <circle fill-opacity="1.0" fill="#52d49a" r="11.990116" cx="-112.739944"
+                class="id_S._Umtiti" cy="10.169849" stroke="#000000"
+                stroke-opacity="1.0" stroke-width="1.0"/>
+        <circle fill-opacity="1.0" fill="#7ce8c4" r="10.951103" cx="-84.20413"
+                class="id_B._Matuidi" cy="-76.156006" stroke="#000000"
+                stroke-opacity="1.0" stroke-width="1.0"/>
+        <circle fill-opacity="1.0" fill="#75e5be" r="11.122639" cx="126.19713"
+                class="id_O._Giroud" cy="2.864053" stroke="#000000"
+                stroke-opacity="1.0" stroke-width="1.0"/>
+        <circle fill-opacity="1.0" fill="#04af49" r="13.887174" cx="4.142241"
+                class="id_P._Pogba" cy="22.41241" stroke="#000000"
+                stroke-opacity="1.0" stroke-width="1.0"/>
+        <circle fill-opacity="1.0" fill="#a9eeda" r="9.775966" cx="-171.46315"
+                class="id_N._Kanté" cy="-80.40838" stroke="#000000"
+                stroke-opacity="1.0" stroke-width="1.0"/>
+        <circle fill-opacity="1.0" fill="#45ce8d" r="12.299089" cx="-61.866863"
+                class="id_L._Hernández" cy="-143.84633" stroke="#000000"
+                stroke-opacity="1.0" stroke-width="1.0"/>
+        <circle fill-opacity="1.0" fill="#8feacd" r="10.465432" cx="66.630745"
+                class="id_B._Pavard" cy="133.51305" stroke="#000000"
+                stroke-opacity="1.0" stroke-width="1.0"/>
+        <circle fill-opacity="1.0" fill="#bcf1e3" r="9.285305" cx="16.723803"
+                class="id_K._Mbappé" cy="151.67258" stroke="#000000"
+                stroke-opacity="1.0" stroke-width="1.0"/>
+        <circle fill-opacity="1.0" fill="#00ad45" r="14.0" cx="51.885544"
+                class="id_S._N&apos;Zonzi" cy="-135.10983" stroke="#000000"
+                stroke-opacity="1.0" stroke-width="1.0"/>
+        <circle fill-opacity="1.0" fill="#ccf3eb" r="8.852751" cx="164.59209"
+                class="id_C._Tolisso" cy="-137.50972" stroke="#000000"
+                stroke-opacity="1.0" stroke-width="1.0"/>
+        <circle fill-opacity="1.0" fill="#edf8fb" r="8.0" cx="152.29823"
+                class="id_N._Fekir" cy="-213.815" stroke="#000000"
+                stroke-opacity="1.0" stroke-width="1.0"/>
+    </g>
+    <g id="node-labels">
+        <text font-size="22" x="60.92101" y="-47.87584" fill="#000000"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Arial" class="id_A._Griezmann">
+            A. Griezmann
+        </text>
+        <text font-size="20" x="-36.676964" y="108.326744" fill="#000000"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Arial" class="id_R._Varane">
+            R. Varane
+        </text>
+        <text font-size="15" x="-72.09227" y="212.80046" fill="#000000"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Arial" class="id_H._Lloris">
+            H. Lloris
+        </text>
+        <text font-size="22" x="-112.739944" y="14.242929" fill="#000000"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Arial" class="id_S._Umtiti">
+            S. Umtiti
+        </text>
+        <text font-size="20" x="-84.20413" y="-72.51831" fill="#000000"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Arial" class="id_B._Matuidi">
+            B. Matuidi
+        </text>
+        <text font-size="20" x="126.19713" y="6.5684805" fill="#000000"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Arial" class="id_O._Giroud">
+            O. Giroud
+        </text>
+        <text font-size="25" x="4.142241" y="28.202612" fill="#000000"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Arial" class="id_P._Pogba">
+            P. Pogba
+        </text>
+        <text font-size="18" x="-171.46315" y="-77.116875" fill="#000000"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Arial" class="id_N._Kanté">
+            N. Kanté
+        </text>
+        <text font-size="22" x="-61.866863" y="-139.82338" fill="#000000"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Arial" class="id_L._Hernández">
+            L. Hernández
+        </text>
+        <text font-size="19" x="66.630745" y="136.96886" fill="#000000"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Arial" class="id_B._Pavard">
+            B. Pavard
+        </text>
+        <text font-size="17" x="16.723803" y="155.5767" fill="#000000"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Arial" class="id_K._Mbappé">
+            K. Mbappé
+        </text>
+        <text font-size="25" x="51.885544" y="-130.48132" fill="#000000"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Arial" class="id_S._N&apos;Zonzi">
+            S. N&apos;Zonzi
+        </text>
+        <text font-size="16" x="164.59209" y="-134.54749" fill="#000000"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Arial" class="id_C._Tolisso">
+            C. Tolisso
+        </text>
+        <text font-size="14" x="152.29823" y="-211.26862" fill="#000000"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Arial" class="id_N._Fekir">
+            N. Fekir
+        </text>
+    </g>
+</svg>
