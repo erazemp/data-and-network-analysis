@@ -34,20 +34,20 @@ def plot_passing_networks(G1, G2, match_id, save=False):
 
 
 # function plot centrality
-def plot_centrality(players_centralities, names, save=False):
+def plot_centrality(players_centralities, names, cent_name, id_p, save=True,):
     sns.set_style('ticks')
 
     f, ax = plt.subplots(figsize=(10, 5))
     for player_centralities, player_name in zip(players_centralities, names):
         sns.distplot(pd.DataFrame(player_centralities, columns=['centrality'])['centrality'],
                      label=player_name)
-    plt.grid(alpha=0.5)
-    plt.xticks(fontsize=20)
-    plt.yticks(fontsize=20)
-    plt.xlabel('centrality', fontsize=25)
-    plt.ylabel('frequency', fontsize=25)
-    lab = ax.legend(loc=1, fontsize=18, frameon=True, shadow=True)
+    plt.grid(alpha=0.55)
+    plt.xticks(fontsize=18)
+    plt.yticks(fontsize=18)
+    plt.xlabel(cent_name, fontsize=20)
+    plt.ylabel('frequency', fontsize=20)
+    ax.legend(loc=1, fontsize=18, frameon=True, shadow=True)
     f.tight_layout()
     if save:
-        plt.savefig('../results/plot_centrality.png')
+        plt.savefig('../results/plot_' + id_p + '.png')
     plt.show()
