@@ -5,6 +5,8 @@ import networkx as nx
 from collections import defaultdict
 import json
 
+from tqdm import tqdm
+
 from src.plot_graph import plot_passing_networks
 from src.resutls import get_results
 from src.social_network_analysis import social_network_analysis_digraph, social_network_analysis_graph
@@ -56,7 +58,7 @@ def match_list(nations, matches, team_Id, measures):
 def player_list(players, team_Id):
     list_player = []
     for player in players:
-        if player['currentTeamId'] == team_Id:
+        if player['currentNationalTeamId'] == team_Id:
             player_id = player['wyId']
             player_short_name = player['shortName'].encode('ascii', 'strict').decode('unicode-escape')
             player_team = [player_id, player_short_name]
@@ -186,6 +188,44 @@ class Measures:
         self.listplayer_min_pagerank = list()
 
 
+# function to calculate closeness centrality and betweeness centrality for a player
+def get_players_centrality(nations, player_id, player_name, matches, competitions, events, measures):
+    # get list of match
+    match_list_current_team = []
+    for nation in nations:
+        for ev in events[nation]:
+            if ev['teamId'] == '4418' and ev['playerId'] == player_id:
+                if ev['matchId'] not in match_list_current_team:
+                    match_list_current_team.append(ev['matchId'])
+    list_match_ev = []
+    for nation in nations:
+        for ev in events[nation]:
+            if ev['matchId'] in match_list_current_team:
+                list_match_ev.append(ev)
+
+    for match in tqdm(match_list_current_team):
+        G1, G2, match_result, measures = passing_networks(nations, matches, competitions, events, match, measures)
+        if (G1.name == "France"):
+            try:
+                centrality_closeness = nx.closeness_centrality(G1)[player_name]
+                player2centralities_closeness[player_name].append(centrality_closeness)
+                centrality_betweenness = nx.betweenness_centrality(G1)[player_name]
+                player2centralities_betweenness[player_name].append(centrality_betweenness)
+            except KeyError:
+                pass
+        else:
+            try:
+                centrality_closeness = nx.closeness_centrality(G2)[player_name]
+                player2centralities_closeness[player_name].append(centrality_closeness)
+                centrality_betweenness = nx.betweenness_centrality(G2)[player_name]
+                player2centralities_betweenness[player_name].append(centrality_betweenness)
+
+            except KeyError:
+                pass
+
+    return player2centralities_closeness, player2centralities_betweenness
+
+
 if __name__ == '__main__':
     measures = Measures()
 
@@ -196,18 +236,66 @@ if __name__ == '__main__':
     nation = ["World_Cup"]
     events, matches, players, competitions, teams = load_data(nation)
 
-    # get list of player_for team id
-    list_player = player_list(players, 4418)
-
-    # get matches from the FRANCE national team in the world cup: total of 7 matches
+   # get matches from the FRANCE national team in the world cup: total of 7 matches
     measures = match_list(nation, matches, '4418', measures)
     for match_id in measures.list_match_wyId:
         print(match_id)
         G1, G2, match_result, measures = passing_networks(nation, matches, competitions, events, match_id, measures)
         # plot_passing_networks(G1, G2, match_id, True)
-        if G1.name == "France":
+        if G1.name == "France": ## tukej je nekej narobe z dodajanjem v measure
             measures, measures.list_num_edge_1 = social_network_analysis_digraph(G1, match_result, match_id, False, measures)
             measures = social_network_analysis_graph(G1, match_id, measures)
         else:
             measures, measures.list_num_edge_2 = social_network_analysis_digraph(G2, match_result, match_id, False, measures)
             measures = social_network_analysis_graph(G2, match_id, measures)
+    get_results(measures)
+
+    player = player_list(players, team_Id='4418.0')
+    # centrality
+    player2centralities_closeness = defaultdict(list)
+    player2centralities_betweenness = defaultdict(list)
+
+    for name_id_player in player:
+        print(name_id_player[0])
+        print(name_id_player[1])
+        player2centralities_closeness, player2centralities_betweenness = get_players_centrality(nation, name_id_player[0],
+                                                                                                name_id_player[1], matches,
+                                                                                                competitions, events,
+                                                                                                copy.deepcopy(measures))
+    pogba_fc = player2centralities_closeness['P. Pogba']
+    griezmann_fc = player2centralities_closeness['A. Griezmann']
+    kante_fc = player2centralities_closeness['N. Kanté']
+    lloris_fc = player2centralities_closeness['H. Lloris']
+    giroud_fc = player2centralities_closeness['O. Giroud']
+
+    mean_closeness_pogba = statistics.mean(pogba_fc)
+    mean_closeness_griezmann = statistics.mean(griezmann_fc)
+    mean_closeness_kante = statistics.mean(kante_fc)
+    mean_closeness_lloris = statistics.mean(lloris_fc)
+    mean_closeness_giroud = statistics.mean(giroud_fc)
+
+    print("Pogba mean: ", mean_closeness_pogba)
+    print("Griezmann mean: ", mean_closeness_griezmann)
+    print("Kante mean: ", mean_closeness_kante)
+    print("Lloris mean: ", mean_closeness_lloris)
+    print("Giroud mean: ", mean_closeness_giroud)
+
+    pogba_fb = player2centralities_betweenness['P. Pogba']
+    griezmann_fb = player2centralities_betweenness['A. Griezmann']
+    kante_fb = player2centralities_betweenness['N. Kanté']
+    lloris_fb = player2centralities_betweenness['H. Lloris']
+    giroud_fb = player2centralities_betweenness['O. Giroud']
+
+
+    mean_betweenness_pogba = statistics.mean(pogba_fb)
+    mean_betweenness_griezmann = statistics.mean(griezmann_fb)
+    mean_betweenness_kante = statistics.mean(kante_fb)
+    mean_betweenness_lloris = statistics.mean(lloris_fb)
+    mean_betweenness_giroud = statistics.mean(giroud_fb)
+
+    print("Pogba mean b: ", mean_betweenness_pogba)
+    print("Griezmann meanb : ", mean_betweenness_griezmann)
+    print("Kante mean b: ", mean_betweenness_kante)
+    print("Lloris mean b: ", mean_betweenness_lloris)
+    print("Giroud mean b: ", mean_betweenness_giroud)
+
